@@ -1,0 +1,65 @@
+---
+comments: true
+date: 2011-02-16 01:02:03
+layout: post
+slug: 2011-02-15-notes
+title: 2011-02-15 小记两笔
+wordpress_id: 728
+categories:
+- Programing
+tags:
+- 小记
+- freemarker
+- Java
+- logrotate
+- server
+- template
+---
+
+博客似乎没什么特别的东西好写, 小记一下昨天Google的两个东东, 有用没用稀有不稀有都记录一下. 这样轻松愉快的blog不但记录了成长说不定还对别人有帮助, 对我这种小角色来说还真是不错, hoho
+
+
+
+
+* * *
+
+
+
+
+**第一个: **freemarker遇到个错误
+
+
+
+
+> Cannot expose session attribute 'business' because of an existing model object of the same name.
+
+
+
+
+好吧我经验不足, 在记录session的时候用到了business这么个名字, 之后又req.setAttribute("business", XXXX) 了一下, 于是就报错了. 于是教训告诉我session的名字还是变态一点比较好, 经前辈指点, 存取session的地方都要记得给key的名字做个手脚加个前缀.
+
+
+
+
+* * *
+
+
+
+
+**第二个: **logrotate的小配置
+
+
+
+
+logrotate出来的文件总是xxxxx.log.1.gz, 后来又Google了一下, 发现还有一个叫做dateext的参数用YYYYMMDD这样的date extension来代替单调的1234数字. 好吧这个问题真的有点小白 - -
+
+
+
+
+
+
+
+那么, 以上就是全部了~
+
+
+

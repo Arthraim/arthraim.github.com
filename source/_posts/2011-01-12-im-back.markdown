@@ -1,0 +1,48 @@
+---
+comments: true
+date: 2011-01-12 12:53:24
+layout: post
+slug: im-back
+title: I'm back!
+wordpress_id: 715
+categories:
+- Life
+---
+
+终于联系上了域名代理, 我的arthraim.cn也续费成功了, 不会被劫持到广告页了, 然后我做了以下几件事.
+
+
+
+
+
+	
+  1. 之前当然先做了artori.us这个镜像, 和之前的一模一样
+
+	
+  2. 修改之前arthraim.cn上的.htaccess文件, 重定向所有对arthraim.cn的请求到artori.us.
+
+	
+  3. 到Google Webmaster Tools验证了新的artori.us; 并且设置arthraim.cn的站点迁移, 让Google知道我换域名了.
+
+
+
+
+在这几天Google已经删掉了很多我的收录, 不过好歹有所挽回.
+
+
+
+
+以上...
+
+
+
+
+**Update**：
+
+
+
+
+我的RSS源订阅的童鞋们，如果方便的话把feed的域名帮忙换成artori.us，当然之前的源不变问题也是不大的，会自动重定向的。（只是换域名似乎对GREADER插件PR的影响很大）
+
+
+

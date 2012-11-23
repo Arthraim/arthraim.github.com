@@ -1,0 +1,41 @@
+---
+comments: true
+date: 2010-01-02 13:07:24
+layout: post
+slug: code-rush
+title: CODE RUSH
+wordpress_id: 131
+categories:
+- Movie
+tags:
+- 纪录片
+- Firefox
+- Mozilla
+- Netscape
+---
+
+不知道还有没有人记得阮一峰的[这篇](http://www.ruanyifeng.com/blog/2009/09/code_rush.html)文章，当时我也下载了电影，并且看了两遍。于是前两天整理硬盘上的电影的时候，把它又翻出来了，于是一时兴起就传到了网上，贴在博客里吧~ 希望有更多人看到这部纪录片，尤其对于IT人士来说，可以了解一下网景和硅谷的很多故事~
+
+
+
+
+![](/upload/20010-01-02_code_rush.jpg)
+
+
+
+
+* * *
+
+
+
+
+
+
+
+
+![](/upload/20010-01-02_code_rush_2.jpg)
+
+
+
+
+以上。。

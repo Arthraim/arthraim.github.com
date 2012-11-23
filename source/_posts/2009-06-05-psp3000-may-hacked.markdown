@@ -1,0 +1,42 @@
+---
+comments: true
+date: 2009-06-05 16:57:56
+layout: post
+slug: psp3000-may-hacked
+title: PSP3000有望正式宣告破解
+wordpress_id: 56
+categories:
+- Video Game
+tags:
+- 破解
+- PSP
+---
+
+在公布了ChickHen的两个版本，和CWFenabler的多个版本之后，我们终于看到了GEN系统的出现，[这里](http://www.pspgen.com/custom-firmware-5-03gen-for-hen-compatibilite-psp-3000-totale-actualite-187918.html)有官方的公告，虽然没有放出程序，但是有视频可以确定支持运行ISO了。虽然dark_alex没有对这个视频做任何表态，不过今晚究竟破解与否，真实与否就可以一见分晓了。
+
+
+
+
+视频引用自[Levelup.cn](http://www.levelup.cn/news/NewsDetails/2009-6-5/34092.shtml)上来自土豆网的视频。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+此时我也不知道是高兴还是难过，先看结果把，在做评论。
+
+
+
+
+![](/upload/psp3000_5.03gen_for_hen.png)

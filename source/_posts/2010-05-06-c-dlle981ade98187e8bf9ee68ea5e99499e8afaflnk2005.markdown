@@ -1,0 +1,78 @@
+---
+comments: true
+date: 2010-05-06 01:00:40
+layout: post
+slug: c-dll%e9%81%ad%e9%81%87%e8%bf%9e%e6%8e%a5%e9%94%99%e8%af%aflnk2005
+title: C++ Dll遭遇连接错误LNK2005
+wordpress_id: 420
+categories:
+- Programing
+tags:
+- C#
+- debug
+- DLL
+---
+
+某个VC6.0时代的组件，因为不想翻新它所以拿出原来的代码进行编译。三个项目在一个dsw中，dll1,dll2和一个应用（app1），我要用到的是dll2。当时学长留下这个组件的时候告诉我："千万不要clean，不然就要碰运气了"。在整整一年的开发里，我也从来没有clean过。当然这次整理代码的时候，我把它折腾了一下，我就不信这个邪了…… 结果就遇到了标题所说的错误。
+
+
+
+
+具体发生在我编译了dll1，然后去编译dll2，因为dll2依赖dll1。编译dll1的时候还算顺利，少了一个.lib，给它在相应位置放着，就万事大吉了。结果编译dll2的时候错误来了：
+
+
+
+
+> 
+	
+> 
+> nafxcwd.lib(afxmem.obj) : error LNK2005: "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) bereits in (already on) LIBCMTD.lib(new.obj) definiert (defined)  
+
+		nafxcwd.lib(afxmem.obj) : error LNK2005: "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) bereits in (already on) libcpmtd.lib(delop.obj) definiert (defined)
+> 
+> 
+
+
+
+
+
+这不明所以的东西是啥，紧接着error下面还有个warning，说的也是这个东西。我就奇怪了…… Google了一会儿，在[这里](http://www.codeguru.com/forum/archive/index.php/t-102337.html)发现是CRT和MFC中都有定义new和delete，编译器显然不知道要去找哪个new哪个delete了。
+
+
+
+
+我的解决方法：
+
+
+
+
+
+	
+  * 在VC6.0中按art+F7
+
+	
+  * 选择出现的对话框中右侧选择出错的项目，然后选"连接"标签
+
+	
+  * "分类"下拉框里选择"输入"
+
+	
+  * 如图填写相应的模块（多个模块的填写顺序是敏感的）
+
+
+
+
+[![](/wp-content/uploads/2010-05-06_cpp_dll_link_error_solution.png)](/wp-content/uploads/2010-05-06_cpp_dll_link_error_solution.png)
+
+
+
+
+
+
+
+上文的链接中还提供了另外一种解决方案~ 没有尝试~
+
+
+
+
+记录一下，证明我为毕业设计和历史遗留问题奋斗过 ToT，以上！

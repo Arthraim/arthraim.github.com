@@ -29,19 +29,19 @@ tags:
 
 
 
-[![](http://artori.us/wp-content/uploads/2011_e3_microsoft-500x281.jpg)](http://artori.us/2011-e3-press-conferences/2011_e3_microsoft/)
+[![](/wp-content/uploads/2011_e3_microsoft-500x281.jpg)](/2011-e3-press-conferences/2011_e3_microsoft/)
 
 
 
 
-索尼的展前发布会之前，NGP已经在各种场合出现过了，伴随着PSN故障的道歉，各种软件的介绍，等到平井一夫上台的时候，大家知道今年的重头戏来了 ---- NGP。和之前传闻一样，NGP的真名的确是Playstation Vita（生命）。当然PSV的硬件规格早就不是秘密，不过发售计划和价格才是人们关注的焦点，接近PS3技能的掌机，几乎应该是不敢想象的昂贵。不过事实证明索尼赢了，"业界最后的良心"是大家的评论，PSV售价24800日元（249.9美元），哪怕是3DS也要25000日元，索尼这个价格实在是太震撼了！  
+索尼的展前发布会之前，NGP已经在各种场合出现过了，伴随着PSN故障的道歉，各种软件的介绍，等到平井一夫上台的时候，大家知道今年的重头戏来了 ---- NGP。和之前传闻一样，NGP的真名的确是Playstation Vita（生命）。当然PSV的硬件规格早就不是秘密，不过发售计划和价格才是人们关注的焦点，接近PS3技能的掌机，几乎应该是不敢想象的昂贵。不过事实证明索尼赢了，"业界最后的良心"是大家的评论，PSV售价24800日元（249.9美元），哪怕是3DS也要25000日元，索尼这个价格实在是太震撼了！
 
 	另外索尼公布的3D电视利用LL/RR的眼镜原理可以让两名玩家看到完全不同的画面，这样一来夫妻两个盯着同一个屏幕一个看电视一个玩游戏的梦想不远了！唯一的遗憾是两个人都要带着有色眼镜看电视了。
 
 
 
 
-[![](http://artori.us/wp-content/uploads/2011_e3_sony-500x280.jpg)](http://artori.us/2011-e3-press-conferences/2011_e3_sony/)
+[![](/wp-content/uploads/2011_e3_sony-500x280.jpg)](/2011-e3-press-conferences/2011_e3_sony/)
 
 
 
@@ -51,7 +51,7 @@ tags:
 
 
 
-[![](http://artori.us/wp-content/uploads/2011_e3_nintendo-500x281.png)](http://artori.us/2011-e3-press-conferences/2011_e3_nintendo/)
+[![](/wp-content/uploads/2011_e3_nintendo-500x281.png)](/2011-e3-press-conferences/2011_e3_nintendo/)
 
 
 

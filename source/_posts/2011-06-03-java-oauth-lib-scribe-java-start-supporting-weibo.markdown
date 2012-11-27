@@ -13,7 +13,7 @@ tags:
 - oauth
 ---
 
-好吧这是一篇蛋疼的文章, 因为本人第一次成功pull request所以比较鸡冻. [scribe-java](https://github.com/fernandezpablo85/scribe-java)是一个java语言的oauth库, 代码很干净利落很容易扩展而且用起来很方便. 因为[之前文章](http://artori.us/something-about-oauth/)提到过的工作, 所以对scribe-java做了[一些改造](https://github.com/Arthraim/scribe-java).
+好吧这是一篇蛋疼的文章, 因为本人第一次成功pull request所以比较鸡冻. [scribe-java](https://github.com/fernandezpablo85/scribe-java)是一个java语言的oauth库, 代码很干净利落很容易扩展而且用起来很方便. 因为[之前文章](/something-about-oauth/)提到过的工作, 所以对scribe-java做了[一些改造](https://github.com/Arthraim/scribe-java).
 
 
 

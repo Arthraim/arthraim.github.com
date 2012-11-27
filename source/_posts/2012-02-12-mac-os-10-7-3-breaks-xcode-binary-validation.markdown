@@ -17,17 +17,17 @@ tags:
 
 
 
-[![](http://artori.us/wp-content/uploads/icon-dimensions-dont-meet-the-size-requirements.png)](http://artori.us/mac-os-10-7-3-breaks-xcode-binary-validation/icon-dimensions-dont-meet-the-size-requirements/)
+[![](/wp-content/uploads/icon-dimensions-dont-meet-the-size-requirements.png)](/mac-os-10-7-3-breaks-xcode-binary-validation/icon-dimensions-dont-meet-the-size-requirements/)
 
 
 
 
-> 
-	
-> 
+>
+
+>
 > iPhone/iPod Touch: Icon.png: icon dimensions (0 x 0) don't meet the size requirements. The icon file must be 57x57 pixels, in .png format
-> 
-> 
+>
+>
 
 
 
@@ -48,7 +48,7 @@ Xcode提交当然还是存在问题，无法通过验证，而且暂时没法解
 
 
 
-[![](http://artori.us/wp-content/uploads/Screen-Shot-2012-02-10-at-12.16.13-PM.png)](http://artori.us/mac-os-10-7-3-breaks-xcode-binary-validation/screen-shot-2012-02-10-at-12-16-13-pm/)
+[![](/wp-content/uploads/Screen-Shot-2012-02-10-at-12.16.13-PM.png)](/mac-os-10-7-3-breaks-xcode-binary-validation/screen-shot-2012-02-10-at-12-16-13-pm/)
 
 
 

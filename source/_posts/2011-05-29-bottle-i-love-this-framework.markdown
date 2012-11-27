@@ -20,23 +20,23 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > Bottle is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.
-> 
-> 
+>
+>
 
 
 
 
 
-坦率说因为工作中是使用spring的缘故，其实真正用python的web框架机会并不多。相对接触的比较多的是django，无论是工作中还是生活中写点小东西的时候我还是比较愿意使用django，django+mongoengine，可以快速的使用mongodb来做存储，具体就不细说了这不是重点，[之前的文章](http://artori.us/use-mongodb-with-django/)中提到过。至于pylons, web.py或者其他的，大概看了一眼文档就没啥特别的感觉就没有深究下去。
+坦率说因为工作中是使用spring的缘故，其实真正用python的web框架机会并不多。相对接触的比较多的是django，无论是工作中还是生活中写点小东西的时候我还是比较愿意使用django，django+mongoengine，可以快速的使用mongodb来做存储，具体就不细说了这不是重点，[之前的文章](/use-mongodb-with-django/)中提到过。至于pylons, web.py或者其他的，大概看了一眼文档就没啥特别的感觉就没有深究下去。
 
 
 
 
-[![](http://artori.us/wp-content/uploads/logo_nav.png)](http://artori.us/bottle-i-love-this-framework/logo_nav/)
+[![](/wp-content/uploads/logo_nav.png)](/bottle-i-love-this-framework/logo_nav/)
 
 
 
@@ -46,7 +46,7 @@ tags:
 
 
 
-[![](http://artori.us/wp-content/uploads/2011-05-29_bottle_hello_world.png)](http://artori.us/bottle-i-love-this-framework/2011-05-29_bottle_hello_world/)
+[![](/wp-content/uploads/2011-05-29_bottle_hello_world.png)](/bottle-i-love-this-framework/2011-05-29_bottle_hello_world/)
 
 
 

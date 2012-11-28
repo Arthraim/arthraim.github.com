@@ -54,10 +54,10 @@ tags:
 
 
 
-    
+
     Model terrainModel;
     Vector3 terrainPosition = Vector3.Zero;
-    
+
 
 
 
@@ -96,12 +96,12 @@ tags:
 
 
 
-    
+
     Vector3 cameraPosition = new Vector3(0.0f, 60.0f, 160.0f);
     Vector3 cameraLookAt= new Vector3(0.0f, 50.0f, 0.0f);
     Matrix cameraProjectionMatrix;
     Matrix cameraViewMatrix;
-    
+
 
 
 
@@ -112,16 +112,16 @@ tags:
 
 
 
-	
+
   * cameraPosition：这是镜头所在的位置，比如我们的眼睛在脸上这样的描述。这里是(0, 60, 160)这样一个位置。
 
-	
+
   * cameraLookAt：镜头的焦点。可以想象一下terrain被放在Y轴也就是高度轴的0上，镜头被放在Z轴也就是深度轴的160的位置，高度是60的位置，而它看着Y轴上50的那点，连成的直线就是你的视线了。
 
-	
+
   * cameraProjectionMatrix：镜头投影矩阵。
 
-	
+
   * cameraViewMatrix：镜头视角矩阵。关于两个矩阵，先不详细讲了。图形学中涉及到了任意点的变换可以使用矩阵，矩阵变换是一个图形学非常重要的概念。稍微讲一下。
 
 
@@ -137,7 +137,7 @@ tags:
 
 
 
-![](/upload/2009-07-03_Matrix1.jpg)
+![](/images/uploads/zb/2009-07-03_Matrix1.jpg)
 
 
 
@@ -147,7 +147,7 @@ tags:
 
 
 
-![](/upload/2009-07-03_Matrix2.jpg)
+![](/images/uploads/zb/2009-07-03_Matrix2.jpg)
 
 
 
@@ -157,7 +157,7 @@ tags:
 
 
 
-![](/upload/2009-07-03_Matrix3.jpg)
+![](/images/uploads/zb/2009-07-03_Matrix3.jpg)
 
 
 
@@ -176,7 +176,7 @@ tags:
 
 
 
-    
+
     cameraViewMatrix = Matrix.CreateLookAt(
         cameraPosition,
         cameraLookAt,
@@ -186,7 +186,7 @@ tags:
         graphics.GraphicsDevice.Viewport.AspectRatio,
         1.0f,
         10000.0f);
-    
+
 
 
 
@@ -197,38 +197,38 @@ tags:
 
 
 
-	
+
   * CreateLookAt：
-		
-			
+
+
     * cameraPosition：Vector3，镜头所在位置
 
-			
+
     * cameraLookAt：Vector3，镜头焦点坐标
 
-			
+
     * Vector3.Up：Vector3，按照MSDN所说传入"上"就好，当然你可以试一下其他方向……
 
-		
-	
 
-	
+
+
+
   * CreatePerspectiveFieldView：
-		
-			
+
+
     * MathHelper.ToRadians(45.0f)：float，视角大小
 
-			
+
     * graphics.GraphicsDevice.Viewport.AspectRatio：float，窗口的比率，"宽"比上"长"的比率
 
-			
+
     * 1.0f：float，镜头最小深度（近处）
 
-			
+
     * 10000.0f：float，镜头最大深度（远处）（恐怕真三国无双和GTA这样的游戏里面这个参数的体会会比较深刻）
 
-		
-	
+
+
 
 
 
@@ -265,7 +265,7 @@ tags:
 
 
 
-    
+
     void DrawModel(Model model, Vector3 modelPosition)
     {
         foreach (ModelMesh mesh in model.Meshes)
@@ -281,7 +281,7 @@ tags:
             mesh.Draw();
         }
     }
-    
+
 
 
 
@@ -292,29 +292,29 @@ tags:
 
 
 
-	
+
   * 第一个foreach循环是遍历Model中所有的ModelMesh，单独处理每一个。
 
-	
+
   * 第二个foreach循环是遍历ModelMesh中的Effects，单独处理每一个效果的处理。具体看看做了一些什么
-		
-			
+
+
     * EnableDefaultLighting()：设定光源为默认光源。
 
-			
+
     * effect.PreferPerPixelLighting = true;：在支持Pixel Shader Model 2.0的情况下，开启每个像素按光源渲染的效果。
 
-			
+
     * effect.World = Matrix.CreateTranslation(modelPosition);：创建传入模型的矩阵变换
 
-			
+
     * effect.Projection = cameraProjectionMatrix;：设定投影变换矩阵。
 
-			
+
     * effect.View = cameraViewMatrix;：设定视角变换矩阵。
 
-		
-	
+
+
 
 
 
@@ -346,9 +346,9 @@ tags:
 
 
 
-    
+
     terrainModel = Content.Load<Model>(@"Modelsterrain");
-    
+
 
 
 
@@ -380,7 +380,7 @@ tags:
 
 
 
-    
+
     DrawModel(terrainModel, terrainPosition);
 
 
@@ -391,7 +391,7 @@ tags:
 
 
 
-[![](/upload/2009-07-03_Runtime.jpg)](/upload/2009-07-03_Runtime.jpg)
+[![](/images/uploads/zb/2009-07-03_Runtime.jpg)](/images/uploads/zb/2009-07-03_Runtime.jpg)
 
 
 
@@ -401,22 +401,22 @@ tags:
 
 
 
-[![](/upload/2009-07-03_Runtime_Down.jpg)](/upload/2009-07-03_Runtime_Down.jpg) [![](/upload/2009-07-03_Runtime_100CameraHeight.jpg)](/upload/2009-07-03_Runtime_100CameraHeight.jpg) [![](/upload/2009-07-03_Runtime_95Radians.jpg)](/upload/2009-07-03_Runtime_95Radians.jpg) [![](/upload/2009-07-03_Runtime_5000Depth.jpg)](/upload/2009-07-03_Runtime_5000Depth.jpg)
+[![](/images/uploads/zb/2009-07-03_Runtime_Down.jpg)](/images/uploads/zb/2009-07-03_Runtime_Down.jpg) [![](/images/uploads/zb/2009-07-03_Runtime_100CameraHeight.jpg)](/images/uploads/zb/2009-07-03_Runtime_100CameraHeight.jpg) [![](/images/uploads/zb/2009-07-03_Runtime_95Radians.jpg)](/images/uploads/zb/2009-07-03_Runtime_95Radians.jpg) [![](/images/uploads/zb/2009-07-03_Runtime_5000Depth.jpg)](/images/uploads/zb/2009-07-03_Runtime_5000Depth.jpg)
 
 
 
 
 
-	
+
   * cameraViewMatrix实例化，CreateLookAt时，修改第三个参数为Vector3.Down
 
-	
+
   * cameraPosition声明并实例化时，修改为Vector3(0.0f, 100.0f, 160.0f)
 
-	
+
   * cameraProjectionMatrix实例化，CreatePerspectiveFieldOfView时，修改第一个参数为90.0f
 
-	
+
   * cameraProjectionMatrix实例化，CreatePerspectiveFieldOfView时，修改第四个参数为5000.0f
 
 
@@ -427,7 +427,7 @@ tags:
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=159)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=159)
 
 
 
@@ -455,62 +455,62 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > 如果你学习过第一个教程（创建2D游戏），那么你已经变得习惯用2D空间来思维了。位置、方向和动作可以全都用Vector2和一个单独的旋转角度来表示。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 这个教程介绍了在三维的概念，和其一系列的新的对象。从根本上，3D世界区别于2D世界的就是新增的第三个坐标轴----Z轴，或者说是深度。在XNA Game Studio中，2D世界实质上是一个特殊的，受限制的3D世界的版本----你将会在本教程读到的计算也同样在2D中可以读到。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 在XNA Game Studio这哦你，3D的变化意味着，取代在平面世界中画静态的Texture2D对象的是绘制用Model类表示的3D模型。Model类是被叫做网络（mesh）的许多有联系的3D点的集合，在整个世界中，最终渲染在屏幕上的对象，取决于对象的位置和方向，和镜头的位置和方向。
-> 
-> 
-	
-> 
-> [![](/upload/BG_4.4.1.1pd.png)](/upload/BG_4.4.1.1pd.png)这过程也许初看十分复杂，但其实在3D世界编程，只依靠一些非常基本的元素。想象一个点在3D空间中，一个点有一个X坐标,一个Y坐标,和一个Z坐标。非常类似2D空间中的一个点，3D空间中的一个点也可以使用一个向量来移动，但是在3D空间中，我们使用包含Z坐标的Vector3类。
-> 
-> 
-	
-> 
+>
+>
+
+>
+> [![](/images/uploads/zb/BG_4.4.1.1pd.png)](/images/uploads/zb/BG_4.4.1.1pd.png)这过程也许初看十分复杂，但其实在3D世界编程，只依靠一些非常基本的元素。想象一个点在3D空间中，一个点有一个X坐标,一个Y坐标,和一个Z坐标。非常类似2D空间中的一个点，3D空间中的一个点也可以使用一个向量来移动，但是在3D空间中，我们使用包含Z坐标的Vector3类。
+>
+>
+
+>
 > 然而，使用一个叫做矩阵的数学结构体，可以使3D点做更多的事情。这些结构体，在XNA Framework中表示为Matrix类，它描述了一系列可以应用于点的变换、点的集合、或一个响亮。使用矩阵，3D对象可以移动、旋转、切割、以及（通过使用被叫做视点矩阵和投影矩阵的特殊的矩阵）绘制成一个可以显示在屏幕上的2D图像。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 想象有一系列我们想画在屏幕上的3D世界中的点。它们拥有相对于被叫做原点的中心点的位置和方向信息。如果没有任何的变换，这些点只是存在于他们自己的空间，被叫做"对象空间"。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 当你加载一系列的点，并且把它们添加到你的3D世界中，你可能会想给他们一个在3D世界中的位置，用来旋转或切割他们。这些行动的产物被叫做世界变换矩阵。应用了这样的矩阵的点，就被想象成在"世界空间"中（而不是对象空间中）了。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 来渲染在用户屏幕上的点，需要一些附加的信息。没有要绘制的2D场景的角度和位置，是不可能把整个3D常见转换到2D图像的。使用一个视点是必要的，也被称作镜头，只需绘制它所看到的3D场景。在准备这次绘制时，镜头信息会被计算到一个视角矩阵中，把3D点的方向和位置都和镜头联系起来。之后，这些3D点就被想象成在"视觉空间"中了。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 用2D绘制一个3D场景最后还需要一些其他信息。像视点的视角和领域的信息，控制着3D点如何绘制在2D计算机屏幕上。这些信息存储在一个投影矩阵中，应用之后，把3D坐标的系统中的点转换到2D坐标系统中，2D坐标系统被成为"屏幕空间"，这样点被绘制成像素。
-> 
-> 
-	
-> 
-> [![](/upload/BG_4.4.1.2pd.png)](/upload/BG_4.4.1.2pd.png)
-> 
-> 
-	
-> 
+>
+>
+
+>
+> [![](/images/uploads/zb/BG_4.4.1.2pd.png)](/images/uploads/zb/BG_4.4.1.2pd.png)
+>
+>
+
+>
 > 如果要套用这个概念到3D点的集合所组成的网络（mesh）上（可以是3D表示的任何东西，一个飞船、一个人、或一只恐龙），你只需用到一些在XNA Framework中的基本的对象来制作你的游戏----Mesh类，Matrix类和Vector类。
-> 
-> 
+>
+>
 
 
 
@@ -524,55 +524,55 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > 绘制一个3D模型到屏幕上是一个复杂的工作。它包括了庞大数据量的多边形的绘制，而它们经常被构造成许多不同的方式。有些可能是基于艺术效果的，而有些也许是倾向于程序化的。绘制同时也是必要的工作。每个游戏中可见的3D对象都是需要经过一个绘制过程的。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 毫无悬念的，不是只有一种组织一个模型绘制方法的方式。参数、界限以及绘制算法对每个游戏来说都是不同的，取决于游戏的需求和涉及的技术。在这样的情况下，XNA Framewrok没有尝试去提供一个单独的模型绘制方法。取而代之的是提供一些元素，而把组织它们的工作留给了程序员来做。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 一个Model类是XNA Framework中表示3D模型的一个基本对象，但是它比最初的模型要复杂许多。一个模型由一个或多个ModelMesh对象以一个集合的形式组成。每个ModelMesh对象是一系列组成网络（mesh）的顶点的集合，它们可以在同一个模型中被单独的移动。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 一个坦克的模型是一个很好的例子。坦克的身体也许是一个ModelMesh，坦克的炮台也许是另外一个。虽然你绘制的是整个坦克，但是你可能需要分开移动坦克的不同部分。你可以使用ModelMesh对象的集合来移动不同的部分。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > ModelMesh包含了一个绘制方法。每绘制一个ModelMesh到屏幕上需要调用这个方法一次。然而如果你没有实现设定变换和MedelMesh上的光的属性，那么你什么也看不到。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 变换（决定了ModelMesh在世界中的定向，并且最终，物体是否出现或是出现在屏幕的哪里）和光（）没有被应用到ModelMesh层面。相对的，每个ModelMesh有一些Effect和它联系在一起。一个Effect对象可以想成提供给可视设备的说明，关于如何绘制一个ModelMesh。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 在很多游戏中，Effect对象是由很多复杂的顶点和像素遮罩（shader）组成的。在XNA Game Studio中也可以实现，并且对于高级图形效果来说十分重要。但是在简单的渲染中，XNA Framework Content Pipline（内容管道）提供了一个简单的机制来完成基本的光和绘制效果 ---- BasicEffect类。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 每个通过content pipline加载的ModelMesh接受了一个或多个BasicEffect对象，它们可以在不处理像素或顶点遮罩（shader）的情况下简单的处理变换和光源效果。所有这些BasicEffect类需要一系列表示世界（World）矩阵，视点（View）矩阵和投影（Projection）矩阵的Matrix类，和一些光照的参数。可以调用BasicEffect.EnableDefaultLighting()方法获得默认的参数。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 在BasicEffect的参数被设置后，剩下的就只有调用ModelMesh.Draw方法，使用之前为BasicEffect设置的参数，来绘制ModelMesh到屏幕上了。
-> 
-> 
-	
-> 
-> [![](/upload/BG_4.4.2.1pd.png)](/upload/BG_4.4.2.1pd.png)
-> 
-> 
+>
+>
+
+>
+> [![](/images/uploads/zb/BG_4.4.2.1pd.png)](/images/uploads/zb/BG_4.4.2.1pd.png)
+>
+>
 

@@ -29,7 +29,7 @@ tags:
 
 
 
-![](/upload/Nokia5800XM-1.jpg)
+![](/images/uploads/zb/Nokia5800XM-1.jpg)
 
 
 
@@ -39,7 +39,7 @@ tags:
 
 
 
-![](/upload/Nokia5800XM-2.jpg)
+![](/images/uploads/zb/Nokia5800XM-2.jpg)
 
 
 

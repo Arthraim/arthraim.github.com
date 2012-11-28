@@ -167,7 +167,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2011-01-17-030351_640x630_scrot-500x492.png)](/arthur-s-2010-summary/2011-01-17-030351_640x630_scrot/)
+[![](/images/uploads/wp/2011-01-17-030351_640x630_scrot-500x492.png)](/arthur-s-2010-summary/2011-01-17-030351_640x630_scrot/)
 
 
 

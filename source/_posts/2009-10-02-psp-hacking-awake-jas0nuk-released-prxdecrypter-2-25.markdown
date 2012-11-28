@@ -18,75 +18,75 @@ Arthur在[上一篇](http://arthraim.cn/post/2009/09/112.html)文章中说到过
 
 
 
-> 
+>
 
-> 
-> ![](/upload/bankey.gif)
-> 
-> 
+>
+> ![](/images/uploads/zb/bankey.gif)
+>
+>
 
-> 
+>
 > Contains all the 6.00/6.10 EBOOT.BIN keys, just like those in Yoshihiro's decrypter.
-> 
-> 
+>
+>
 
-> 
+>
 > There is another odd one not present in either decrypter: 0xD91612F0 (if you get an error message with this code, post here! I need to work out where this tag is being used.)
-> 
-> 
+>
+>
 
-> 
+>
 > To anyone on PSPGEN who accused Yoshihiro of copying/stealing my work: this is complete nonsense.
-> 
-> 
+>
+>
 
-> 
+>
 > You should be able to decrypt any of the below EBOOT.BINs (except the last one) even on 5.00 M33 and below, as long as PRXdecrypter runs.
-> 
-> 
+>
+>
 
-> 
-> General EBOOT.BIN keytags info  
+>
+> General EBOOT.BIN keytags info
 
-The classics:  
+The classics:
 
-Tag 0x08000000 - 1.xx EBOOT.BIN  
+Tag 0x08000000 - 1.xx EBOOT.BIN
 
 Tag 0xC0CB167C - 2.xx EBOOT.BIN
-> 
-> 
+>
+>
 
-> 
-> Unknown if these were ever used, but I found them ages ago - Sony were planning new EBOOT keys for a long time:  
+>
+> Unknown if these were ever used, but I found them ages ago - Sony were planning new EBOOT keys for a long time:
 
-Tag 0x8004FD03 - 2.71 EBOOT.BIN  
+Tag 0x8004FD03 - 2.71 EBOOT.BIN
 
-Tag 0xD91605F0 - 2.8X EBOOT.BIN  
+Tag 0xD91605F0 - 2.8X EBOOT.BIN
 
-Tag 0xD91606F0 - 3.0X EBOOT.BIN  
+Tag 0xD91606F0 - 3.0X EBOOT.BIN
 
-Tag 0xD91607F0 - ???  
+Tag 0xD91607F0 - ???
 
 Tag 0xD91608F0 - 3.1X EBOOT.BIN
-> 
-> 
+>
+>
 
-> 
-> These are now being used:  
+>
+> These are now being used:
 
-Tag 0xD91609F0 - 5.00 EBOOT.BIN  
+Tag 0xD91609F0 - 5.00 EBOOT.BIN
 
-Tag 0xD9160AF0 - 5.50 EBOOT.BIN  
+Tag 0xD9160AF0 - 5.50 EBOOT.BIN
 
-Tag 0xD9160BF0 - 5.55 EBOOT.BIN  
+Tag 0xD9160BF0 - 5.55 EBOOT.BIN
 
-Tag 0xD9160CF0 - 6.00 EBOOT.BIN (which game(s) use this?)  
+Tag 0xD9160CF0 - 6.00 EBOOT.BIN (which game(s) use this?)
 
-Tag 0xD91611F0 - 6.00 EBOOT.BIN (which game(s) use this?)  
+Tag 0xD91611F0 - 6.00 EBOOT.BIN (which game(s) use this?)
 
 Tag 0xD91612F0 - 6.00 EBOOT.BIN (GTN USA - PSN edition, any others?) not decrypted!
-> 
-> 
+>
+>
 
 
 

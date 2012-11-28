@@ -17,7 +17,7 @@ EnvironmentVariablesAdv 是去年年底系统里PATH项非常非常复杂的时�
 
 
 
-[![](/upload/EnvironmentVaviablesAdv.jpg)](/upload/EnvironmentVaviablesAdv.jpg)
+[![](/images/uploads/zb/EnvironmentVaviablesAdv.jpg)](/images/uploads/zb/EnvironmentVaviablesAdv.jpg)
 
 
 
@@ -47,7 +47,7 @@ EnvironmentVariablesAdv 是去年年底系统里PATH项非常非常复杂的时�
 
 
 
-下载：[![](/upload/download.png)](http://files.cnblogs.com/Arthraim/EnvironmentVariablesAdv_R1.zip)
+下载：[![](/images/uploads/zb/download.png)](http://files.cnblogs.com/Arthraim/EnvironmentVariablesAdv_R1.zip)
 
 
 

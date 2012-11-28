@@ -43,40 +43,40 @@ tags:
 
 
 
-	
-  1. **Content中添加一个Fonts文件夹**。  
 
-		![](/upload/2009-06-19_AddFontToContent.jpg)  
+  1. **Content中添加一个Fonts文件夹**。
 
-		  
+		![](/images/uploads/zb/2009-06-19_AddFontToContent.jpg)
 
-		  
 
-		
 
-	
-  2. **在Fonts中添加一个GameFont对象**。  
 
-		[![](/upload/2009-06-19_AddSpriteFont.jpg)  
 
-		  
 
-		  
 
-		  
 
-		](/upload/2009-06-19_AddSpriteFont.jpg)
+  2. **在Fonts中添加一个GameFont对象**。
 
-	
+		[![](/images/uploads/zb/2009-06-19_AddSpriteFont.jpg)
+
+
+
+
+
+
+
+		](/images/uploads/zb/2009-06-19_AddSpriteFont.jpg)
+
+
   3. **修改XML文件**。具体参照如下代码，字体和字体大小的修改。
-		
-    
+
+
     <FontName>Arial</FontName>
     <Size>18</Size>
-    
 
 
-	
+
+
 
 
 
@@ -108,11 +108,11 @@ tags:
 
 
 
-    
+
     int score;
     SpriteFont font;
     Vector2 scoreDrawPoint = new Vector2(0.1f, 0.1f);
-    
+
 
 
 
@@ -131,7 +131,7 @@ tags:
 
 
 
-    
+
     font = Content.Load<SpriteFont>(@"FontsGameFont");
 
 
@@ -187,7 +187,7 @@ tags:
 
 
 
-    
+
     spriteBatch.DrawString(
         font,
         "Score:" + score.ToString(),
@@ -195,7 +195,7 @@ tags:
             scoreDrawPoint.X * viewportRect.Width,
             scoreDrawPoint.Y * viewportRect.Height),
         Color.White);
-    
+
 
 
 
@@ -206,16 +206,16 @@ tags:
 
 
 
-	
+
   1. SpriteFont，要求传入一个SpriteFont，我们这里传入了之前创建的font。
 
-	
+
   2. string，传入要显示的字符串，这里是得分。
 
-	
+
   3. Vector2，传入一个显示位置（左上角）的Vector2，这里我们利用之前创建的百分比和屏幕大小计算出一个新的Vector2
 
-	
+
   4. Color，传入一个字形的颜色。
 
 
@@ -226,7 +226,7 @@ tags:
 
 
 
-[![](/upload/2009-06-19_Chapter9_Runtime.jpg)](/upload/2009-06-19_Chapter9_Runtime.jpg)
+[![](/images/uploads/zb/2009-06-19_Chapter9_Runtime.jpg)](/images/uploads/zb/2009-06-19_Chapter9_Runtime.jpg)
 
 
 
@@ -236,4 +236,4 @@ tags:
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=156)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=156)

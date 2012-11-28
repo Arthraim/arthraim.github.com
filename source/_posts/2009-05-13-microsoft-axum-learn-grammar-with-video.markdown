@@ -21,12 +21,12 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > "A .NET language for safe, scalable and productive parallel programming through isolation, actors and message-passing."
-> 
-> 
+>
+>
 
 
 
@@ -42,7 +42,7 @@ tags:
 
 
 
-![](/upload/AxumMath.PNG)
+![](/images/uploads/zb/AxumMath.PNG)
 
 
 
@@ -57,12 +57,12 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > Z <-- ( receive(X) + receive(Y))
-> 
-> 
+>
+>
 
 
 
@@ -86,7 +86,7 @@ UI逻辑中，首先将两个agent创建不同的domain（话说Axum是弱类型
 
 
 
-![](/upload/2009-05-13_frame.png)
+![](/images/uploads/zb/2009-05-13_frame.png)
 
 
 
@@ -95,7 +95,7 @@ UI逻辑中，首先将两个agent创建不同的domain（话说Axum是弱类型
 
 
 
-    
+
     using System;
     using System.Concurrency;
     using Microsoft.Axum;
@@ -151,5 +151,5 @@ UI逻辑中，首先将两个agent创建不同的domain（话说Axum是弱类型
     }
 
 
-  
+
 

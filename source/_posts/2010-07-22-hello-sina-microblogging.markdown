@@ -28,7 +28,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-07-22_sina_connect_testers.png)](/wp-content/uploads/2010-07-22_sina_connect_testers.png)
+[![](/images/uploads/wp/2010-07-22_sina_connect_testers.png)](/images/uploads/wp/2010-07-22_sina_connect_testers.png)
 
 
 

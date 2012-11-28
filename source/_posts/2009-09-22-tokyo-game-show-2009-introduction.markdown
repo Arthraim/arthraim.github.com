@@ -16,7 +16,7 @@ tags:
 
 
 
-[![](/upload/tokyo-game-show-2009.jpg)](/upload/tokyo-game-show-2009.jpg)
+[![](/images/uploads/zb/tokyo-game-show-2009.jpg)](/images/uploads/zb/tokyo-game-show-2009.jpg)
 
 
 
@@ -56,9 +56,9 @@ tags:
 
 
 
-**展会布置**：（[下载图片](/upload/tokyo-game-show-2009-map-big.png)，大小2MB）  
+**展会布置**：（[下载图片](/images/uploads/zb/tokyo-game-show-2009-map-big.png)，大小2MB）
 
-[![](/upload/tokyo-game-show-2009-map-samll.png)](/upload/tokyo-game-show-2009-map-big.png)
+[![](/images/uploads/zb/tokyo-game-show-2009-map-samll.png)](/images/uploads/zb/tokyo-game-show-2009-map-big.png)
 
 
 

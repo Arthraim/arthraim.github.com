@@ -51,7 +51,7 @@ tags:
 
 
 
-    
+
     Random r = new Random();
     const int numEnemyShips = 3;
     GameObject[] enemyShips;
@@ -60,13 +60,13 @@ tags:
 
 
 
-	
+
   * r是一个Random对象，可以让我们用来随机确定UFO的初始位置及速度。
 
-	
+
   * numEnemyShips看来是一个会被我恶搞的变量，指同屏（最大）出现的UFO数量。
 
-	
+
   * enemyShips当然就是GameObject的数组，数量由上一个变量确定。
 
 
@@ -81,7 +81,7 @@ tags:
 
 
 
-    
+
     enemyShips = new GameObject[numEnemyShips];
     for (int i = 0; i < numEnemyShips; i++)
     {
@@ -138,7 +138,7 @@ tags:
 
 
 
-    
+
     void UpdateEnemyShips()
     {
         foreach (GameObject ship in enemyShips)
@@ -195,7 +195,7 @@ tags:
 
 
 
-    
+
     Vector3 shipMinPosition = new Vector3(-2000.0f, 300.0f, -6000.0f);
     Vector3 shipMaxPosition = new Vector3(2000.0f, 800.0f, -4000.0f);
     const float shipMinVelocity = 5.0f;
@@ -228,7 +228,7 @@ tags:
 
 
 
-    
+
     else
     {
         ship.alive = true;
@@ -289,7 +289,7 @@ tags:
 
 
 
-    
+
     foreach (GameObject enemyShip in enemyShips)
     {
         if (enemyShip.alive)
@@ -306,7 +306,7 @@ tags:
 
 
 
-[![](/upload/2009-07-19_Runtime.jpg)](/upload/2009-07-19_Runtime.jpg)
+[![](/images/uploads/zb/2009-07-19_Runtime.jpg)](/images/uploads/zb/2009-07-19_Runtime.jpg)
 
 
 
@@ -316,4 +316,4 @@ tags:
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=164)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=164)

@@ -31,7 +31,7 @@ tags:
 
 
 
-[![](/upload/nintendo_lol_red_thumb.JPG)](/upload/nintendo_lol_red_thumb.JPG) [![](/upload/e8560588-fdf9-4221-81df-080721e2dda5.jpg)](/upload/e8560588-fdf9-4221-81df-080721e2dda5.jpg)
+[![](/images/uploads/zb/nintendo_lol_red_thumb.JPG)](/images/uploads/zb/nintendo_lol_red_thumb.JPG) [![](/images/uploads/zb/e8560588-fdf9-4221-81df-080721e2dda5.jpg)](/images/uploads/zb/e8560588-fdf9-4221-81df-080721e2dda5.jpg)
 
 
 
@@ -49,7 +49,7 @@ tags:
 
 
 
-[![](/upload/logo.gif)](/upload/logo.gif)
+[![](/images/uploads/zb/logo.gif)](/images/uploads/zb/logo.gif)
 
 
 
@@ -67,4 +67,4 @@ tags:
 
 
 
-[![](/upload/bcle-10.jpg)](/upload/bcle-10.jpg)
+[![](/images/uploads/zb/bcle-10.jpg)](/images/uploads/zb/bcle-10.jpg)

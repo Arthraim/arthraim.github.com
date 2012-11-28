@@ -18,7 +18,7 @@ Google Map的团队再一次出手，会出现什么东西在这个世界上呢�
 
 
 
-![](/upload/GoogleWave.JPG)
+![](/images/uploads/zb/GoogleWave.JPG)
 
 
 
@@ -33,4 +33,4 @@ Google Map的团队再一次出手，会出现什么东西在这个世界上呢�
 
 
 
-![](/upload/ss1.gif)
+![](/images/uploads/zb/ss1.gif)

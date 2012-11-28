@@ -45,39 +45,39 @@ tags:
 
 
 
-[![](/upload/2009-06-27_NewProject.jpg)](/upload/2009-06-27_NewProject.jpg)
+[![](/images/uploads/zb/2009-06-27_NewProject.jpg)](/images/uploads/zb/2009-06-27_NewProject.jpg)
 
 
 
 
-> 
+>
 
-> 
-> 
+>
+>
 
 >   * Windows Game (3.1) ---- XNA Game For Windows游戏的开发，很多游戏打着这个标志
-> 
+>
 
 >   * Windows Game Library (3.1) ---- Windows游戏类库
-> 
+>
 
 >   * Xbox 360 Game (3.1) ---- Xbox360游戏
-> 
+>
 
 >   * Xbox 360 Game Library (3.1) ---- Xbox360游戏类库
-> 
+>
 
 >   * Zune Game (3.1) ---- Zune游戏
-> 
+>
 
 >   * Zune Game Library (3.1) ---- Zune游戏类库
-> 
+>
 
 >   * Content Pipeline Extension Library (3.1) ---- Content管道扩展库
-> 
+>
 
 >   * Platformer Starter Kit (3.1) ---- 一个游戏示例（提供windows x360 zune三种版本都有）
-> 
+>
 
 
 
@@ -105,25 +105,25 @@ tags:
 
 
 
-> 
+>
 
-> 
-> 
+>
+>
 
 >   * Content ---- 就是一切我们需要的游戏资源，在XNA中存在Content Pipeline这个概念，而这里的所有资源可以之后在Content管道中直接调用加载。
-> 
+>
 
 >   * Game1.cs ---- 游戏逻辑代码。
-> 
+>
 
 >   * Game.ico ---- 不用多说，一个Xbox360的手柄样式的ico图标。
-> 
+>
 
 >   * GameThumbnail.png ---- 正如他的名字，是一个缩略图，当然要你自己画的啦。
-> 
+>
 
 >   * Program.cs ---- 就是程序的入口Main方法了。
-> 
+>
 
 
 
@@ -143,9 +143,9 @@ tags:
 
 
 
-[![](/upload/2009-06-27_files1.JPG)](/upload/2009-06-27_files1.JPG) .../Audio/Waves/  
+[![](/images/uploads/zb/2009-06-27_files1.JPG)](/images/uploads/zb/2009-06-27_files1.JPG) .../Audio/Waves/
 
-[![](/upload/2009-06-27_files2.JPG)](/upload/2009-06-27_files2.JPG) .../Models/
+[![](/images/uploads/zb/2009-06-27_files2.JPG)](/images/uploads/zb/2009-06-27_files2.JPG) .../Models/
 
 
 
@@ -155,4 +155,4 @@ tags:
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=157)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=157)

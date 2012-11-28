@@ -32,7 +32,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/Screen-Shot-2012-06-08-at-3.08.39-PM-500x298.png)](/euro-2012-google-calendar-or-outlook-calendar/screen-shot-2012-06-08-at-3-08-39-pm/)
+[![](/images/uploads/wp/Screen-Shot-2012-06-08-at-3.08.39-PM-500x298.png)](/euro-2012-google-calendar-or-outlook-calendar/screen-shot-2012-06-08-at-3-08-39-pm/)
 
 
 

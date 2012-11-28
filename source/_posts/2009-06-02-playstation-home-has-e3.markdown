@@ -39,7 +39,7 @@ Playstation@home是个恼人的东西，因为我每次上去总是会掉线，�
 
 
 
-![](/upload/E3_comes_to_playstation_home.jpg)
+![](/images/uploads/zb/E3_comes_to_playstation_home.jpg)
 
 
 

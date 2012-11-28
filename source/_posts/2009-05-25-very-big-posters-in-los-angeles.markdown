@@ -22,17 +22,17 @@ tags:
 
 
 
-![](/upload/2009525104752.jpg)
+![](/images/uploads/zb/2009525104752.jpg)
 
 
 
 
-![](/upload/2009525104733.jpg)
+![](/images/uploads/zb/2009525104733.jpg)
 
 
 
 
-![](/upload/2009525104718.jpg)
+![](/images/uploads/zb/2009525104718.jpg)
 
 
 
@@ -58,7 +58,7 @@ GTA4，NB的身影尤为强大。
 
 
 
-![](/upload/2009525104816.jpg)
+![](/images/uploads/zb/2009525104816.jpg)
 
 
 
@@ -71,7 +71,7 @@ GTA Chinatown的。说起来这个游戏因为NDS被借走，都没有好好玩�
 
 
 
-![](/upload/2009525104829.jpg)
+![](/images/uploads/zb/2009525104829.jpg)
 
 
 
@@ -89,7 +89,7 @@ GTA Chinatown的。说起来这个游戏因为NDS被借走，都没有好好玩�
 
 
 
-  
+
 
 [View Larger Map](http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=los+angeles+S.+Figueroa+St.+and+Olympic+Boulevard&sll=34.052187,-118.243425&sspn=1.688467,1.892395&ie=UTF8&ll=34.055006,-118.259754&spn=0.006596,0.007392&t=h&z=14&iwloc=A)
 

@@ -19,7 +19,7 @@ tags:
 
 
 
-Maxthon说要更换内核之后，就一直期待这有新版本发布，果然后知后觉的用到了MX3，虽然是Alpha版，不过功能已经很好了（浏览，不说附属）。界面很漂亮，很华丽，比起2在1的进化来看3在2的进化真的很大，光安装向导就很不一样，很美。  
+Maxthon说要更换内核之后，就一直期待这有新版本发布，果然后知后觉的用到了MX3，虽然是Alpha版，不过功能已经很好了（浏览，不说附属）。界面很漂亮，很华丽，比起2在1的进化来看3在2的进化真的很大，光安装向导就很不一样，很美。
 
 	 实际使用的时候，感觉整个界面很清爽，很干净。因为没有什么功能，所以很轻便的感觉，很是喜欢。兼容性和速度的表现上都很不错～ 稍微试了几个网站，QQ空间登录不能，discuz支持不好，不过视频网站倒是很顺畅，acid3的测试有时候是满分，有时候是99。[官网](http://gocn.maxthon.com/web/mx3/welcome/)上也只是放了99的分数哦。另外最值得一提的是，除了新内核，被称为急速模式以外，还有一个IE内核的兼容模式，比如我现在在后台，他就自动切换到了兼容模式，你也可以手动切换，去看看acid3的伟大表现…………
 
@@ -31,17 +31,17 @@ Maxthon说要更换内核之后，就一直期待这有新版本发布，果然�
 
 
 
-![](/upload/2009-04-18_maxthon3.png)
+![](/images/uploads/zb/2009-04-18_maxthon3.png)
 
 
 
 
-![](/upload/2009-04-18_maxthon3_acid3.png)
+![](/images/uploads/zb/2009-04-18_maxthon3_acid3.png)
 
 
 
 
-![](/upload/2009-04-18_maxthon3_acid3_2.png)
+![](/images/uploads/zb/2009-04-18_maxthon3_acid3_2.png)
 
 
 
@@ -51,7 +51,7 @@ Maxthon说要更换内核之后，就一直期待这有新版本发布，果然�
 
 
 
-![](/upload/2009-04-18_safari4.png) ![](/upload/2009-04-18_safari4_acid3.png) ![](/upload/2009-04-18_safari4_2.JPG) ![](/upload/2009-04-18_safari4_3.png)
+![](/images/uploads/zb/2009-04-18_safari4.png) ![](/images/uploads/zb/2009-04-18_safari4_acid3.png) ![](/images/uploads/zb/2009-04-18_safari4_2.JPG) ![](/images/uploads/zb/2009-04-18_safari4_3.png)
 
 
 

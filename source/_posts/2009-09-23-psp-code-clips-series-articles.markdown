@@ -28,7 +28,7 @@ tags:
 
 
 
-![](/upload/2009-09-23_sceners_org.jpg)
+![](/images/uploads/zb/2009-09-23_sceners_org.jpg)
 
 
 

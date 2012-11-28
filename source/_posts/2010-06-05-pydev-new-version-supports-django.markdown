@@ -19,7 +19,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/pydev_banner.gif)](/wp-content/uploads/pydev_banner.gif)[![](/wp-content/uploads/django-logo.jpg)](/wp-content/uploads/django-logo.jpg)
+[![](/images/uploads/wp/pydev_banner.gif)](/images/uploads/wp/pydev_banner.gif)[![](/images/uploads/wp/django-logo.jpg)](/images/uploads/wp/django-logo.jpg)
 
 
 
@@ -39,7 +39,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-06-05_pydev_django_vaviables.png)](/wp-content/uploads/2010-06-05_pydev_django_vaviables.png)
+[![](/images/uploads/wp/2010-06-05_pydev_django_vaviables.png)](/images/uploads/wp/2010-06-05_pydev_django_vaviables.png)
 
 
 

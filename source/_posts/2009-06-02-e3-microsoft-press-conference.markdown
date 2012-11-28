@@ -14,49 +14,49 @@ tags:
 - Microsoft
 ---
 
-> 
+>
 
-> 
-> 
+>
+>
 
 >   * The Beatles:Rockband
-> 
+>
 
 >   * Tony Harwk
-> 
+>
 
 >   * Call of duty Modern Warfare2
-> 
+>
 
 >   * Left 4 Dead 2
-> 
+>
 
 >   * Final Fantasy XIII
-> 
+>
 
 >   * Forza3
-> 
+>
 
 >   * Audi R8
-> 
+>
 
 >   * Halo ODST
-> 
+>
 
 >   * Halo reach
-> 
+>
 
 >   * Alan Wake
-> 
+>
 
 >   * Metal Gear Solid Rising
-> 
+>
 
 >   * Project Natal
-> 
+>
 
 >   * Steven Spielberg
-> 
+>
 
 
 
@@ -73,7 +73,7 @@ tags:
 
 
 
-![](/upload/Forza_3.jpg)
+![](/images/uploads/zb/Forza_3.jpg)
 
 
 
@@ -87,17 +87,17 @@ tags:
 
 
 
-![](/upload/Skateborad.jpg)
+![](/images/uploads/zb/Skateborad.jpg)
 
 
 
 
-![](/upload/Project_Natal.jpg)
+![](/images/uploads/zb/Project_Natal.jpg)
 
 
 
 
-![](/upload/Natal_Camera.jpg)
+![](/images/uploads/zb/Natal_Camera.jpg)
 
 
 
@@ -107,17 +107,17 @@ tags:
 
 
 
-![](/upload/Alan_wake.jpg)
+![](/images/uploads/zb/Alan_wake.jpg)
 
 
 
 
-![](/upload/The_Beatles_Rockband.jpg)
+![](/images/uploads/zb/The_Beatles_Rockband.jpg)
 
 
 
 
-![](/upload/halo_odst.jpg) ![](/upload/halo_reach.jpg)
+![](/images/uploads/zb/halo_odst.jpg) ![](/images/uploads/zb/halo_reach.jpg)
 
 
 
@@ -127,27 +127,27 @@ tags:
 
 
 
-![](/upload/last_fm_xboxlive.jpg)
+![](/images/uploads/zb/last_fm_xboxlive.jpg)
 
 
 
 
-![](/upload/netflix_xboxlive.jpg)
+![](/images/uploads/zb/netflix_xboxlive.jpg)
 
 
 
 
-![](/upload/Facebook_xboxlive.jpg)
+![](/images/uploads/zb/Facebook_xboxlive.jpg)
 
 
 
 
-![](/upload/Twitter_XboxLive_UI.jpg)
+![](/images/uploads/zb/Twitter_XboxLive_UI.jpg)
 
 
 
 
-![](/upload/Twitter_XboxLive.jpg)
+![](/images/uploads/zb/Twitter_XboxLive.jpg)
 
 
 

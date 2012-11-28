@@ -18,7 +18,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-06-11_GAE_uapplied_writes.jpg)](/wp-content/uploads/2010-06-11_GAE_uapplied_writes.jpg)
+[![](/images/uploads/wp/2010-06-11_GAE_uapplied_writes.jpg)](/images/uploads/wp/2010-06-11_GAE_uapplied_writes.jpg)
 
 
 
@@ -38,7 +38,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-06-11_GAE_store_statistics.jpg)](/wp-content/uploads/2010-06-11_GAE_store_statistics.jpg)
+[![](/images/uploads/wp/2010-06-11_GAE_store_statistics.jpg)](/images/uploads/wp/2010-06-11_GAE_store_statistics.jpg)
 
 
 
@@ -49,13 +49,13 @@ tags:
 
 
 
-	
+
   1. Google很负责，这个事情告诉我们GAE上跑的程序数据是比较安全的。
 
-	
+
   2. Spamer很强大，不论是撞到了哪个spamer的枪口上，总之这个兼容性可以强大到向我这样一个应用开火，那也的确强大了。
 
-	
+
   3. 娱乐一下~ 今天晚上22点世界杯就开幕了，遇上这样的事还真是挺乐的。hoho
 
 

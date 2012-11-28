@@ -16,7 +16,7 @@ tags:
 
 
 
-[![](/upload/tgs_2009_nippon_game_reward.jpg)](/upload/tgs_2009_nippon_game_reward.jpg)
+[![](/images/uploads/zb/tgs_2009_nippon_game_reward.jpg)](/images/uploads/zb/tgs_2009_nippon_game_reward.jpg)
 
 
 
@@ -24,7 +24,7 @@ tags:
 
 
 
-![](/upload/tgs_2009_nippon_game_reward_table.jpg)
+![](/images/uploads/zb/tgs_2009_nippon_game_reward_table.jpg)
 
 
 

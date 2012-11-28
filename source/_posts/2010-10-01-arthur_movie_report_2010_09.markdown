@@ -25,19 +25,19 @@ tags:
 
 
 
-	
+
   * **锅盖头 / Jarhead**：不太明白…… 这种表现残酷的方式对观众来说实在太残酷了 0 0 坚持看完
 
-	
+
   * **爱国者 / The Patriot**：真嫉妒美国人，爱国教育题材的片子都拍得这么好
 
-	
+
   * **功夫梦 / The Karate Kid**：不错不错，厉害厉害，成龙式的电影，我是来看小smith的~
 
-	
+
   * **拳皇 / King of Fighters**：毫无任何可取之处…… 甚至都说不清日本天照大神的传说
 
-	
+
   * **盗梦空间 / Inception**：所谓一刀未剪，真的是因为剪不来吧。。。Nolan你又神了
 
 
@@ -48,7 +48,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-10-01_inception.jpg)](/wp-content/uploads/2010-10-01_inception.jpg)
+[![](/images/uploads/wp/2010-10-01_inception.jpg)](/images/uploads/wp/2010-10-01_inception.jpg)
 
 
 
@@ -73,7 +73,7 @@ Inception北美一上映我就震撼到了，在imdb上的评分是9.2，这个�
 
 
 
-[![](/wp-content/uploads/2010-10-01_zhouxingchi.jpg)](/wp-content/uploads/2010-10-01_zhouxingchi.jpg)
+[![](/images/uploads/wp/2010-10-01_zhouxingchi.jpg)](/images/uploads/wp/2010-10-01_zhouxingchi.jpg)
 
 
 

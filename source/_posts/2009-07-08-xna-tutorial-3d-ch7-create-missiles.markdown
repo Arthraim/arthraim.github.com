@@ -41,7 +41,7 @@ tags:
 
 
 
-    
+
     public Vector3 velocity = Vector3.Zero;
     public bool alive = false;
 
@@ -49,10 +49,10 @@ tags:
 
 
 
-	
+
   * velocity：Vector3，记录速度（速率和方向），初始化为0；
 
-	
+
   * alive：bool，记录是否存活，初始化为false。
 
 
@@ -80,7 +80,7 @@ tags:
 
 
 
-    
+
     const int numMissiles = 20;
     GameObject[] missiles;
 
@@ -91,7 +91,7 @@ tags:
 
 
 
-    
+
     missiles = new GameObject[numMissiles];
     for (int i = 0; i < numMissiles; i++)
     {
@@ -136,7 +136,7 @@ tags:
 
 
 
-    
+
     GamePadState previousState;
     #if !XBOX
     KeyboardState previousKeyboardState;
@@ -159,7 +159,7 @@ tags:
 
 
 
-    
+
     missileLauncherHead.rotation.Y = MathHelper.Clamp(
     missileLauncherHead.rotation.Y,
     -MathHelper.PiOver4,
@@ -225,7 +225,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-    
+
     void FireMissile()
     {
         foreach (GameObject missile in missiles)
@@ -263,7 +263,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-    
+
     const float launcherHeadMuzzleOffset = 20.0f;
     const float missilePower = 20.0f;
 
@@ -276,10 +276,10 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-	
+
   * launcherHeadMuzzleOffset，发射器头部炮口偏移量，翻译过来就是这个意思，就是指炮管的长度，也就是导弹刚刚射出的时候距离模型中心的长度。这个值得问做模型的美工啦～
 
-	
+
   * missilePower，导弹的威力，就是指每一次更新导弹的位移，也就是速率。导弹的威力取决于速度？也许在这个游戏中是的吧。
 
 
@@ -294,7 +294,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-    
+
     Vector3 GetMissileMuzzleVelocity()
     {
         Matrix rotationMatrix =
@@ -321,17 +321,17 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-	
+
   * 首先是调用了Vector3.Transform()这个方法，这个方法是把一个旋转矩阵转换成一个向量。
-		
-			
+
+
     * 第一个参数为一个Vector3，也就是参考的方向向量。
 
-			
+
     * 第二个参数是一个Matrix，也就是旋转矩阵。
 
-		
-	
+
+
 
 
 
@@ -342,10 +342,10 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-	
+
   * 其次是调用了Vector3.Normalize这个方法，这个方法是把一个向量转换成一个单位向量。唯一的参数就是一个Vector3。相当于只保留了向量对方向的表达性，而去掉了速率的表达性。这样为最后一个工作作了铺垫。
 
-	
+
   * 最后把单位向量乘上missilePower，也就是位移量，这样给返回的Vector3加上了速率的信息。
 
 
@@ -365,7 +365,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-    
+
     Vector3 GetMissileMuzzlePosition()
     {
         return missileLauncherHead.position +
@@ -383,13 +383,13 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-	
+
   * 首先调用了GetMissileMuzzleVelocity()方法，得到上一个方法完成的速度Vector3。
 
-	
+
   * 然后调用了Vector3.Normalize()方法，只取得它的方向信息，去除速率信息。
 
-	
+
   * 最后乘上launcherHeadMuzzleOffset，使得导弹出现的第一个位置是炮管的顶端，而不是模型的中心。
 
 
@@ -432,7 +432,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-    
+
     void UpdateMissiles()
     {
         foreach (GameObject missile in missiles)
@@ -452,16 +452,16 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-	
+
   * 不需要返回值。
 
-	
+
   * 遍历所有的导弹，如果它存活着就更新他的位置。
 
-	
+
   * 原来的位置加上速度就是现在的位置。
 
-	
+
   * 如果导弹的Z坐标小于-6000，即，深入屏幕6000，那么就让他死掉，准备再一次的发射。
 
 
@@ -482,12 +482,12 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-> 
-	
-> 
+>
+
+>
 > UpdateMissiles();
-> 
-> 
+>
+>
 
 
 
@@ -520,7 +520,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-    
+
     foreach (GameObject missile in missiles)
     {
         if (missile.alive)
@@ -540,7 +540,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-[![](/upload/2009-07-08_runtime.jpg)](/upload/2009-07-08_runtime.jpg)
+[![](/images/uploads/zb/2009-07-08_runtime.jpg)](/images/uploads/zb/2009-07-08_runtime.jpg)
 
 
 
@@ -550,7 +550,7 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=162)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=162)
 
 
 
@@ -578,40 +578,40 @@ FireMissile方法正是下一步要完成的内容。
 
 
 
-> 
-	
-> 
+>
+
+>
 > 要理解对应游戏的输入，很有必要退一步看看更加普通的输入。控制器的输入信号一般只是简单的电流信号，它被一种称为驱动软件的低级软件系统分析解释。信号以一定的频率传入分析它们的软件。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 有些软件把输入的解析表现出来，反映出很多用户使用这个输入设备做出的动作，并且把这些动作存入缓冲记忆体中等待被读取或释放。这种类型的输入处理被称为"缓冲模式输入"(buffered-mode input)。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 另一种输入处理不使用缓冲。取而代之的，是提供索取信号是的当前状态。没有提供参数来标识一定时间内所做出的特定动作。取而代之的，是程序员可以在任何时间自由的访问控制器的当前状态，包括所有的轴的位置以及按键的情况。程序员可以自由存储和操作相关的信息。这种输入处理被称为"立即模式输入"( immediate-mode input)。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > XNA Framework使用立即模式输入，并且支持全部三种输入方式----Xbox360控制器，键盘以及鼠标。这意味着，对于任意一种输入设备，你都可以在任何时间查询输入设备的当前状态信息。然而，你却不能查询任何过去的设备状态，除非你明确的把它存储在其他地方。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 为什么要查询过去的输入状态呢？举个强烈依赖玩家快速按键的游戏作为例子。在这样的游戏中，长按按键不会有什么效果，只有重复的连打才能奏效。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 由于立即模式输入处理的这一特性，每一次输入状态被查询，一个长按的按钮表现为"被按下"（Pressed）。不检查过去的状态是否是"被释放"（Released），就没有办法来区分按键是刚刚被按下还是长按了一段时间。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 存储上一次状态缓解了这个问题。每一次循环到达更新（Update），正常的处理输入，但是在循环的末尾，存储当前状态为一个变量。这个变量就成为上一次状态。要检查按键是否是被一次按下还不是长按着，检查当前按键状态为"已按下"(Pressed)，并且上一次按键状态为"已释放"（Released）。
-> 
-> 
+>
+>
 

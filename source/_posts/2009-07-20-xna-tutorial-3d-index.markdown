@@ -14,7 +14,7 @@ tags:
 - 教程
 ---
 
-[![](/upload/XNAGS3_1.png)](/upload/XNAGS3_1.png)
+[![](/images/uploads/zb/XNAGS3_1.png)](/images/uploads/zb/XNAGS3_1.png)
 
 
 

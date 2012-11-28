@@ -96,7 +96,7 @@ PSPgen小组如约发出了5.55的eboot的破译程序，经过我刚才的测�
 
 
 
-[![](/upload/2009-09-30_excompress_eboot_bin.jpg)](/upload/2009-09-30_excompress_eboot_bin.jpg)
+[![](/images/uploads/zb/2009-09-30_excompress_eboot_bin.jpg)](/images/uploads/zb/2009-09-30_excompress_eboot_bin.jpg)
 
 
 
@@ -111,12 +111,12 @@ PSPgen小组如约发出了5.55的eboot的破译程序，经过我刚才的测�
 
 
 
-[![](/upload/screenshot_9930112319_811.png)](/upload/screenshot_9930112319_811.png)
+[![](/images/uploads/zb/screenshot_9930112319_811.png)](/images/uploads/zb/screenshot_9930112319_811.png)
 
 
 
 
-[![](/upload/2009-09-30_run_game_decrypter.jpg)](/upload/2009-09-30_run_game_decrypter.jpg)
+[![](/images/uploads/zb/2009-09-30_run_game_decrypter.jpg)](/images/uploads/zb/2009-09-30_run_game_decrypter.jpg)
 
 
 
@@ -126,7 +126,7 @@ PSPgen小组如约发出了5.55的eboot的破译程序，经过我刚才的测�
 
 
 
-[![](/upload/2009-09-30_get_new_eboot_bin.jpg)](/upload/2009-09-30_get_new_eboot_bin.jpg)
+[![](/images/uploads/zb/2009-09-30_get_new_eboot_bin.jpg)](/images/uploads/zb/2009-09-30_get_new_eboot_bin.jpg)
 
 
 
@@ -136,7 +136,7 @@ PSPgen小组如约发出了5.55的eboot的破译程序，经过我刚才的测�
 
 
 
-[![](/upload/2009-09-30_replace_eboot_bin.jpg)](/upload/2009-09-30_replace_eboot_bin.jpg)
+[![](/images/uploads/zb/2009-09-30_replace_eboot_bin.jpg)](/images/uploads/zb/2009-09-30_replace_eboot_bin.jpg)
 
 
 
@@ -146,12 +146,12 @@ PSPgen小组如约发出了5.55的eboot的破译程序，经过我刚才的测�
 
 
 
-[![](/upload/2009-09-30_save_new_iso.jpg)](/upload/2009-09-30_save_new_iso.jpg)
+[![](/images/uploads/zb/2009-09-30_save_new_iso.jpg)](/images/uploads/zb/2009-09-30_save_new_iso.jpg)
 
 
 
 
-[![](/upload/2009-09-30_saving_new_iso.jpg)](/upload/2009-09-30_saving_new_iso.jpg)
+[![](/images/uploads/zb/2009-09-30_saving_new_iso.jpg)](/images/uploads/zb/2009-09-30_saving_new_iso.jpg)
 
 
 
@@ -161,12 +161,12 @@ PSPgen小组如约发出了5.55的eboot的破译程序，经过我刚才的测�
 
 
 
-[![](/upload/screenshot_993011372_491.png)](/upload/screenshot_993011372_491.png)
+[![](/images/uploads/zb/screenshot_993011372_491.png)](/images/uploads/zb/screenshot_993011372_491.png)
 
 
 
 
-[![](/upload/UCUS-98632_9930124135_098.png)](/upload/UCUS-98632_9930124135_098.png)
+[![](/images/uploads/zb/UCUS-98632_9930124135_098.png)](/images/uploads/zb/UCUS-98632_9930124135_098.png)
 
 
 

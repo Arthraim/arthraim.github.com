@@ -18,7 +18,7 @@ tags:
 
 
 
-![](/upload/logo-pivot.png)
+![](/images/uploads/zb/logo-pivot.png)
 
 
 
@@ -58,4 +58,4 @@ tags:
 
 
 
-[![](/upload/2006-12-02_pivot_installing.png)](/upload/2006-12-02_pivot_installing.png)[![](/upload/2009-12-02_pivot_runtime.png)](/upload/2009-12-02_pivot_runtime.png)
+[![](/images/uploads/zb/2006-12-02_pivot_installing.png)](/images/uploads/zb/2006-12-02_pivot_installing.png)[![](/images/uploads/zb/2009-12-02_pivot_runtime.png)](/images/uploads/zb/2009-12-02_pivot_runtime.png)

@@ -69,10 +69,10 @@ tags:
 
 
 
-    
+
     public Vector2 velocity;
     public bool alive;
-    
+
 
 
 
@@ -81,10 +81,10 @@ tags:
 
 
 
-    
+
     velocity = Vector2.Zero;
     alive = false;
-    
+
 
 
 
@@ -116,10 +116,10 @@ tags:
 
 
 
-    
+
     const int maxCannonBalls = 3;
     GameObject[] cannonBalls;
-    
+
 
 
 
@@ -133,14 +133,14 @@ tags:
 
 
 
-    
+
     cannonBalls = new GameObject[maxCannonBalls];
     for (int i = 0; i < maxCannonBalls; i++)
     {
         cannonBalls[i] = new GameObject(Content.Load<Texture2D>(
             @"Spritescannonball"));
     }
-    
+
 
 
 
@@ -167,7 +167,7 @@ tags:
 
 
 
-    
+
     protected override void Update(GameTime gameTime)
     {
         //...Other code
@@ -184,7 +184,7 @@ tags:
             }
         }
     }
-    
+
 
 
 
@@ -211,11 +211,11 @@ tags:
 
 
 
-    
+
     protected override void Update(GameTime gameTime)
     GamePadState previousGamePadState = GamePad.GetState(PlayerIndex.One);
     KeyboardState previousKeyboardState = Keyboard.GetState();
-    
+
 
 
 
@@ -224,7 +224,7 @@ tags:
 
 
 
-    
+
     protected override void Update(GameTime gameTime)
     if (gamePadState.Buttons.A == ButtonState.Pressed &&
         previousGamePadState.Buttons.A == ButtonState.Released)
@@ -236,7 +236,7 @@ tags:
     {
         FireCannonBall();
     }
-    
+
 
 
 
@@ -245,7 +245,7 @@ tags:
 
 
 
-    
+
     public void FireCannonBall()
     {
         foreach (GameObject ball in cannonBalls)
@@ -261,7 +261,7 @@ tags:
             }
         }
     }
-    
+
 
 
 
@@ -272,13 +272,13 @@ tags:
 
 
 
-	
+
   1. 首先设置它的alive属性为ture，证明它活过来了。
 
-	
+
   2. 然后设置初始化的位置，是加农炮的位置减去炮弹的中心向量。（这个也许视频里直接ball.position = cannon.position了，那样子会错位）
 
-	
+
   3. 然后要设置它的速度了，方向就是当前加农炮的角度，Cos(A)和Sin(A)计算出单位1的向量确定方向，然后乘上5倍使它得到速率。这样一个速度就初始化完成了，这样每一个炮弹会沿着加农炮发射的方向前进而不管你后面的，前面的炮弹如何。至于数学计算，后面会翻译相关资料说明。但其实很容易理解，画个半径为1的圆，然后连成一个三角形，用Sin,Cos就很容易理解了。数学知识。
 
 
@@ -288,12 +288,12 @@ tags:
 
 
 
-    
+
     previousGamePadState = gamePadState;
     #if !XBOX
     previousKeyboardState = keyboardState;
     #endif
-    
+
 
 
 
@@ -325,7 +325,7 @@ tags:
 
 
 
-    
+
     if(!viewportRect.Contains(new Point(
         (int)ball.position.X,
         (int)ball.position.Y)))
@@ -333,7 +333,7 @@ tags:
         ball.alive = false;
         continue;
     }
-    
+
 
 
 
@@ -365,7 +365,7 @@ tags:
 
 
 
-    
+
     foreach (GameObject ball in cannonBalls)
     {
         if (ball.alive)
@@ -376,7 +376,7 @@ tags:
             Color.White);
         }
     }
-    
+
 
 
 
@@ -386,7 +386,7 @@ OK这就是绘制的代码，现在编译运行一下看看效果吧。（在我
 
 
 
-[![](/upload/2009-06-15_Chapter6Runtime.jpg)](/upload/2009-06-15_Chapter6Runtime.jpg)
+[![](/images/uploads/zb/2009-06-15_Chapter6Runtime.jpg)](/images/uploads/zb/2009-06-15_Chapter6Runtime.jpg)
 
 
 
@@ -396,7 +396,7 @@ OK这就是绘制的代码，现在编译运行一下看看效果吧。（在我
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=153)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=153)
 
 
 
@@ -419,52 +419,52 @@ OK这就是绘制的代码，现在编译运行一下看看效果吧。（在我
 
 
 
-> 
-	
-> 
+>
+
+>
 > 教程到目前为止，你已经能熟练的使用一些预定义的类，并且为了能封装一些有规律的使用的数据，能创建一些自己的类了。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 但是还有另外一种数据组织形式你需要知道并且学会使用。你也许需要使用大量相似的对象或足够相似的对象，事实上，它们都是同一类型的类。它们可能是GameObject，Texture2D对象，也可能是其他对象。你需要一些这样的对象，并且希望有一个相似的操作方式来操作它们。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 例如，如果你有一组要绘制到屏幕上的GameObject对象，并且他们中的每一个都有自己的位置和Texture2D，你为他们每一个写的代码都会是完全相同。虽然目前是这样，但是你还是会要写一些一样的代码来处理每个 GameObject，使你的代码变得混乱。有什么办法只需简单的让对象的集合运行一样的代码，并且可以让每一个都拥有同样方式的互动呢？
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 有 ---- 解决方案就在于数组。一个数组是一个相似对象的线性集合。你可以拥有一个人和类型的数组；一个Vector数组，一个GameObject数组，一个字符串数组，或者其他任何可能并且合法的数组。
-> 
-> 
-	
-> 
-> ![](/upload/BG_3.6.2.1pd.png)
-> 
-> 
-	
-> 
+>
+>
+
+>
+> ![](/images/uploads/zb/BG_3.6.2.1pd.png)
+>
+>
+
+>
 > 这张图显示了创建有3个GameObject元素的数组的代码顺序。你使用表明数组元素类型的类型名之后加上[]来声明一个数组。之后你使用new和[x]来初始化数组，x是你数组元素的数量。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 如果数组中的数据类型为一个类，你必须循环遍历这个数组并且初始化每一个数组元素存储的对象。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 一旦完成这些工作，你可以使用数组名加上[x]的方式访问数组中的每个元素，x代表了你要访问的元素，0开始代表第一个元素。因为这个指数的开始是0，调用cannonBalls[1].position会给你数组中第二个GameObject对象的position变量。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 一个更加强大的方式来访问数组是循环，在上面的图中已经表现出来。一个for循环允许你针对所有数组中的元素运行相同的代码。你也可以使用一个foreach循环，它将被在后面的步骤中表现出来。两种方法都允许你让多个同类元素运行相同的代码。这也帮助你对已写代码的重用，而不用写更多的代码，即便数组的大小在今后得到扩展。
-> 
-> 
+>
+>
 
 
 
@@ -483,52 +483,52 @@ OK这就是绘制的代码，现在编译运行一下看看效果吧。（在我
 
 
 
-> 
-	
-> 
+>
+
+>
 > 学会这个教程的重点，你已经学会了采用弧度来传递旋转角度。然而，发射炮弹的动作需要我们使用Vector2来传递cannonball的动作。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > Cannonball的动作应当和加农炮的角度有联系 ---- 当你的加农炮转到垂直向上，你的炮弹应该垂直向上飞。同样的，当你的加农炮转到平行于地面的位置，炮弹应该平行于地面飞行。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 来做出确定这个数据的唯一方法就是通过加农炮旋转角度的弧度。显然，你必须做一些转换工作，把旋转角度转换为给予炮弹的向量。
-> 
-> 
-	
-> 
-> ![](/upload/BG_3.6.4.1pd.png)
-> 
-> 
-	
-> 
+>
+>
+
+>
+> ![](/images/uploads/zb/BG_3.6.4.1pd.png)
+>
+>
+
+>
 > 一个Vector2有两个组成部分：X坐标和Y坐标。在这个2D游戏的最终目标中，炮弹的X坐标在横轴上有怎样的动作，炮弹的Y坐标在纵轴上也有怎么样的动作。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 在三角中，有个灯饰我们可以用来从一个角构造成一个vector。在如图所示的单位圆中，任何一个向量V可以被想象为拥有特定的从0开始的角θ。这个角度相当于我们想法中的旋转角度。为了得到向量V，也就是炮弹的速度向量，我们尝试着去发现，你可以使用下面的规则从θ中得到X和Y.
-> 
-> 
-	
-> 
+>
+>
+
+>
 > V = (cos(θ), sin(θ))
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 这些数学方程式,sine和cosine,代表任何一个有θ大小的角的X和Y的数据。为了构造一个2D向量,你只需要知道X和Y.所以sine和cosine方程就是我们想要的.向量的X坐标是cos(θ)，而向量的Y坐标是sin(θ)。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 一个向量的方向使用Y和X坐标的关系来表现。（成为斜度）但是向量也具有幅度。从我们的炮弹上说，它决定了多快的速度来接近向量所指向的方向。在我们的代码中，我们使用一个常数去乘向量的方式来增长这个幅度。它同时使用相同的值去乘了X和Y坐标，确保斜度不变，但向量变得更长了 ---- 这样，炮弹移动加快了。
-> 
-> 
+>
+>
 
 
 

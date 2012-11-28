@@ -25,20 +25,20 @@ tags:
 
 
 
-> 
-	
-> 
-> 
-		
+>
+
+>
+>
+
 >   * 3D
-> 
-		
+>
+
 >   * PlayStation Move
-> 
-		
+>
+
 >   * PlayStation Plus
-> 
-	
+>
+
 
 
 
@@ -49,7 +49,7 @@ tags:
 
 
 
-![](/wp-content/uploads/sony-e3-20100615-01-19.jpg)
+![](/images/uploads/wp/sony-e3-20100615-01-19.jpg)
 
 
 
@@ -59,32 +59,32 @@ tags:
 
 
 
-> 
-	
-> 
-> 
-		
+>
+
+>
+>
+
 >   * Little Big Planet 2
-> 
-		
+>
+
 >   * Medal of Hounor
-> 
-		
+>
+
 >   * Dead Space 2
-> 
-		
+>
+
 >   * Portal 2
-> 
-		
+>
+
 >   * Final Fantasy XIV
-> 
-		
+>
+
 >   * Gran Turismo 5
-> 
-		
+>
+
 >   * Twisted Metal
-> 
-	
+>
+
 
 
 

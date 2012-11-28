@@ -18,7 +18,7 @@ tags:
 
 
 
-![](/upload/seners.org.JPG)
+![](/images/uploads/zb/seners.org.JPG)
 
 
 

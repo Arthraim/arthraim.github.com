@@ -14,7 +14,7 @@ tags:
 - WebQQ
 ---
 
-一直很喜欢使用Google的相关产品，看起来就很舒服。所以第一时间就开始使用了Chrome，所以也产生了完全放弃Microsoft Office这样的情况。我不知道和我情况相似的人多不多，但是我现在无论文档表格还是演示文件一律都是用Google Docs编辑的，因为有离线版，所以也不必担心没有网络的时候没办法用。而正因为有了离线版，Google Gears + Chrome + 一个shortcut，就让我有了无限接近云时代的感觉。![](/upload/2009-04-13_shortcuts.png)
+一直很喜欢使用Google的相关产品，看起来就很舒服。所以第一时间就开始使用了Chrome，所以也产生了完全放弃Microsoft Office这样的情况。我不知道和我情况相似的人多不多，但是我现在无论文档表格还是演示文件一律都是用Google Docs编辑的，因为有离线版，所以也不必担心没有网络的时候没办法用。而正因为有了离线版，Google Gears + Chrome + 一个shortcut，就让我有了无限接近云时代的感觉。![](/images/uploads/zb/2009-04-13_shortcuts.png)
 
 
 
@@ -27,7 +27,7 @@ Google自己的相关产品做成快捷方式的确很漂亮，不过用Chrome�
 
 
 
-1、打开WebQQ，登录QQ号 ![](/upload/2009-04-13_webqq.png)
+1、打开WebQQ，登录QQ号 ![](/images/uploads/zb/2009-04-13_webqq.png)
 
 
 
@@ -40,7 +40,7 @@ WebQQ一路走来也已经感觉相当不错了，基本上走到别人的电脑
 
 
 
-2、创建快捷方式。我用的是英文版的Chrome，不过中文版一样的位置，选择这一项。![](/upload/2009-04-13_webqq_creaticon.png)
+2、创建快捷方式。我用的是英文版的Chrome，不过中文版一样的位置，选择这一项。![](/images/uploads/zb/2009-04-13_webqq_creaticon.png)
 
 
 
@@ -48,7 +48,7 @@ WebQQ一路走来也已经感觉相当不错了，基本上走到别人的电脑
 
 
 
-3、确认创建的位置。在Google Gears窗口里选择好创建的位置。 ![](/upload/2009-04-13_webqq_gear.png)
+3、确认创建的位置。在Google Gears窗口里选择好创建的位置。 ![](/images/uploads/zb/2009-04-13_webqq_gear.png)
 
 
 
@@ -56,19 +56,19 @@ WebQQ一路走来也已经感觉相当不错了，基本上走到别人的电脑
 
 
 
-4、快捷方式就已经创建好了。给他换个图标之类的看个人喜好了说。  
+4、快捷方式就已经创建好了。给他换个图标之类的看个人喜好了说。
 
-	属性里面写了"YOURPATHchrome.exe" --app=http://web.qq.com/main.shtml  
+	属性里面写了"YOURPATHchrome.exe" --app=http://web.qq.com/main.shtml
 
-	看来不用Chrome，自己动手要创建个桌面快捷方式也非常简单啊～ ![](/upload/2009-04-13_webqq_property.png)
-
-
+	看来不用Chrome，自己动手要创建个桌面快捷方式也非常简单啊～ ![](/images/uploads/zb/2009-04-13_webqq_property.png)
 
 
 
 
 
-5、最后我们打开快捷方式，就可以看到桌面应用一样的WebQQ了。![](/upload/2009-04-13_webqq_after.png)
+
+
+5、最后我们打开快捷方式，就可以看到桌面应用一样的WebQQ了。![](/images/uploads/zb/2009-04-13_webqq_after.png)
 
 
 

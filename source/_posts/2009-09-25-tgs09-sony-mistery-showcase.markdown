@@ -19,7 +19,7 @@ TGS已经进行到了第二天，在结束之后我会把更多有价值的消�
 
 
 
-[![](/upload/mistery_tgs2009_1.jpg)](/upload/mistery_tgs2009_1.jpg)
+[![](/images/uploads/zb/mistery_tgs2009_1.jpg)](/images/uploads/zb/mistery_tgs2009_1.jpg)
 
 
 
@@ -29,7 +29,7 @@ TGS已经进行到了第二天，在结束之后我会把更多有价值的消�
 
 
 
-[![](/upload/mistery_tgs2009_2.jpg)](/upload/mistery_tgs2009_2.jpg) [![](/upload/mistery_tgs2009_3.jpg)](/upload/mistery_tgs2009_3.jpg)[![](/upload/mistery_tgs2009_4.jpg)](/upload/mistery_tgs2009_4.jpg) [![](/upload/mistery_tgs2009_5.jpg)](/upload/mistery_tgs2009_5.jpg) [![](/upload/mistery_tgs2009_6.jpg)](/upload/mistery_tgs2009_6.jpg)
+[![](/images/uploads/zb/mistery_tgs2009_2.jpg)](/images/uploads/zb/mistery_tgs2009_2.jpg) [![](/images/uploads/zb/mistery_tgs2009_3.jpg)](/images/uploads/zb/mistery_tgs2009_3.jpg)[![](/images/uploads/zb/mistery_tgs2009_4.jpg)](/images/uploads/zb/mistery_tgs2009_4.jpg) [![](/images/uploads/zb/mistery_tgs2009_5.jpg)](/images/uploads/zb/mistery_tgs2009_5.jpg) [![](/images/uploads/zb/mistery_tgs2009_6.jpg)](/images/uploads/zb/mistery_tgs2009_6.jpg)
 
 
 

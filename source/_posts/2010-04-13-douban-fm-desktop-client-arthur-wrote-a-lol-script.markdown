@@ -53,7 +53,7 @@ Arthur：哥蛋疼。（双眼炯炯有神，望天）
 
 
 
-![](/upload/2010-04-13_douban_fm_chrome.png)
+![](/images/uploads/zb/2010-04-13_douban_fm_chrome.png)
 
 
 
@@ -118,7 +118,7 @@ Arthur：我真蛋疼…………
 
 
 
-![](/upload/2010-04-13_douban_fm_app.png)
+![](/images/uploads/zb/2010-04-13_douban_fm_app.png)
 
 
 

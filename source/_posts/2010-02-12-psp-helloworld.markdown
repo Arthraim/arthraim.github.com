@@ -21,7 +21,7 @@ tags:
 
 
 
-[![](/upload/2010-02-12_psp_helloworld.jpg)](/upload/2010-02-12_psp_helloworld.jpg)
+[![](/images/uploads/zb/2010-02-12_psp_helloworld.jpg)](/images/uploads/zb/2010-02-12_psp_helloworld.jpg)
 
 
 
@@ -30,7 +30,7 @@ tags:
 
 
 
-    
+
     #include <pspkernel.h>
     #include <pspdebug.h>
     PSP_MODULE_INFO("Hello World", 0, 1, 1);
@@ -72,7 +72,7 @@ tags:
 
 
 
-    
+
     TARGET = hello
     OBJS = main.o
     CFLAGS = -O2 -G0 -Wall

@@ -46,7 +46,7 @@ tags:
 
 
 
-[![](/upload/2009-08-24_youku_guodegang.jpg)](/upload/2009-08-24_youku_guodegang.jpg)
+[![](/images/uploads/zb/2009-08-24_youku_guodegang.jpg)](/images/uploads/zb/2009-08-24_youku_guodegang.jpg)
 
 
 

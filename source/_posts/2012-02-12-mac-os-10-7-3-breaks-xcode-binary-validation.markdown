@@ -17,7 +17,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/icon-dimensions-dont-meet-the-size-requirements.png)](/mac-os-10-7-3-breaks-xcode-binary-validation/icon-dimensions-dont-meet-the-size-requirements/)
+[![](/images/uploads/wp/icon-dimensions-dont-meet-the-size-requirements.png)](/mac-os-10-7-3-breaks-xcode-binary-validation/icon-dimensions-dont-meet-the-size-requirements/)
 
 
 
@@ -48,7 +48,7 @@ Xcode提交当然还是存在问题，无法通过验证，而且暂时没法解
 
 
 
-[![](/wp-content/uploads/Screen-Shot-2012-02-10-at-12.16.13-PM.png)](/mac-os-10-7-3-breaks-xcode-binary-validation/screen-shot-2012-02-10-at-12-16-13-pm/)
+[![](/images/uploads/wp/Screen-Shot-2012-02-10-at-12.16.13-PM.png)](/mac-os-10-7-3-breaks-xcode-binary-validation/screen-shot-2012-02-10-at-12-16-13-pm/)
 
 
 

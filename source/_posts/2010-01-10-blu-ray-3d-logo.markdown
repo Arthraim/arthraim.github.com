@@ -17,17 +17,17 @@ tags:
 
 
 
-![](/upload/bluray3dlogo.jpg)
+![](/images/uploads/zb/bluray3dlogo.jpg)
 
 
 
 
-> 
+>
 
-> 
+>
 > 去年12月，蓝光光盘协会(BDA)正式宣布完成Blu-ray 3D™标准的制定，并发布规格书。根据国外媒体报道，在2010年的CES展会前夕，BDA公布了最终确定的Blu-ray 3D官方标识。Blu-ray 3D标识是在原有蓝光标识的基础上加上立体阴影效果的"3D"字样，新标识预计将出现在今年晚些时候发布所有Blu-ray 3D产品上。
-> 
-> 
+>
+>
 
 
 

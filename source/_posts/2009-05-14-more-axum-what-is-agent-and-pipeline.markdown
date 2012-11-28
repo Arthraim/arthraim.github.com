@@ -28,12 +28,12 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > "A .NET language for safe, scalable and productive parallel programming through isolation, actors and message-passing."
-> 
-> 
+>
+>
 
 
 
@@ -44,12 +44,12 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > "A .NET language for parallel programming through message-passing."
-> 
-> 
+>
+>
 
 
 
@@ -95,7 +95,7 @@ Axum是为并行而生的.net语言，那么他提供了非常完整的Actor模�
 
 
 
-    
+
     using System;
     using Microsoft.Axum;
     using System.Concurrency.Messaging;
@@ -107,7 +107,7 @@ Axum是为并行而生的.net语言，那么他提供了非常完整的Actor模�
             // ...
         }
     }
-    
+
 
 
 
@@ -117,14 +117,14 @@ Axum是为并行而生的.net语言，那么他提供了非常完整的Actor模�
 
 
 
-> 
-	
-> 
-> Implementing a channel is different - syntactically and semantically - from deriving from a base agent. When an agent derives from another agent, it merely extends it by overriding some virtual methods, and potentially adding more of its own.  
+>
+
+>
+> Implementing a channel is different - syntactically and semantically - from deriving from a base agent. When an agent derives from another agent, it merely extends it by overriding some virtual methods, and potentially adding more of its own.
 
 		However, when an agent implements a channel (notice the channel keyword after the colon in the agent declaration), it "attaches" itself to the implementing end of that channel and becomes the "server" of messages on that channel. The other end of the channel - known as the using end - is only visible to the "client", or the component (typically another agent) on the other end of the channel.
-> 
-> 
+>
+>
 
 
 
@@ -135,17 +135,17 @@ Axum是为并行而生的.net语言，那么他提供了非常完整的Actor模�
 
 
 
-> 
-	
-> 
+>
+
+>
 > 从一个channel派生和从一个接触agent中派生是不一样的，有字面上的和语义上的两种理解。一个agent从另一个agent从派生的话，只不过是通过覆盖重写它的方法或可能为自己增加更多的一种扩展。
-> 
-> 
-	
-> 
+>
+>
+
+>
 > 然而当一个agent从一个channel派生的话，它是把自己"贴"到channel的派生端（implementing end），从而成为channel上的信息的"服务端"。而Channel的另一端（被称作应用端（using end））是指对"客户端"或在channel另一端的某个组件（代表性的就是另一个agent）。
-> 
-> 
+>
+>
 
 
 
@@ -156,7 +156,7 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
 
 
 
-![](/upload/2009-05-14_TwoEndsChannel.png)
+![](/images/uploads/zb/2009-05-14_TwoEndsChannel.png)
 
 
 
@@ -166,23 +166,23 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
 
 
 
-> 
-	
-> 
+>
+
+>
 > The runtime instantiates the agent implementing channel Microsoft.Axum.Application, sends command line parameters to the channel's CommandLine port, and then waits for a message on port ExitCode. When the message is received, the application shuts down.
-> 
-> 
+>
+>
 
 
 
 
 
-> 
-	
-> 
+>
+
+>
 > 从Microsoft.Axum.Applicationruntime这个Channel派生过来的agent的runtime实例，发送命令行参数到channel的命令行端口（CommandLine port），然后等待退出代码端口（prot ExitCode）的信息。当收到信息后，应用程序就关闭。
-> 
-> 
+>
+>
 
 
 
@@ -197,13 +197,13 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
 
 
 
-    
+
     function int Fibonacci(int n)
     {
         if( n<=1 ) return n;
         return Fibonacci(n-1) + Fibonacci(n-2);
     }
-    
+
 
 
 
@@ -212,7 +212,7 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
 
 
 
-    
+
     int numCount = 10;
     void ProcessResult(int n)
     {
@@ -223,7 +223,7 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
             PrimaryChannel::ExitCode <-- 0;
         }
     }
-    
+
 
 
 
@@ -237,7 +237,7 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
 
 
 
-    
+
     public MainAgent()
     {
         var numbers = new OrderedInteractionPoint<int>();
@@ -247,7 +247,7 @@ channel负责传递信息，但是它不会对信息做任何处理。（处理�
         for( int i=0; i<numCount; i++ )
             numbers <-- 42-i;
     }
-    
+
 
 
 
@@ -262,23 +262,23 @@ Axum提供了两种orchestration（这单词怎么翻译？编排？）方式，
 
 
 
-> 
-	
-> 
+>
+
+>
 > In Axum, the messages are sent to and received from the interaction points. An interaction point from which a message originates is called the source, and the destination is called the target. An interaction point can be both a source and a target, meaning that it can both send and receive messages. This allows composition of multiple interaction points into dataflow networks.
-> 
-> 
+>
+>
 
 
 
 
 
-> 
-	
-> 
+>
+
+>
 > 在Axum中，信息传递和接受是通过interaction points（互动点？）的。信息源的interaction point叫做source，目的地的叫做target。同一个interaction point能同时既作为source，又作为target，意味着它能同时发送和接受信息。这样就允许很多的Interaction point组成一个数据流网络。
-> 
-> 
+>
+>
 
 
 
@@ -289,12 +289,12 @@ Axum提供了两种orchestration（这单词怎么翻译？编排？）方式，
 
 
 
-> 
-	
-> 
+>
+
+>
 > numbers ==> Fibonacci ==> ProcessResult;
-> 
-> 
+>
+>
 
 
 
@@ -320,7 +320,7 @@ numbers是创建的OrderedInteractionPoint，Ordered可以看出它是有顺序�
 
 
 
-![](/upload/2009-05-14_run.png)
+![](/images/uploads/zb/2009-05-14_run.png)
 
 
 

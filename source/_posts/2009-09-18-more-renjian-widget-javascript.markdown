@@ -31,7 +31,7 @@ tags:
 
 
 
-[![](/upload/2009-09-18_rensea_widget.jpg)](/upload/2009-09-18_rensea_widget.jpg)
+[![](/images/uploads/zb/2009-09-18_rensea_widget.jpg)](/images/uploads/zb/2009-09-18_rensea_widget.jpg)
 
 
 
@@ -40,7 +40,7 @@ tags:
 
 
 
-    
+
     function renseaCallback2(statuss) {
         var sData = [], sHtml = "";
         for (var i=0; i < statuss.length; i++){
@@ -72,10 +72,10 @@ HTML调用相对简单一点，不需要有什么特别的参数，宽度就让C
 
 
 
-    
+
     <script type="text/javascript" src="rensea2.js"></script>
     <script type="text/javascript" src="http://rensea.com/statuses/user_timeline/arthraim.json?count=10&callback=renseaCallback2"></script>
-    
+
 
 
 

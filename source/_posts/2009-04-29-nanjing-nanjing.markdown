@@ -12,7 +12,7 @@ tags:
 - 滨江
 ---
 
-![](/upload/nankinnankin.jpg) 一直很喜欢陆川，感觉要形容陆川的电影，不能用大气，不能用壮观，唯一合适的应该是"深刻"，无论是什么题材，在表现情感的时候的那种深刻是没有一个导演可以比得上的。
+![](/images/uploads/zb/nankinnankin.jpg) 一直很喜欢陆川，感觉要形容陆川的电影，不能用大气，不能用壮观，唯一合适的应该是"深刻"，无论是什么题材，在表现情感的时候的那种深刻是没有一个导演可以比得上的。
 
 
 
@@ -32,7 +32,7 @@ tags:
 
 
 
-![](/upload/zhongquan.jpg)
+![](/images/uploads/zb/zhongquan.jpg)
 
 
 
@@ -58,7 +58,7 @@ tags:
 
 
 
-![](/upload/gaoyuanyuan.jpg)![](/upload/family.jpg)![](/upload/woman.jpg)
+![](/images/uploads/zb/gaoyuanyuan.jpg)![](/images/uploads/zb/family.jpg)![](/images/uploads/zb/woman.jpg)
 
 
 

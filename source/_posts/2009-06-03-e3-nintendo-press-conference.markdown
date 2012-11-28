@@ -12,49 +12,49 @@ tags:
 - Nintendo
 ---
 
-> 
+>
 
-> 
-> 
+>
+>
 
 >   * New Super Mario Bors. Wii
-> 
+>
 
 >   * Wii Fit Plus
-> 
+>
 
 >   * Wii Sport Resort
-> 
+>
 
 >   * Mario Luigi RPG3
-> 
+>
 
 >   * Red Steel 2
-> 
+>
 
 >   * COP
-> 
+>
 
 >   * Golden Sun DS
-> 
+>
 
 >   * Mario vs Donkeykong Minis march again
-> 
+>
 
 >   * Facebook
-> 
+>
 
 >   * Mario Galaxy 2
-> 
+>
 
 >   * Dead Space Extraction
-> 
+>
 
 >   * Biohazard
-> 
+>
 
 >   * Metrod other M
-> 
+>
 
 
 
@@ -71,7 +71,7 @@ tags:
 
 
 
-![](/upload/nintendo_new_tool.jpg)
+![](/images/uploads/zb/nintendo_new_tool.jpg)
 
 
 

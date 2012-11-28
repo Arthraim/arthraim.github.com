@@ -29,7 +29,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2011_e3_microsoft-500x281.jpg)](/2011-e3-press-conferences/2011_e3_microsoft/)
+[![](/images/uploads/wp/2011_e3_microsoft-500x281.jpg)](/2011-e3-press-conferences/2011_e3_microsoft/)
 
 
 
@@ -41,7 +41,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2011_e3_sony-500x280.jpg)](/2011-e3-press-conferences/2011_e3_sony/)
+[![](/images/uploads/wp/2011_e3_sony-500x280.jpg)](/2011-e3-press-conferences/2011_e3_sony/)
 
 
 
@@ -51,7 +51,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2011_e3_nintendo-500x281.png)](/2011-e3-press-conferences/2011_e3_nintendo/)
+[![](/images/uploads/wp/2011_e3_nintendo-500x281.png)](/2011-e3-press-conferences/2011_e3_nintendo/)
 
 
 

@@ -18,7 +18,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/pymt_logo.png)](http://pymt.eu/)
+[![](/images/uploads/wp/pymt_logo.png)](http://pymt.eu/)
 
 
 
@@ -32,7 +32,7 @@ PyMT是一个开源的类库，支持多点触控。在[这里](http://pymt.eu/#
 
 
 
-    
+
     pymt -m pymt.tools.demo
 
 
@@ -43,7 +43,7 @@ PyMT是一个开源的类库，支持多点触控。在[这里](http://pymt.eu/#
 
 
 
-[![](/wp-content/uploads/2010-08-20_pymt_demo.png)](/wp-content/uploads/2010-08-20_pymt_demo.png)
+[![](/images/uploads/wp/2010-08-20_pymt_demo.png)](/images/uploads/wp/2010-08-20_pymt_demo.png)
 
 
 
@@ -52,16 +52,16 @@ PyMT是一个开源的类库，支持多点触控。在[这里](http://pymt.eu/#
 
 
 
-    
+
     from pymt import *
-    
+
     class CircleDrawer(MTWidget):
         '''Draw a circle at the position of all touches.'''
         def draw(self):
             set_color(1, 0, 0)
             for touch in getCurrentTouches():
                 drawCircle(touch.pos, 50)
-    
+
     runTouchApp(CircleDrawer())
 
 

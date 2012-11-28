@@ -16,7 +16,7 @@ Twitter的客户端层出不全而且创意颇多，比如Chrome插件的popup�
 
 
 
-![](/upload/2009-12-12_tweetboard_log.jpg)
+![](/images/uploads/zb/2009-12-12_tweetboard_log.jpg)
 
 
 
@@ -26,7 +26,7 @@ Twitter的客户端层出不全而且创意颇多，比如Chrome插件的popup�
 
 
 
-![](/upload/tweetboard_example.png)
+![](/images/uploads/zb/tweetboard_example.png)
 
 
 

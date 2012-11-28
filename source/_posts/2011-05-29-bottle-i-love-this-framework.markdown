@@ -36,7 +36,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/logo_nav.png)](/bottle-i-love-this-framework/logo_nav/)
+[![](/images/uploads/wp/logo_nav.png)](/bottle-i-love-this-framework/logo_nav/)
 
 
 
@@ -46,7 +46,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2011-05-29_bottle_hello_world.png)](/bottle-i-love-this-framework/2011-05-29_bottle_hello_world/)
+[![](/images/uploads/wp/2011-05-29_bottle_hello_world.png)](/bottle-i-love-this-framework/2011-05-29_bottle_hello_world/)
 
 
 

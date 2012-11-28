@@ -22,7 +22,7 @@ Google总是不小心冒出很多彩蛋，比如躲在doogle里的塞尔达的LO
 
 
 
-[![](/upload/2009-07-24_GoogleRecursion.jpg)](/upload/2009-07-24_GoogleRecursion.jpg)
+[![](/images/uploads/zb/2009-07-24_GoogleRecursion.jpg)](/images/uploads/zb/2009-07-24_GoogleRecursion.jpg)
 
 
 
@@ -35,7 +35,7 @@ Google总是不小心冒出很多彩蛋，比如躲在doogle里的塞尔达的LO
 
 
 
-[![](/upload/2009-07-24_GoogleRecursion2.jpg)](/upload/2009-07-24_GoogleRecursion2.jpg)
+[![](/images/uploads/zb/2009-07-24_GoogleRecursion2.jpg)](/images/uploads/zb/2009-07-24_GoogleRecursion2.jpg)
 
 
 
@@ -68,12 +68,12 @@ Google总是不小心冒出很多彩蛋，比如躲在doogle里的塞尔达的LO
 
 
 
-[![](/upload/2009-07-25_Reader.jpg)](/upload/2009-07-25_Reader.jpg)
+[![](/images/uploads/zb/2009-07-25_Reader.jpg)](/images/uploads/zb/2009-07-25_Reader.jpg)
 
 
 
 
-[![](/upload/2009-07-25_Reader2.jpg)](/upload/2009-07-25_Reader2.jpg)
+[![](/images/uploads/zb/2009-07-25_Reader2.jpg)](/images/uploads/zb/2009-07-25_Reader2.jpg)
 
 
 

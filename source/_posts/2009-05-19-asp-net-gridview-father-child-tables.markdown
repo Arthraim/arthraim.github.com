@@ -25,7 +25,7 @@ tags:
 
 
 
-![](/upload/2009-05-19_showtable.png)
+![](/images/uploads/zb/2009-05-19_showtable.png)
 
 
 
@@ -42,7 +42,7 @@ tags:
 
 
 
-    
+
     <asp:GridView ID="gvhandle" runat="server" Caption="已检查项目" AutoGenerateColumns="False" OnRowDataBound="gvhandle_RowDataBound">
     <Columns>
     <asp:TemplateField Visible="False">
@@ -69,7 +69,7 @@ tags:
     <asp:BoundField DataField="result" HeaderText="最终处理" />
     </Columns>
     </asp:GridView>
-    
+
 
 
 
@@ -81,7 +81,7 @@ tags:
 
 
 
-    
+
     protected void gvhandle_RowDataBound(object sender, GridViewRowEventArgs e)
     {
         if (((GridView)e.Row.FindControl("gvChild")) != null)

@@ -18,7 +18,7 @@ tags:
 
 
 
-![](/upload/201003151213.jpg) ![](/upload/201003161216.jpg)
+![](/images/uploads/zb/201003151213.jpg) ![](/images/uploads/zb/201003161216.jpg)
 
 
 

@@ -26,7 +26,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-05-03_happy_birthday.png)](/wp-content/uploads/2010-05-03_happy_birthday.png)
+[![](/images/uploads/wp/2010-05-03_happy_birthday.png)](/images/uploads/wp/2010-05-03_happy_birthday.png)
 
 
 

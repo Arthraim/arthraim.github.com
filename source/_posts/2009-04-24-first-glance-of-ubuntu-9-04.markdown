@@ -12,7 +12,7 @@ tags:
 - Ubuntu
 ---
 
-![](../../../upload/75C14EDC194AA34DDF56AAAD5D470D31.png)
+![](/images/uploads/zb/75C14EDC194AA34DDF56AAAD5D470D31.png)
 
 
 
@@ -55,37 +55,37 @@ Here comes the download address:
 
 
 
-> 
+>
 
-> 
+>
 > [http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-desktop-i386.iso](http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-desktop-i386.iso)
-> 
-> 
+>
+>
 
-> 
+>
 > [http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-desktop-amd64.iso](http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-desktop-amd64.iso)
-> 
-> 
+>
+>
 
-> 
+>
 > [http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-server-i386.iso](http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-desktop-i386.iso)
-> 
-> 
+>
+>
 
-> 
+>
 > [http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-server-amd64.iso](http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-desktop-amd64.iso)
-> 
-> 
+>
+>
 
-> 
+>
 > [http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-alternate-i386.iso](http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-alternate-i386.iso)
-> 
-> 
+>
+>
 
-> 
+>
 > [http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-alternate-amd64.iso](http://releases.ubuntu.com/releases/.pool/ubuntu-9.04-alternate-amd64.iso)
-> 
-> 
+>
+>
 
 
 
@@ -104,7 +104,7 @@ Follow me and to see the NEW features:
 
 
 
-1 -- **Gnome 2.26** as you see. 
+1 -- **Gnome 2.26** as you see.
 
 
 
@@ -114,7 +114,7 @@ Gnome 2.26就像你看到的。个人感觉是相应速度变快了，因为后�
 
 
 
-![](../../../upload/Screenshot-AbouttheGNOMEDesktop.png)
+![](/images/uploads/zb/Screenshot-AbouttheGNOMEDesktop.png)
 
 
 
@@ -142,7 +142,7 @@ OpenOffice.org 3.0（多漂亮的Sun公司标志）。个人是不用桌面Offic
 
 
 
-![](../../../upload/Screenshot-AboutOpenOffice.org.png)
+![](/images/uploads/zb/Screenshot-AboutOpenOffice.org.png)
 
 
 
@@ -160,7 +160,7 @@ OpenOffice.org 3.0（多漂亮的Sun公司标志）。个人是不用桌面Offic
 
 
 
-![](/UPLOAD/2009-04-24_Ubuntu-startingtime.jpg)
+![](/images/uploads/zb/2009-04-24_Ubuntu-startingtime.jpg)
 
 
 
@@ -200,23 +200,23 @@ It's just a glance. I even didn't install my video card driver. I will update th
 
 
 
-在论坛上和大家交流了一下，发现其实新特性也就不过这几个，要说Xserver1.6，我倒是没觉得什么，因为我的图形还是差的啊。不知道装上了显卡驱动会不会感受到。说实话因为断网害的我显卡驱动没装，这个惊鸿一瞥也变得打了折扣。等我用了一段时间再写写心得吧。话说10月份会有9.10，到时候看来又要更新一下了。明年才是重头戏，明年会有Gnome3.0，到时候有些觉得KDE比较漂亮的人就可以好好期待一下了。呵呵。  
+在论坛上和大家交流了一下，发现其实新特性也就不过这几个，要说Xserver1.6，我倒是没觉得什么，因为我的图形还是差的啊。不知道装上了显卡驱动会不会感受到。说实话因为断网害的我显卡驱动没装，这个惊鸿一瞥也变得打了折扣。等我用了一段时间再写写心得吧。话说10月份会有9.10，到时候看来又要更新一下了。明年才是重头戏，明年会有Gnome3.0，到时候有些觉得KDE比较漂亮的人就可以好好期待一下了。呵呵。
 
 那么，以上就是first glance了。放几张登录和partitioner的屏摄。
 
 
 
 
-![](/upload/2009-04-24_Ubuntu_starting.jpg)  
+![](/images/uploads/zb/2009-04-24_Ubuntu_starting.jpg)
 
 
 
 
 
 
-![](/upload/2009-04-24_Ubuntu_partitioner_1.jpg)
+![](/images/uploads/zb/2009-04-24_Ubuntu_partitioner_1.jpg)
 
 
 
 
-![](/upload/2009-04-24_Ubuntu_partitioner_2.jpg)
+![](/images/uploads/zb/2009-04-24_Ubuntu_partitioner_2.jpg)

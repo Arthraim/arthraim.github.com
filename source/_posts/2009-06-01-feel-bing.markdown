@@ -17,7 +17,7 @@ tags:
 
 
 
-![](/upload/bing.jpg)
+![](/images/uploads/zb/bing.jpg)
 
 
 
@@ -62,7 +62,7 @@ tags:
 
 
 
-![](/upload/arthraim-Bing.jpg)
+![](/images/uploads/zb/arthraim-Bing.jpg)
 
 
 
@@ -70,4 +70,4 @@ tags:
 
 
 
-![](/upload/google-Bing%E5%9B%BE%E7%89%87.jpg)
+![](/images/uploads/zb/google-Bing%E5%9B%BE%E7%89%87.jpg)

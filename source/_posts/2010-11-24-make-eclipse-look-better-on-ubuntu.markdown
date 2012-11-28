@@ -33,7 +33,7 @@ tags:
 
 
 
-    
+
     style "gtkcompact" {
     font_name="Sans 8"
     GtkButton::default_border={0,0,0,0}
@@ -63,7 +63,7 @@ tags:
     GtkWidget::focus_padding=0
     }
     class "GtkWidget" style "gtkcompact"
-    
+
     style "gtkcompactextra" {
     xthickness=0
     ythickness=0
@@ -77,7 +77,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-11-24_better_look_eclipse.png)](/wp-content/uploads/2010-11-24_better_look_eclipse.png)
+[![](/images/uploads/wp/2010-11-24_better_look_eclipse.png)](/images/uploads/wp/2010-11-24_better_look_eclipse.png)
 
 
 

@@ -65,7 +65,7 @@ Content中的asset可以在content pipeline中被我们调用。这是一个非�
 
 
 
-[![](/upload/2009-07-01_ExcludeTgas.JPG)](/upload/2009-07-01_ExcludeTgas.JPG)
+[![](/images/uploads/zb/2009-07-01_ExcludeTgas.JPG)](/images/uploads/zb/2009-07-01_ExcludeTgas.JPG)
 
 
 
@@ -96,4 +96,4 @@ Content中的asset可以在content pipeline中被我们调用。这是一个非�
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=158)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=158)

@@ -17,4 +17,4 @@ tags:
 
 
 
-[![](/wp-content/uploads/graduation.jpg)](/wp-content/uploads/graduation.jpg)
+[![](/images/uploads/wp/graduation.jpg)](/images/uploads/wp/graduation.jpg)

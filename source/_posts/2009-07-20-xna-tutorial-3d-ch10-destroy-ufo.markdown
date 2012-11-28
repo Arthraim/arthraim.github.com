@@ -36,12 +36,12 @@ tags:
 
 
 
-    
+
     else
     {
         TestCollision(missile);
     }
-    
+
 
 
 
@@ -60,7 +60,7 @@ tags:
 
 
 
-    
+
     void TestCollision(GameObject missile)
     {
         BoundingSphere missilesphere =
@@ -85,7 +85,7 @@ tags:
             }
         }
     }
-    
+
 
 
 
@@ -105,7 +105,7 @@ OK，编译运行，我们这个教程的最后一部分就完成了。（放效
 
 
 
-[![](/upload/2009-07-20_Runtime.jpg)](/upload/2009-07-20_Runtime.jpg)
+[![](/images/uploads/zb/2009-07-20_Runtime.jpg)](/images/uploads/zb/2009-07-20_Runtime.jpg)
 
 
 
@@ -115,4 +115,4 @@ OK，编译运行，我们这个教程的最后一部分就完成了。（放效
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=165)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=165)

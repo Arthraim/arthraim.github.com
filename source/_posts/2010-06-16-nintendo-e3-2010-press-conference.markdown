@@ -31,41 +31,41 @@ tags:
 - Zelda
 ---
 
-> 
-	
-> 
-> 
-		
+>
+
+>
+>
+
 >   * Legend of Zelda, Skyward Sword
-> 
-		
+>
+
 >   * NBA JAM
-> 
-		
+>
+
 >   * MARIO Sports Mix
-> 
-		
+>
+
 >   * GOLDEN SUN Dark Dawn
-> 
-		
+>
+
 >   * Golden Eye
-> 
-		
+>
+
 >   * Just Dance
-> 
-		
+>
+
 >   * Disney Epic Mickey
-> 
-		
+>
+
 >   * Kirby's Epic Yarn
-> 
-		
+>
+
 >   * Metroid: Other M
-> 
-		
+>
+
 >   * Donkey Kong Country Returns
-> 
-	
+>
+
 
 
 
@@ -81,38 +81,38 @@ tags:
 
 
 
-> 
-	
-> 
-> 
-		
+>
+
+>
+>
+
 >   * 上屏幕3.5寸宽屏
-> 
-		
+>
+
 >   * 上屏幕裸眼3D，不需要任何眼镜
-> 
-		
+>
+
 >   * 3D深度调节槽，可以条件3D的深度？
-> 
-		
+>
+
 >   * 下屏幕（只有下屏幕）是触摸屏
-> 
-		
+>
+
 >   * 图形性能大幅度替身，几乎达到wii的性能，或者接近ipad的机能
-> 
-		
+>
+
 >   * 左侧的像PSP一样的划片类比摇杆
-> 
-		
+>
+
 >   * 双摄像头（可以拍摄3D照片！！）
-> 
-		
+>
+
 >   * 盖上翻盖直接休眠
-> 
-		
+>
+
 >   * WIFI
-> 
-	
+>
+
 
 
 
@@ -123,41 +123,41 @@ tags:
 
 
 
-> 
-	
-> 
-> 
-		
+>
+
+>
+>
+
 >   * Kid Icarus
-> 
-		
+>
+
 >   * Nintendogs + Cats
-> 
-		
+>
+
 >   * KindomHearts 3D
-> 
-		
+>
+
 >   * Final Fantasy Franchise
-> 
-		
+>
+
 >   * Codename: Chocobo Racing 3D
-> 
-		
+>
+
 >   * Madden
-> 
-		
+>
+
 >   * FIFA Soccer
-> 
-		
+>
+
 >   * Resident Evil : Revelations
-> 
-		
+>
+
 >   * Super Street Fighter IV 3D edition
-> 
-		
+>
+
 >   * Metal Gear Solid Fanchise
-> 
-	
+>
+
 
 
 
@@ -168,7 +168,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/e3-2010-day-nintendo-3ds.jpg)](/wp-content/uploads/e3-2010-day-nintendo-3ds.jpg)
+[![](/images/uploads/wp/e3-2010-day-nintendo-3ds.jpg)](/images/uploads/wp/e3-2010-day-nintendo-3ds.jpg)
 
 
 

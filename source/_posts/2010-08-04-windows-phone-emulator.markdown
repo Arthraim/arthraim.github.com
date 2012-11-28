@@ -20,12 +20,12 @@ tags:
 
 
 
-[![](/wp-content/uploads/2010-08-04_Windows_Phone_Emulator.png)](/wp-content/uploads/2010-08-04_Windows_Phone_Emulator.png)[![](/wp-content/uploads/2010-08-04_Silverlight_Phone_hello_world.png)](/wp-content/uploads/2010-08-04_Silverlight_Phone_hello_world.png)[![](/wp-content/uploads/2010-08-04_Windows_Phone_Settings.png)](/wp-content/uploads/2010-08-04_Windows_Phone_Settings.png)[![](/wp-content/uploads/2010-08-04_Windows_Phone_Bing_Search.png)](/wp-content/uploads/2010-08-04_Windows_Phone_Bing_Search.png)
+[![](/images/uploads/wp/2010-08-04_Windows_Phone_Emulator.png)](/images/uploads/wp/2010-08-04_Windows_Phone_Emulator.png)[![](/images/uploads/wp/2010-08-04_Silverlight_Phone_hello_world.png)](/images/uploads/wp/2010-08-04_Silverlight_Phone_hello_world.png)[![](/images/uploads/wp/2010-08-04_Windows_Phone_Settings.png)](/images/uploads/wp/2010-08-04_Windows_Phone_Settings.png)[![](/images/uploads/wp/2010-08-04_Windows_Phone_Bing_Search.png)](/images/uploads/wp/2010-08-04_Windows_Phone_Bing_Search.png)
 
 
 
 
-[![](/wp-content/uploads/2010-08-04_Windows_Phone_Silverlight_IDE.png)](/wp-content/uploads/2010-08-04_Windows_Phone_Silverlight_IDE.png)
+[![](/images/uploads/wp/2010-08-04_Windows_Phone_Silverlight_IDE.png)](/images/uploads/wp/2010-08-04_Windows_Phone_Silverlight_IDE.png)
 
 
 

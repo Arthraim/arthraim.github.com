@@ -15,12 +15,12 @@ tags:
 - Sun
 ---
 
-![](/upload/2009-04-21_jiagu.png)
+![](/images/uploads/zb/2009-04-21_jiagu.png)
 
 
 
 
-![](/upload/2009-04-21_oracle_sun_logo.png)
+![](/images/uploads/zb/2009-04-21_oracle_sun_logo.png)
 
 
 

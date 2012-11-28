@@ -24,7 +24,7 @@ tags:
 
 
 
-![](/upload/2010-01-31_douban_fm_bookmarklet.png)
+![](/images/uploads/zb/2010-01-31_douban_fm_bookmarklet.png)
 
 
 
@@ -33,8 +33,8 @@ tags:
 
 
 
-    
-    
+
+
     javascript:if(!window.open('http://douban.fm/radio','radiowin','height=186,width=420,toolbar=no,menubar=no,scrollbars=no,location=no,status=no')){location.href='http://douban.fm/radio'}
 
 

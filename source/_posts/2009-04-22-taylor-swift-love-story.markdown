@@ -15,7 +15,7 @@ tags:
 - 歌词
 ---
 
-![](/upload/taylor-swift.jpg) 听歌总是习惯一阵一阵的，有时候喜欢一个歌手了就把他的专辑从头到尾一遍一遍放一整天，有时候觉得没有什么特别在意的音乐了就把所有的歌点歌shuffle乱起八糟的放着，有时候突然爱上一首歌就循环放三四天，尽管3、4天后不见得还知道歌词 - -
+![](/images/uploads/zb/taylor-swift.jpg) 听歌总是习惯一阵一阵的，有时候喜欢一个歌手了就把他的专辑从头到尾一遍一遍放一整天，有时候觉得没有什么特别在意的音乐了就把所有的歌点歌shuffle乱起八糟的放着，有时候突然爱上一首歌就循环放三四天，尽管3、4天后不见得还知道歌词 - -
 
 
 
@@ -44,7 +44,7 @@ tags:
 
 
 
-**音乐下载：  
+**音乐下载：
 
 **（我可不做违法乱纪的事情，免费下载我发Google的哈哈~ 人家是有版权的）
 
@@ -61,120 +61,120 @@ tags:
 
 
 
-> 
+>
 
-> 
-> We were both young when I first saw you   
+>
+> We were both young when I first saw you
 
-I close my eyes and the flashback starts   
+I close my eyes and the flashback starts
 
-I'm standing there on a balcony in summer air   
+I'm standing there on a balcony in summer air
 
-See the lights, see the party, the ball gowns   
+See the lights, see the party, the ball gowns
 
-See you make your way through the crowd   
+See you make your way through the crowd
 
-And say hello, little did I know   
+And say hello, little did I know
 
-  
 
-That you were Romeo, you were throwing pebbles   
 
-And my daddy said stay away from Juliet   
+That you were Romeo, you were throwing pebbles
 
-And I was crying on the staircase, begging you please don't go   
+And my daddy said stay away from Juliet
 
-  
+And I was crying on the staircase, begging you please don't go
 
-And I said   
 
-Romeo, take me somewhere we can be alone   
 
-I'll be waiting, all there's left to do is run   
+And I said
 
-You'll be the prince and I'll be the princess   
+Romeo, take me somewhere we can be alone
 
-It's a love story   
+I'll be waiting, all there's left to do is run
 
-Baby, just say yes   
+You'll be the prince and I'll be the princess
 
-  
+It's a love story
 
-So I sneak out to the garden to see you   
+Baby, just say yes
 
-We keep quiet 'cause we're dead if they knew   
 
-So close your eyes, escape this town for a little while   
 
-Oh, oh, oh   
+So I sneak out to the garden to see you
 
-'Cause you were Romeo, I was a scarlet letter   
+We keep quiet 'cause we're dead if they knew
 
-And my daddy said stay away from Juliet   
+So close your eyes, escape this town for a little while
 
-But you were everything to me, I was begging you please don't go   
+Oh, oh, oh
 
-  
+'Cause you were Romeo, I was a scarlet letter
 
-And I said   
+And my daddy said stay away from Juliet
 
-Romeo, take me somewhere we can be alone   
+But you were everything to me, I was begging you please don't go
 
-I'll be waiting, all there's left to do is run   
 
-You'll be the prince and I'll be the princess   
 
-It's a love story   
+And I said
 
-Baby, just say yes   
+Romeo, take me somewhere we can be alone
 
-Romeo, save me, they're trying to tell me how to feel   
+I'll be waiting, all there's left to do is run
 
-This love is difficult, but it's real   
+You'll be the prince and I'll be the princess
 
-Don't be afraid, we'll make it out of this mess   
+It's a love story
 
-It's a love story   
+Baby, just say yes
 
-Baby, just say yes   
+Romeo, save me, they're trying to tell me how to feel
 
-  
+This love is difficult, but it's real
 
-I got tired of waiting, wondering if you were ever coming around   
+Don't be afraid, we'll make it out of this mess
 
-my faith in you was fading   
+It's a love story
 
-When I met you on the outskirts of town   
+Baby, just say yes
 
-And I said   
 
-Romeo, save me, I've been feeling so alone   
 
-I keep waiting for you but you never come   
+I got tired of waiting, wondering if you were ever coming around
 
-Is this in my head, I don't know what to think   
+my faith in you was fading
 
-he knelt to the ground and pulled out a ring   
+When I met you on the outskirts of town
 
-And said   
+And I said
 
-Marry me Juliet you'll never have to be alone   
+Romeo, save me, I've been feeling so alone
 
-I love you and that's all I really know   
+I keep waiting for you but you never come
 
-I talked to your dad you'll pick out a white dress   
+Is this in my head, I don't know what to think
 
-It's a love story   
+he knelt to the ground and pulled out a ring
 
-Baby, just say yes   
+And said
 
-  
+Marry me Juliet you'll never have to be alone
 
-Oh, oh, oh   
+I love you and that's all I really know
+
+I talked to your dad you'll pick out a white dress
+
+It's a love story
+
+Baby, just say yes
+
+
+
+Oh, oh, oh
 
 We were both young when I first saw you
-> 
-> 
+>
+>
 
 
 

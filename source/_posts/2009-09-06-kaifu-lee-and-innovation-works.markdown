@@ -18,7 +18,7 @@ Google中国的，被年轻人成为老师的李开复的离职在twitter上引�
 
 
 
-![](/upload/2009-09-06_chuangxingongchang.png)
+![](/images/uploads/zb/2009-09-06_chuangxingongchang.png)
 
 
 
@@ -28,7 +28,7 @@ Google中国的，被年轻人成为老师的李开复的离职在twitter上引�
 
 
 
-[![](/upload/2009-09-06_innovation_works.png)](http://www.innovation-works.com/index.asp)
+[![](/images/uploads/zb/2009-09-06_innovation_works.png)](http://www.innovation-works.com/index.asp)
 
 
 

@@ -17,7 +17,7 @@ tags:
 
 
 
-[![](/wp-content/uploads/wordpress_org.png)](/wp-content/uploads/wordpress_org.png)
+[![](/images/uploads/wp/wordpress_org.png)](/images/uploads/wp/wordpress_org.png)
 
 
 

@@ -13,7 +13,7 @@ tags:
 - Assembly
 ---
 
-![](/upload/2009-08-11_proof_of_concept.jpg) 是否还记得这篇《[世界编程大赛第一名的3D程序](http://arthraim.cn/post/2009/07/86.html)》，介绍了一个1997只有4k 的强大程序。当时没有查到任何关于这个比赛的资料，今天才知道Assembly中还是有类似的项目 conbined 4k。今天我在[这个est's blog 这个博客](http://initiative.yo2.cn/archives/641917)看到了[Assembly 2009](http://www.pouet.net/party.php?which=7&when=2009)比赛的最终结果。Conbined 4k 的 1st 的作品也很强大，提供了1080p的效果也只有4k，只是我的电脑运行不起来而已。est's blog的博主重点介绍了combined 64k的项目<strike>冠军</strike>2nd作品。来自[Evoflash](http://www.pouet.net/groups.php?which=6463)的作品 ---- [proof of concept](http://www.pouet.net/prod.php?which=53656)。
+![](/images/uploads/zb/2009-08-11_proof_of_concept.jpg) 是否还记得这篇《[世界编程大赛第一名的3D程序](http://arthraim.cn/post/2009/07/86.html)》，介绍了一个1997只有4k 的强大程序。当时没有查到任何关于这个比赛的资料，今天才知道Assembly中还是有类似的项目 conbined 4k。今天我在[这个est's blog 这个博客](http://initiative.yo2.cn/archives/641917)看到了[Assembly 2009](http://www.pouet.net/party.php?which=7&when=2009)比赛的最终结果。Conbined 4k 的 1st 的作品也很强大，提供了1080p的效果也只有4k，只是我的电脑运行不起来而已。est's blog的博主重点介绍了combined 64k的项目<strike>冠军</strike>2nd作品。来自[Evoflash](http://www.pouet.net/groups.php?which=6463)的作品 ---- [proof of concept](http://www.pouet.net/prod.php?which=53656)。
 
 
 
@@ -37,7 +37,7 @@ tags:
 
 
 
-这个flash的标准大小是800×600，所以在文章里无法正常观看。你可以打开[这个页面](/upload/evo-poc.swf)观看视频。
+这个flash的标准大小是800×600，所以在文章里无法正常观看。你可以打开[这个页面](/images/uploads/zb/evo-poc.swf)观看视频。
 
 
 

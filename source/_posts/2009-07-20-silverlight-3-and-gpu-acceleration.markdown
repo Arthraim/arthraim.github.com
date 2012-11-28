@@ -46,7 +46,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-    
+
     <Canvas x:Name="LayoutRoot" Background="White">
     <TextBlock Width="800" Height="25"
         Canvas.Top="10" Canvas.Left="10"
@@ -75,7 +75,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-[![](/upload/2009-07-20_GPUacceleration1.png)](/upload/2009-07-20_GPUacceleration1.png)
+[![](/images/uploads/zb/2009-07-20_GPUacceleration1.png)](/images/uploads/zb/2009-07-20_GPUacceleration1.png)
 
 
 
@@ -92,7 +92,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-    
+
     <param name="EnableGPUAcceleration" value="true" />
 
 
@@ -102,7 +102,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-    
+
     <param name="EnableCacheVisualization" value="true" />
 
 
@@ -113,7 +113,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-[![](/upload/2009-07-20_GPUacceleration2.png)](/upload/2009-07-20_GPUacceleration2.png)
+[![](/images/uploads/zb/2009-07-20_GPUacceleration2.png)](/images/uploads/zb/2009-07-20_GPUacceleration2.png)
 
 
 
@@ -130,7 +130,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-    
+
     <MediaElement Width="640" Height="272"
         Canvas.Top="40" Canvas.Left="180"
         Source="http://localhost/H264_example.mp4"
@@ -144,7 +144,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-[![](/upload/2009-07-20_GPUacceleration3.png)](/upload/2009-07-20_GPUacceleration3.png)
+[![](/images/uploads/zb/2009-07-20_GPUacceleration3.png)](/images/uploads/zb/2009-07-20_GPUacceleration3.png)
 
 
 
@@ -180,7 +180,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-[![](/upload/2009-07-20_GPUacceleration5.jpg)](/upload/2009-07-20_GPUacceleration5.jpg)
+[![](/images/uploads/zb/2009-07-20_GPUacceleration5.jpg)](/images/uploads/zb/2009-07-20_GPUacceleration5.jpg)
 
 
 
@@ -203,7 +203,7 @@ UI元素我们简单一些，用MediaElement来播放一段视频。起初用了
 
 
 
-[![](/upload/2009-07-20_GPUacceleration4.png)](/upload/2009-07-20_GPUacceleration4.png)
+[![](/images/uploads/zb/2009-07-20_GPUacceleration4.png)](/images/uploads/zb/2009-07-20_GPUacceleration4.png)
 
 
 

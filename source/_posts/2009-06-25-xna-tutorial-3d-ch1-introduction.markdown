@@ -82,4 +82,4 @@ tags:
 
 
 
-[![](/upload/2009-06-27_Glance.jpg)](/upload/2009-06-27_Glance.jpg)
+[![](/images/uploads/zb/2009-06-27_Glance.jpg)](/images/uploads/zb/2009-06-27_Glance.jpg)

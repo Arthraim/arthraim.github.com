@@ -21,7 +21,7 @@ Google图片变了不少哦，今天又注意到了一个很强大的变化～ �
 
 
 
-![](/upload/2009-04-18_before.JPG)
+![](/images/uploads/zb/2009-04-18_before.JPG)
 
 
 
@@ -31,7 +31,7 @@ Google图片变了不少哦，今天又注意到了一个很强大的变化～ �
 
 
 
-![](/upload/2009-04-18_after.JPG)
+![](/images/uploads/zb/2009-04-18_after.JPG)
 
 
 
@@ -44,7 +44,7 @@ Google图片变了不少哦，今天又注意到了一个很强大的变化～ �
 
 
 
-![](/upload/2009-04-18_imagegooglecn.JPG)
+![](/images/uploads/zb/2009-04-18_imagegooglecn.JPG)
 
 
 
@@ -54,12 +54,12 @@ Google图片变了不少哦，今天又注意到了一个很强大的变化～ �
 
 
 
-![](/upload/2009-04-18_cnbefore.JPG)
+![](/images/uploads/zb/2009-04-18_cnbefore.JPG)
 
 
 
 
-![](/upload/2009-04-18_cnafter.JPG)
+![](/images/uploads/zb/2009-04-18_cnafter.JPG)
 
 
 

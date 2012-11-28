@@ -24,7 +24,7 @@ tags:
 
 
 
-![](/upload/2009-05-13_AxumInstall1.png)
+![](/images/uploads/zb/2009-05-13_AxumInstall1.png)
 
 
 
@@ -42,7 +42,7 @@ tags:
 
 
 
-![](/upload/2009-05-13_vs2008axum1.png)
+![](/images/uploads/zb/2009-05-13_vs2008axum1.png)
 
 
 
@@ -68,7 +68,7 @@ tags:
 
 
 
-![](/upload/2009-05-13_GenerateCode.png)
+![](/images/uploads/zb/2009-05-13_GenerateCode.png)
 
 
 
@@ -89,7 +89,7 @@ tags:
 
 
 
-![](/upload/2009-05-13_Programmer_Guide.png)
+![](/images/uploads/zb/2009-05-13_Programmer_Guide.png)
 
 
 
@@ -107,7 +107,7 @@ tags:
 
 
 
-![](/upload/2009-05-13_HelloAxum.png)
+![](/images/uploads/zb/2009-05-13_HelloAxum.png)
 
 
 
@@ -117,7 +117,7 @@ tags:
 
 
 
-![](/upload/2009-05-13_bin.png)
+![](/images/uploads/zb/2009-05-13_bin.png)
 
 
 

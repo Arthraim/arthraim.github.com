@@ -31,13 +31,13 @@ twitter官方提供有一个widget，只要稍加修改就可以结合到自己�
 
 
 
-![](/upload/rensea_logo.png)
+![](/images/uploads/zb/rensea_logo.png)
 
 
 
 
 
-	
+
   * null
 
 
@@ -55,7 +55,7 @@ twitter官方提供有一个widget，只要稍加修改就可以结合到自己�
 
 
 
-    
+
     function renseaCallback(statuss) {
         var statusHTML = [];
         for (var i=0; i<statuss.length; i++){
@@ -77,7 +77,7 @@ twitter官方提供有一个widget，只要稍加修改就可以结合到自己�
 
 
 
-    
+
     <ul id="rensea_update_list"></ul>
     <script type="text/javascript" src="rensea.js"></script>
     <script type="text/javascript" src="http://rensea.com/statuses/user_timeline/arthraim.json?callback=renseaCallback&count=20"></script>

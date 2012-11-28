@@ -27,4 +27,4 @@ tags:
 
 
 
-[![](/upload/2009-10-24_Google_Wave_invite.png)](/upload/2009-10-24_Google_Wave_invite.png)
+[![](/images/uploads/zb/2009-10-24_Google_Wave_invite.png)](/images/uploads/zb/2009-10-24_Google_Wave_invite.png)

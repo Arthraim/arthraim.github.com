@@ -30,7 +30,7 @@ tags:
 
 
 
-[![](/upload/2009-08-17_EphurArthraim.jpg)](/upload/2009-08-17_EphurArthraim.jpg)
+[![](/images/uploads/zb/2009-08-17_EphurArthraim.jpg)](/images/uploads/zb/2009-08-17_EphurArthraim.jpg)
 
 
 

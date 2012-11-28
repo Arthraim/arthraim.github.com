@@ -61,7 +61,7 @@ tags:
 
 
 
-![](/upload/2009-05-20_Package.png)
+![](/images/uploads/zb/2009-05-20_Package.png)
 
 
 
@@ -76,7 +76,7 @@ tags:
 
 
 
-![](/upload/2009-05-18_perl_needed.png)
+![](/images/uploads/zb/2009-05-18_perl_needed.png)
 
 
 
@@ -86,7 +86,7 @@ tags:
 
 
 
-![](/upload/2009-05-18_Big!.png)
+![](/images/uploads/zb/2009-05-18_Big!.png)
 
 
 
@@ -96,7 +96,7 @@ tags:
 
 
 
-![](/upload/2009-05-18_JAVAsupport.png)
+![](/images/uploads/zb/2009-05-18_JAVAsupport.png)
 
 
 
@@ -114,7 +114,7 @@ tags:
 
 
 
-![](/upload/2009-05-20_GUIdesign.png)
+![](/images/uploads/zb/2009-05-20_GUIdesign.png)
 
 
 
@@ -127,7 +127,7 @@ tags:
 
 
 
-![](/upload/2009-05-20_HelloWorld.png)
+![](/images/uploads/zb/2009-05-20_HelloWorld.png)
 
 
 
@@ -142,7 +142,7 @@ tags:
 
 
 
-![](/upload/2009-05-20_HelloWorld_onPhone.jpg)
+![](/images/uploads/zb/2009-05-20_HelloWorld_onPhone.jpg)
 
 
 
@@ -155,4 +155,4 @@ tags:
 
 
 
-![](/upload/Scr000001.jpg)
+![](/images/uploads/zb/Scr000001.jpg)

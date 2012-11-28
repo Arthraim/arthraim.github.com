@@ -14,7 +14,7 @@ tags:
 - Microsoft
 ---
 
-![](/upload/dd795202.AXUM_banner(en-us).png)
+![](/images/uploads/zb/dd795202.AXUM_banner(en-us).png)
 
 微软发布了最新的.net编程语言----Axum。主要针对Windows7，不知道具体带给了我们什么不一样的东西，小心的窥探一下先。
 

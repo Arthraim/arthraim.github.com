@@ -13,7 +13,7 @@ tags:
 - PSN
 ---
 
-![](/upload/psn1.jpg)很不幸，在前段时间遭遇了PSN账号（美服）的0x8002A231错误，即是在使用PSN账号登陆时，弹出0x8002A231错误提示无法登陆。当然第一反应就是Google it，在官方论坛上看到了这个帖子，于是按照这里的各种thread所描述的好好的对号入座了一把。大致原因可以确定为，某次支付非法，索尼没有在充值账户扣到相应的款项，所以**ban**掉了该账号。解决方法是使用PSN注册邮箱发送Email联系客服psn_account_support@playstation.sony.com，并且提供相应的信息，接受调查，以达到解封的目的。
+![](/images/uploads/zb/psn1.jpg)很不幸，在前段时间遭遇了PSN账号（美服）的0x8002A231错误，即是在使用PSN账号登陆时，弹出0x8002A231错误提示无法登陆。当然第一反应就是Google it，在官方论坛上看到了这个帖子，于是按照这里的各种thread所描述的好好的对号入座了一把。大致原因可以确定为，某次支付非法，索尼没有在充值账户扣到相应的款项，所以**ban**掉了该账号。解决方法是使用PSN注册邮箱发送Email联系客服psn_account_support@playstation.sony.com，并且提供相应的信息，接受调查，以达到解封的目的。
 
 
 
@@ -55,7 +55,7 @@ tags:
 
 
 
-I got a 8002A231 error. I googled it and realized that I may got cheated by the seller on C2C who gave me 10% off. I'm not sure how he did, but I got my money on my PSN account. Also I'm not sure if the error is caused by this.  
+I got a 8002A231 error. I googled it and realized that I may got cheated by the seller on C2C who gave me 10% off. I'm not sure how he did, but I got my money on my PSN account. Also I'm not sure if the error is caused by this.
 
 I wanna my account back, there's about $80 on my account and it's prepared for Hustle Kings and PES2010, please give me an anwser. Thank you.
 
@@ -74,13 +74,13 @@ I wanna my account back, there's about $80 on my account and it's prepared for H
 
 
 
-Thank you for contacting Sony Computer Entertainment America (SCEA).  
+Thank you for contacting Sony Computer Entertainment America (SCEA).
 
-  
 
-You have received this auto-acknowledgement to confirm that we received your message. Please rest assured we will investigate this issue and respond to your message within 2 business days.  
 
-  
+You have received this auto-acknowledgement to confirm that we received your message. Please rest assured we will investigate this issue and respond to your message within 2 business days.
+
+
 
 NOTE: This mailbox is only for PLAYSTATION(R)Network account research questions. General questions (i.e., warranty, troubleshooting, etc.) will not be answered from this mailbox.
 
@@ -144,43 +144,43 @@ NOTE: This mailbox is only for PLAYSTATION(R)Network account research questions.
 
 
 
-Hello Consumer,  
+Hello Consumer,
 
-  
 
-Your concerns have been heard regarding your PlayStation(R)Network account.  
 
-  
+Your concerns have been heard regarding your PlayStation(R)Network account.
 
-In order for us to assist you with your PLAYSTATION(R)Network account, please email us the following information.   
 
-  
 
-- Your Sign-In ID (registered PSN email address):  
+In order for us to assist you with your PLAYSTATION(R)Network account, please email us the following information.
 
-- Your Online ID:  
 
-- Phone Number with Area Code:  
 
-- Registered Name (first and last name, exactly as entered in your PLAYSTATION Network account settings):  
+- Your Sign-In ID (registered PSN email address):
 
-- Complete Registered Mailing Address (include Zip Code):  
+- Your Online ID:
 
-- Date of Birth (MM/DD/YEAR):   
+- Phone Number with Area Code:
 
-- The approximate date that your account was created:  
+- Registered Name (first and last name, exactly as entered in your PLAYSTATION Network account settings):
 
-- How long have you had the PLAYSTATION(R)3 computer entertainment system:  
+- Complete Registered Mailing Address (include Zip Code):
 
-- Have you shared your PSN account(s) with others, &/or gotten access to other's PSN account(s):  
+- Date of Birth (MM/DD/YEAR):
 
-  
+- The approximate date that your account was created:
 
-Once we receive this information, we will research this issue further and provide a resolution within 72 business hours.  
+- How long have you had the PLAYSTATION(R)3 computer entertainment system:
 
-  
+- Have you shared your PSN account(s) with others, &/or gotten access to other's PSN account(s):
 
-Regards,  
+
+
+Once we receive this information, we will research this issue further and provide a resolution within 72 business hours.
+
+
+
+Regards,
 
 Anthony R.
 
@@ -199,45 +199,45 @@ Anthony R.
 
 
 
-- Your Sign-In ID (registered PSN email address):  
+- Your Sign-In ID (registered PSN email address):
 
-[arthraim@qq.com](mailto:arthraim@qq.com)  
+[arthraim@qq.com](mailto:arthraim@qq.com)
 
-- Your Online ID:  
+- Your Online ID:
 
-arthraimUS  
+arthraimUS
 
-- Phone Number with Area Code:  
+- Phone Number with Area Code:
 
-86138******49 （我隐藏的）  
+86138******49 （我隐藏的）
 
-- Registered Name (first and last name, exactly as entered in your PLAYSTATION Network account settings):  
+- Registered Name (first and last name, exactly as entered in your PLAYSTATION Network account settings):
 
-Arthur Wang  
+Arthur Wang
 
-- Complete Registered Mailing Address (include Zip Code):  
+- Complete Registered Mailing Address (include Zip Code):
 
-I believe that my address infomation is fake....... so I can't remember it  
+I believe that my address infomation is fake....... so I can't remember it
 
-- Date of Birth (MM/DD/YEAR):   
+- Date of Birth (MM/DD/YEAR):
 
-**/**/19** （我隐藏的）  
+**/**/19** （我隐藏的）
 
-- The approximate date that your account was created:  
+- The approximate date that your account was created:
 
-I'm afraid I fogot... may be february or march this year.  
+I'm afraid I fogot... may be february or march this year.
 
-- How long have you had the PLAYSTATION(R)3 computer entertainment system:  
+- How long have you had the PLAYSTATION(R)3 computer entertainment system:
 
-I bought it on Feb.7th.2009  
+I bought it on Feb.7th.2009
 
-- Have you shared your PSN account(s) with others, &/or gotten access to other's PSN account(s):  
+- Have you shared your PSN account(s) with others, &/or gotten access to other's PSN account(s):
 
-Yes, there's a person on the internet had my account password for a while, before I gave him my password I changed it, after that I changed back to the old one. All the reason is that he can put $100 in my account and I only need to pay him 90.   
+Yes, there's a person on the internet had my account password for a while, before I gave him my password I changed it, after that I changed back to the old one. All the reason is that he can put $100 in my account and I only need to pay him 90.
 
-  
 
------------------- Original ------------------  
+
+------------------ Original ------------------
 
 FROM: "PSN Account Support"<[scea_rnt_psn_account_support@custhelp.com](mailto:scea_rnt_psn_account_support@custhelp.com)>;DATE: Sat, Nov 7, 2009 07:55 AMTO: "arthraim"<[arthraim@qq.com](mailto:arthraim@qq.com)>; SUBJECT: What's 0x8002A231 error [Incident: 091105-000721]
 
@@ -308,49 +308,49 @@ FROM: "PSN Account Support"<[scea_rnt_psn_account_support@custhelp.com](mailto:s
 
 
 
-Hello Arthur,  
+Hello Arthur,
 
-  
 
-Again we do apologize for any inconvenience regarding this account issue.  
 
-  
+Again we do apologize for any inconvenience regarding this account issue.
 
-Thank you for writing us concerning your account.  
 
-  
 
-According to our records, your account is banned due to a debt amount you owe in the amount of $100.00 If you wish to pay this debt you can mail in a money order or a check to the address below:  
+Thank you for writing us concerning your account.
 
-  
 
-SCEA  
 
-ATTN: Billing Dept:  
+According to our records, your account is banned due to a debt amount you owe in the amount of $100.00 If you wish to pay this debt you can mail in a money order or a check to the address below:
 
-PO BOX 5888  
 
-SAN MATEO, CA 94402-0888  
 
-  
+SCEA
 
-Please put the Service Request Number: 1-239407181 on the check or money order you mail in and make it payable to "Sony Computer".  
+ATTN: Billing Dept:
 
-  
+PO BOX 5888
 
-If you wish to speak to a specialist and get more information concerning your account. Please call our Consumer Services Toll-Free Phone: 866-286-5123.  
+SAN MATEO, CA 94402-0888
 
-  
 
-Please reference Service Request Number: 1-239407181  
 
-  
+Please put the Service Request Number: 1-239407181 on the check or money order you mail in and make it payable to "Sony Computer".
 
-Our hours of operation are: Monday through Friday, 7:30 a.m. - 5:30 p.m., Pacific Time  
 
-  
 
-Regards,  
+If you wish to speak to a specialist and get more information concerning your account. Please call our Consumer Services Toll-Free Phone: 866-286-5123.
+
+
+
+Please reference Service Request Number: 1-239407181
+
+
+
+Our hours of operation are: Monday through Friday, 7:30 a.m. - 5:30 p.m., Pacific Time
+
+
+
+Regards,
 
 Don K
 

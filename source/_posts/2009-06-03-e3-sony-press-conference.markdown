@@ -14,76 +14,76 @@ tags:
 - SONY
 ---
 
-> 
+>
 
-> 
-> 
+>
+>
 
 >   * Uncharted 2 among thieves
-> 
+>
 
 >   * MAG
-> 
+>
 
 >   * Gran Turismo PSP
-> 
+>
 
 >   * Gran Turismo 5
-> 
+>
 
 >   * Metal Gear Solid peace walker
-> 
+>
 
 >   * Metal Gear Solid Rising
-> 
+>
 
 >   * PSP GO!
-> 
+>
 
 >   * Final Fantasy XIII
-> 
+>
 
 >   * Final Fantasy XIV
-> 
+>
 
 >   * God of War 3
-> 
+>
 
 >   * 忍龙Sigam2
-> 
+>
 
 >   * Monster Hunter Portable
-> 
+>
 
 >   * Dissidia Final Fantasy
-> 
+>
 
 >   * SoulCalibur PSP
-> 
+>
 
 >   * Batman
-> 
+>
 
 >   * The Beatles: Rockband
-> 
+>
 
 >   * Heavy Rain
-> 
+>
 
 >   * Asassin's Creed II
-> 
+>
 
 >   * Eye toy
-> 
+>
 
 >   * Little Big Planet PSP
-> 
+>
 
 >   * Dante's Inferno
-> 
+>
 
 >   * TRICO Last Guardian
-> 
+>
 
 
 
@@ -110,22 +110,22 @@ FFXIV啊！我爱你！
 
 
 
-![](/upload/uncharted.jpg)
+![](/images/uploads/zb/uncharted.jpg)
 
 
 
 
-![](/upload/mag.jpg)
+![](/images/uploads/zb/mag.jpg)
 
 
 
 
-![](/upload/mgs_psp.jpg)
+![](/images/uploads/zb/mgs_psp.jpg)
 
 
 
 
-![](/upload/gtpsp.jpg)
+![](/images/uploads/zb/gtpsp.jpg)
 
 
 
@@ -133,19 +133,19 @@ FFXIV啊！我爱你！
 
 
 
-![](/upload/ff14.jpg)
+![](/images/uploads/zb/ff14.jpg)
 
 
 
 
-![](/upload/ff14_2.jpg)
+![](/images/uploads/zb/ff14_2.jpg)
 
 
 
 
-![](/upload/gt5.jpg)
+![](/images/uploads/zb/gt5.jpg)
 
 
 
 
-![](/upload/god_of_war3.jpg)
+![](/images/uploads/zb/god_of_war3.jpg)

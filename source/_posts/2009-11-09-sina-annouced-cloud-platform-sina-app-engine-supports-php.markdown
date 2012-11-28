@@ -24,7 +24,7 @@ PHP的普及还是相当可怕的，所以新浪这个方向的确是有其市�
 
 
 
-[![](/upload/2009-11-09_Sina_App_Engine.jpg)](/upload/2009-11-09_Sina_App_Engine.jpg)
+[![](/images/uploads/zb/2009-11-09_Sina_App_Engine.jpg)](/images/uploads/zb/2009-11-09_Sina_App_Engine.jpg)
 
 
 

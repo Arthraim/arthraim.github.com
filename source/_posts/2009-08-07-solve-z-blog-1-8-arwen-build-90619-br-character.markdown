@@ -76,8 +76,8 @@ Build 81206 的版本要插入pre，必须要注释掉去除换行符的代码�
 
 
 
-    
-    
+
+
     objArticle.Content=Replace(objArticle.Content,vbCrLf,"")
     objArticle.Content=Replace(objArticle.Content,vbLf,"")
     objArticle.Intro=Replace(objArticle.Intro,vbCrLf,"")
@@ -96,7 +96,7 @@ Build 81206 的版本要插入pre，必须要注释掉去除换行符的代码�
 
 
 
-[![](/upload/2009-08-07_update.jpg)](/upload/2009-08-07_update.jpg)
+[![](/images/uploads/zb/2009-08-07_update.jpg)](/images/uploads/zb/2009-08-07_update.jpg)
 
 
 
@@ -105,8 +105,8 @@ Build 81206 的版本要插入pre，必须要注释掉去除换行符的代码�
 
 
 
-    
-    
+
+
     Public Property Get HtmlContent
     HtmlContent=TransferHTML(UBBCode(Content,"[face][link][email][autolink][font][code][image][typeset][media][flash][key]"),"[html-japan][vbCrlf][upload]")
     End Property

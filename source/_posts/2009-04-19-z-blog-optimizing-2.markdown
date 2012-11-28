@@ -29,7 +29,7 @@ tags:
 
 
 
-![](/upload/2009-04-19_Powered_1.png)
+![](/images/uploads/zb/2009-04-19_Powered_1.png)
 
 
 
@@ -41,7 +41,7 @@ tags:
 
 
 
-    
+
     a#powered {
     background:url(img/Zblog-logo.png) no-repeat;
     display:block;
@@ -51,7 +51,7 @@ tags:
     margin:0 10px 0 5px;
     text-indent:-999em;
     }
-    
+
 
 
 
@@ -60,14 +60,14 @@ tags:
 
 
 
-    
+
     <a id="powered" href="http://www.rainbowsoft.org/">Z-Blog</a>
-    
 
 
 
 
-改了下路径而已～ 做到这里，我们补完计划的第一项就实施完毕了，如你们现在看到的一样，有了这个图标。![](/upload/2009-04-19_Powered.png)
+
+改了下路径而已～ 做到这里，我们补完计划的第一项就实施完毕了，如你们现在看到的一样，有了这个图标。![](/images/uploads/zb/2009-04-19_Powered.png)
 
 
 
@@ -87,10 +87,10 @@ tags:
 
 
 
-    
+
     <script language="javascript" src="<#ZC_BLOG_HOST#>themes/<#ZC_BLOG_THEME#>/SCRIPT/menu.js">
     </script>
-    
+
 
 
 
@@ -102,7 +102,7 @@ tags:
 
 
 
-    
+
     <div id="subscribe">
     <a id="feedrss" title="Subscribe to this blog..." href="http://feed.arthraim.cn/"><abbr title="Really Simple Syndication">RSS</abbr> feed</a>
     <ul id="feed_readers">
@@ -116,12 +116,12 @@ tags:
     <li id="inezha_reader"><a class="reader" title="Subscribe with iNezha"    href="http://inezha.com/add?url=http://feed.arthraim.cn/"><span>iNezha</span></a></li>
     </ul>
     </div>
-    
 
 
 
 
-好了然后就是图片，在我们这里也有，css的链接也是对的，这样全部做好之后就应该像我一样可以用了。![](/upload/2009-04-19_RSSpanel.png)
+
+好了然后就是图片，在我们这里也有，css的链接也是对的，这样全部做好之后就应该像我一样可以用了。![](/images/uploads/zb/2009-04-19_RSSpanel.png)
 
 
 
@@ -137,15 +137,15 @@ tags:
 
 
 
-刚好我装了两个相册，picaza和attachgallery，一个是看我的picasa相册（之前《[Z-blog的美化](http://arthraim.cn/post/2009/04/5.html)》里写到过），还有一个是只看上传的图片的相册，放在那里一堆刚好有些重复，不如就用下拉菜单把他们归到picture下面吧，看看怎么来做。  
+刚好我装了两个相册，picaza和attachgallery，一个是看我的picasa相册（之前《[Z-blog的美化](http://arthraim.cn/post/2009/04/5.html)》里写到过），还有一个是只看上传的图片的相册，放在那里一堆刚好有些重复，不如就用下拉菜单把他们归到picture下面吧，看看怎么来做。
 
-	 先要找的还是js代码，这次找不到真是笑掉大牙了，menu.js在刚才就用过了，里面附属的功能都用到了menu这个命名的功能怎么会找不到呢。所以文件就不用在意什么了，我们已经做好了。  
+	 先要找的还是js代码，这次找不到真是笑掉大牙了，menu.js在刚才就用过了，里面附属的功能都用到了menu这个命名的功能怎么会找不到呢。所以文件就不用在意什么了，我们已经做好了。
 
 	 需要做的是插入一段代码，把它变成下拉菜单啊。仔细一看原来的代码，恩又是很简单的，<li>里面套一层<ul>然后再在里面堆放<li>就好了，看看menu要那里改呢？恩，后台就可以，直接在后台写代码吧～
 
 
 
-    
+
     <li><a href="<%=ZC_BLOG_HOST%>">Index</a></li>
     <li><a href="#">Picture</a>
     <ul>
@@ -157,12 +157,12 @@ tags:
     <li><a href="<%=ZC_BLOG_HOST%>tags.asp">TagCloud</a></li>
     <li><a href="<%=ZC_BLOG_HOST%>search.asp">Search</a></li>
     <li><a href="<%=ZC_BLOG_HOST%>cmd.asp?act=login">Admin</a></li>
-    
 
 
 
 
-预览了一下着色好像不太对，不知道发表了怎么样。对了，话说加好这个代码就大功告成了，我们第三个项目也做完了。![](/upload/2009-04-19_MenuList.png)
+
+预览了一下着色好像不太对，不知道发表了怎么样。对了，话说加好这个代码就大功告成了，我们第三个项目也做完了。![](/images/uploads/zb/2009-04-19_MenuList.png)
 
 
 

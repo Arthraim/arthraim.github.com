@@ -23,7 +23,7 @@ tags:
 
 
 
-![](/upload/godaddy.jpg)
+![](/images/uploads/zb/godaddy.jpg)
 
 
 

@@ -19,7 +19,7 @@ Arthur（据说现在独立博客为了防止被非法转载都这么干）相�
 
 
 
-[     ![](/upload/AddOnStudioBanner.jpg)](/upload/AddOnStudioBanner.jpg)
+[     ![](/images/uploads/zb/AddOnStudioBanner.jpg)](/images/uploads/zb/AddOnStudioBanner.jpg)
 
 
 
@@ -67,7 +67,7 @@ Arthur（据说现在独立博客为了防止被非法转载都这么干）相�
 
 
 
-[     ![](/upload/2009-08-03_AddonForWOW.JPG)](/upload/2009-08-03_AddonForWOW.JPG)     [     ![](/upload/2009-08-03_AddonForWOW_UI.JPG)](/upload/2009-08-03_AddonForWOW_UI.JPG)
+[     ![](/images/uploads/zb/2009-08-03_AddonForWOW.JPG)](/images/uploads/zb/2009-08-03_AddonForWOW.JPG)     [     ![](/images/uploads/zb/2009-08-03_AddonForWOW_UI.JPG)](/images/uploads/zb/2009-08-03_AddonForWOW_UI.JPG)
 
 
 
@@ -77,7 +77,7 @@ Arthur（据说现在独立博客为了防止被非法转载都这么干）相�
 
 
 
-[     ![](/upload/2009-08-03_AddonForWOW_NewProject.JPG)](/upload/2009-08-03_AddonForWOW_NewProject.JPG)
+[     ![](/images/uploads/zb/2009-08-03_AddonForWOW_NewProject.JPG)](/images/uploads/zb/2009-08-03_AddonForWOW_NewProject.JPG)
 
 
 
@@ -87,7 +87,7 @@ Arthur（据说现在独立博客为了防止被非法转载都这么干）相�
 
 
 
-[     ![](/upload/2009-08-03_AddonForWOW_AllProjectInterface.JPG)](/upload/2009-08-03_AddonForWOW_AllProjectInterface.JPG)
+[     ![](/images/uploads/zb/2009-08-03_AddonForWOW_AllProjectInterface.JPG)](/images/uploads/zb/2009-08-03_AddonForWOW_AllProjectInterface.JPG)
 
 
 
@@ -97,7 +97,7 @@ Arthur（据说现在独立博客为了防止被非法转载都这么干）相�
 
 
 
-[     ![](/upload/2009-08-03_AddonForWOW_Runtime.JPG)](/upload/2009-08-03_AddonForWOW_Runtime.JPG)
+[     ![](/images/uploads/zb/2009-08-03_AddonForWOW_Runtime.JPG)](/images/uploads/zb/2009-08-03_AddonForWOW_Runtime.JPG)
 
 
 
@@ -120,7 +120,7 @@ Arthur（据说现在独立博客为了防止被非法转载都这么干）相�
 
 
 
-[     ![](/upload/2009-08-03_AddonForWOW_Property.JPG)](/upload/2009-08-03_AddonForWOW_Property.JPG)
+[     ![](/images/uploads/zb/2009-08-03_AddonForWOW_Property.JPG)](/images/uploads/zb/2009-08-03_AddonForWOW_Property.JPG)
 
 
 

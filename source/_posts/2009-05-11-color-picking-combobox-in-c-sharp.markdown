@@ -49,7 +49,7 @@ Good luck ;)
 
 
 
-![](/upload/2009-05-11_ColorComboBox.png)
+![](/images/uploads/zb/2009-05-11_ColorComboBox.png)
 
 
 
@@ -62,7 +62,7 @@ Good luck ;)
 
 
 
-![](/upload/2009-05-11_WordTypeColorSelect.png)
+![](/images/uploads/zb/2009-05-11_WordTypeColorSelect.png)
 
 
 
@@ -71,7 +71,7 @@ Good luck ;)
 
 
 
-    
+
     public partial class ColorComboBox : UserControl
     {
         private Color _SelectedColor;

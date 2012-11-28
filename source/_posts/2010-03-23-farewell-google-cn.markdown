@@ -18,4 +18,4 @@ tags:
 
 
 
-[![](/upload/2010-03-19_Google.cn.png)](/upload/2010-03-19_Google.cn.png)
+[![](/images/uploads/zb/2010-03-19_Google.cn.png)](/images/uploads/zb/2010-03-19_Google.cn.png)

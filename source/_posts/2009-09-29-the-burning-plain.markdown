@@ -16,7 +16,7 @@ tags:
 
 
 
-![](http://t.douban.com/lpic/s3581330.jpg) ![](/upload/The_burning_plain.jpg)
+![](http://t.douban.com/lpic/s3581330.jpg) ![](/images/uploads/zb/The_burning_plain.jpg)
 
 
 

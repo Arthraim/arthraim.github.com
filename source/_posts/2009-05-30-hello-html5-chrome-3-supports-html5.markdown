@@ -28,12 +28,12 @@ Chrome3.0.182.3已经可以下载了，并且除了其他的修改外，我们�
 
 
 
-![](/upload/2009-05-30_chrometwitter.png)
+![](/images/uploads/zb/2009-05-30_chrometwitter.png)
 
 
 
 
-![](/upload/2009-05-30_Chrome3.png)
+![](/images/uploads/zb/2009-05-30_Chrome3.png)
 
 
 

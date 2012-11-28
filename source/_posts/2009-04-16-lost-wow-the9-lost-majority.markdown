@@ -12,7 +12,7 @@ tags:
 - WOW
 ---
 
-![](/upload/wow-wrath-of-the-lich-king.jpg)
+![](/images/uploads/zb/wow-wrath-of-the-lich-king.jpg)
 
 
 
@@ -22,7 +22,7 @@ tags:
 
 
 
-![](/upload/blizzard-logo.png)
+![](/images/uploads/zb/blizzard-logo.png)
 
 
 
@@ -32,7 +32,7 @@ tags:
 
 
 
-![](/upload/the9_logo.jpg)
+![](/images/uploads/zb/the9_logo.jpg)
 
 
 
@@ -45,7 +45,7 @@ tags:
 
 
 
-![](/upload/neteasy_logo.jpg)
+![](/images/uploads/zb/neteasy_logo.jpg)
 
 
 
@@ -58,7 +58,7 @@ tags:
 
 
 
-![](/upload/20090416_zhujun.JPG)
+![](/images/uploads/zb/20090416_zhujun.JPG)
 
 
 
@@ -71,7 +71,7 @@ tags:
 
 
 
-![](/upload/qiubojun.jpg)
+![](/images/uploads/zb/qiubojun.jpg)
 
 
 
@@ -81,7 +81,7 @@ tags:
 
 
 
-![](/upload/MichaelMorhaime.JPG)
+![](/images/uploads/zb/MichaelMorhaime.JPG)
 
 
 

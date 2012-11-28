@@ -18,12 +18,12 @@ tags:
 
 
 
-[![](/upload/201001091052.jpg)](/upload/201001091052.jpg)
+[![](/images/uploads/zb/201001091052.jpg)](/images/uploads/zb/201001091052.jpg)
 
 
 
 
-[![](/upload/201001091053.jpg)](/upload/201001091053.jpg)
+[![](/images/uploads/zb/201001091053.jpg)](/images/uploads/zb/201001091053.jpg)
 
 
 

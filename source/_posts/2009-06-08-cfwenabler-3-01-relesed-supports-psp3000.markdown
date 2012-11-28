@@ -27,56 +27,56 @@ PSP3000的玩家最近似乎有些接受不了太多的现实，PSP3000的破解
 
 
 
-> 
+>
 
-> 
-> Changes?  
+>
+> Changes?
 
-- PSP 3000 is now supported.  
+- PSP 3000 is now supported.
 
-**- 现在支持PSP3000**  
+**- 现在支持PSP3000**
 
-- Graphical interface improved.  
+- Graphical interface improved.
 
-**- 图形界面升级**  
+**- 图形界面升级**
 
-- Network update option added (Server Needed)  
+- Network update option added (Server Needed)
 
-**- 网络升级选项增加（需要服务器）**  
+**- 网络升级选项增加（需要服务器）**
 
-- Official network update blocking option.  
+- Official network update blocking option.
 
-**- 禁止官方网络升级选项**  
+**- 禁止官方网络升级选项**
 
-- New configuration options.  
+- New configuration options.
 
-**- 新增设置选项**  
+**- 新增设置选项**
 
-- Free UMD Region.  
+- Free UMD Region.
 
-**- 自由UMD区域欺骗**  
+**- 自由UMD区域欺骗**
 
-- Pic0/Pic1 Hide.  
+- Pic0/Pic1 Hide.
 
-**- 可隐藏pic0/pic1（游戏菜单）**  
+**- 可隐藏pic0/pic1（游戏菜单）**
 
-- version.txt  
+- version.txt
 
-**- 支持version.txt**  
+**- 支持version.txt**
 
-- Registry Hacks.  
+- Registry Hacks.
 
-**- 注册信息（修改确认键，使flash,wav有效）**  
+**- 注册信息（修改确认键，使flash,wav有效）**
 
-- CPU overclocking.  
+- CPU overclocking.
 
-**- CPU超频（解除限制）**  
+**- CPU超频（解除限制）**
 
-- Solved several bugs.  
+- Solved several bugs.
 
 **- 解决几个bug**
-> 
-> 
+>
+>
 
 
 
@@ -87,22 +87,22 @@ PSP3000的玩家最近似乎有些接受不了太多的现实，PSP3000的破解
 
 
 
-![](/upload/20090608-cfwenabler1.png)
+![](/images/uploads/zb/20090608-cfwenabler1.png)
 
 
 
 
-![](/upload/20090608-cfwenabler2.png)
+![](/images/uploads/zb/20090608-cfwenabler2.png)
 
 
 
 
-![](/upload/20090608-cfwenabler4.png)
+![](/images/uploads/zb/20090608-cfwenabler4.png)
 
 
 
 
-![](/upload/20090608-cfwenabler5.png)
+![](/images/uploads/zb/20090608-cfwenabler5.png)
 
 
 

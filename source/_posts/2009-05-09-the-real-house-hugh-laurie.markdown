@@ -13,7 +13,7 @@ tags:
 - Hugh Laurie
 ---
 
-![](/upload/hugh_laurie_240x320.jpg)
+![](/images/uploads/zb/hugh_laurie_240x320.jpg)
 
 
 
@@ -93,22 +93,22 @@ Hugh Laurie - You Can't Always Get What You Want
 
 
 
-![](/upload/Hughlaurie(1).jpg)
+![](/images/uploads/zb/Hughlaurie(1).jpg)
 
 
 
 
-![](/upload/HughLaurie.jpg)
+![](/images/uploads/zb/HughLaurie.jpg)
 
 
 
 
-![](/upload/stuart_little_2_x.jpg)
+![](/images/uploads/zb/stuart_little_2_x.jpg)
 
 
 
 
-![](/upload/hughlaurie(2).jpg)
+![](/images/uploads/zb/hughlaurie(2).jpg)
 
 
 

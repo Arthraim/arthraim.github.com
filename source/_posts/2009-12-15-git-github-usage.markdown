@@ -45,7 +45,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     git config --global user.name "Your Real Name"
     git config --global user.email you@email.address
 
@@ -61,7 +61,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     git init
 
 
@@ -76,7 +76,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     git add .
 
 
@@ -91,7 +91,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     git commit -m 'first commit'
 
 
@@ -117,7 +117,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-![](/upload/2009-12-15_github_dashboard.jpg)
+![](/images/uploads/zb/2009-12-15_github_dashboard.jpg)
 
 
 
@@ -128,13 +128,13 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-	
+
   * Project Name（项目名称）
 
-	
+
   * Description（描述）
 
-	
+
   * Homepage URL（主页URL，一般就以项目名称命名好了）
 
 
@@ -149,7 +149,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     ssh-keygen -C 'your@email.address' -t rsa
 
 
@@ -164,7 +164,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     SSH -v git@github.com
 
 
@@ -174,7 +174,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     ERROR: Hi Arthraim! You've successfully authenticated, but GitHub does not provide shell access
 
 
@@ -204,7 +204,7 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-    
+
     git remote add origin git@github.com:你的github用户名/你的github项目名.git
     git push origin master
 
@@ -231,7 +231,7 @@ BTW：Github的社区感很好，体验很不错，怪不得有这么多人在gi
 
 
 
-[![](/upload/2009-12-15_github_hint.jpg)](/upload/2009-12-15_github_hint.jpg)
+[![](/images/uploads/zb/2009-12-15_github_hint.jpg)](/images/uploads/zb/2009-12-15_github_hint.jpg)
 
 
 
@@ -242,16 +242,16 @@ BTW：Github的社区感很好，体验很不错，怪不得有这么多人在gi
 
 
 
-	
+
   * [Getting Started with Git and GitHub on Windows](http://kylecordes.com/2008/04/30/git-windows-go/)
 
-	
+
   * [windows下使用git管理github项目](http://hi.baidu.com/mcspring/blog/item/171b1e38986d39fab211c71b.html)
 
-	
+
   * [Git使用指南](http://www.linuxgem.org/2008/8/1/git-tutorial.4889.html)
 
-	
+
   * [renjian-deck on Github](http://github.com/Arthraim/renjian-deck/)
 
 

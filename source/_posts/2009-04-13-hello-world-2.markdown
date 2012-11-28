@@ -27,4 +27,4 @@ tags:
 
 
 
-![](/upload/hello_world.png)
+![](/images/uploads/zb/hello_world.png)

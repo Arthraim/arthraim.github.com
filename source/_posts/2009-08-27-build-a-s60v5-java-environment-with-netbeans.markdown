@@ -62,7 +62,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_J2ME_s60v5.jpg)](/upload/2009-08-27_J2ME_s60v5.jpg)
+[![](/images/uploads/zb/2009-08-27_J2ME_s60v5.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5.jpg)
 
 
 
@@ -75,7 +75,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_J2ME_s60v5_2.jpg)](/upload/2009-08-27_J2ME_s60v5_2.jpg)
+[![](/images/uploads/zb/2009-08-27_J2ME_s60v5_2.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5_2.jpg)
 
 
 
@@ -88,7 +88,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_J2ME_s60v5_3.jpg)](/upload/2009-08-27_J2ME_s60v5_3.jpg)
+[![](/images/uploads/zb/2009-08-27_J2ME_s60v5_3.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5_3.jpg)
 
 
 
@@ -101,7 +101,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_J2ME_s60v5_4.jpg)](/upload/2009-08-27_J2ME_s60v5_4.jpg) [![](/upload/2009-08-27_J2ME_s60v5_5.jpg)](/upload/2009-08-27_J2ME_s60v5_5.jpg)
+[![](/images/uploads/zb/2009-08-27_J2ME_s60v5_4.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5_4.jpg) [![](/images/uploads/zb/2009-08-27_J2ME_s60v5_5.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5_5.jpg)
 
 
 
@@ -114,7 +114,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_J2ME_s60v5_6.jpg)](/upload/2009-08-27_J2ME_s60v5_6.jpg) [![](/upload/2009-08-27_J2ME_s60v5_7.jpg)](/upload/2009-08-27_J2ME_s60v5_7.jpg)
+[![](/images/uploads/zb/2009-08-27_J2ME_s60v5_6.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5_6.jpg) [![](/images/uploads/zb/2009-08-27_J2ME_s60v5_7.jpg)](/images/uploads/zb/2009-08-27_J2ME_s60v5_7.jpg)
 
 
 
@@ -127,7 +127,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_New_project.jpg)](/upload/2009-08-27_New_project.jpg)
+[![](/images/uploads/zb/2009-08-27_New_project.jpg)](/images/uploads/zb/2009-08-27_New_project.jpg)
 
 
 
@@ -140,7 +140,7 @@ tags:
 
 
 
-[![](/upload/2009-08-27_runtime.jpg)](/upload/2009-08-27_runtime.jpg)
+[![](/images/uploads/zb/2009-08-27_runtime.jpg)](/images/uploads/zb/2009-08-27_runtime.jpg)
 
 
 

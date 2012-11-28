@@ -14,7 +14,7 @@ tags:
 - 教程
 ---
 
-[![](/upload/XNA_logo.jpg)](/upload/XNA_logo.jpg)
+[![](/images/uploads/zb/XNA_logo.jpg)](/images/uploads/zb/XNA_logo.jpg)
 
 
 

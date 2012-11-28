@@ -26,7 +26,7 @@ _atari2600_
 
 
 
-![](/upload/atari_2600_cake.jpg)
+![](/images/uploads/zb/atari_2600_cake.jpg)
 
 
 
@@ -36,4 +36,4 @@ _FF1的城堡_
 
 
 
-![](/upload/ff_cake.jpg)
+![](/images/uploads/zb/ff_cake.jpg)

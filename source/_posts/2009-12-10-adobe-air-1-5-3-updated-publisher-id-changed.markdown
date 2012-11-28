@@ -17,7 +17,7 @@ tags:
 
 
 
-![](/upload/sidebar-logo2.gif)
+![](/images/uploads/zb/sidebar-logo2.gif)
 
 
 

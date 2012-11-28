@@ -59,4 +59,4 @@ tags:
 
 
 
-![](/upload/090604023545765.jpg)
+![](/images/uploads/zb/090604023545765.jpg)

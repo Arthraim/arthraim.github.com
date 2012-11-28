@@ -47,7 +47,7 @@ tags:
 
 
 
-[![](/upload/fengyun2_01_bujingyun.jpg)](/upload/fengyun2_01_bujingyun.jpg)[![](/upload/fengyun2_02_niefeng.jpg)](/upload/fengyun2_02_niefeng.jpg)[![](/upload/fengyun2_03_diermeng.jpg)](/upload/fengyun2_03_diermeng.jpg)[![](/upload/fengyun2_04_chuchu.jpg)](/upload/fengyun2_04_chuchu.jpg)[![](/upload/fengyun2_05_wuming.jpg)](/upload/fengyun2_05_wuming.jpg)[![](/upload/fengyun2_06_juewushen.jpg)](/upload/fengyun2_06_juewushen.jpg)[![](/upload/fengyun2_07_juexin.jpg)](/upload/fengyun2_07_juexin.jpg)
+[![](/images/uploads/zb/fengyun2_01_bujingyun.jpg)](/images/uploads/zb/fengyun2_01_bujingyun.jpg)[![](/images/uploads/zb/fengyun2_02_niefeng.jpg)](/images/uploads/zb/fengyun2_02_niefeng.jpg)[![](/images/uploads/zb/fengyun2_03_diermeng.jpg)](/images/uploads/zb/fengyun2_03_diermeng.jpg)[![](/images/uploads/zb/fengyun2_04_chuchu.jpg)](/images/uploads/zb/fengyun2_04_chuchu.jpg)[![](/images/uploads/zb/fengyun2_05_wuming.jpg)](/images/uploads/zb/fengyun2_05_wuming.jpg)[![](/images/uploads/zb/fengyun2_06_juewushen.jpg)](/images/uploads/zb/fengyun2_06_juewushen.jpg)[![](/images/uploads/zb/fengyun2_07_juexin.jpg)](/images/uploads/zb/fengyun2_07_juexin.jpg)
 
 
 
@@ -57,7 +57,7 @@ tags:
 
 
 
-[![](/upload/fengyun2_s01.jpg)](/upload/fengyun2_s01.jpg)[![](/upload/fengyun2_s02.jpg)](/upload/fengyun2_s02.jpg)[![](/upload/fengyun2_s03.jpg)](/upload/fengyun2_s03.jpg)[![](/upload/fengyun2_s04.jpg)](/upload/fengyun2_s04.jpg)
+[![](/images/uploads/zb/fengyun2_s01.jpg)](/images/uploads/zb/fengyun2_s01.jpg)[![](/images/uploads/zb/fengyun2_s02.jpg)](/images/uploads/zb/fengyun2_s02.jpg)[![](/images/uploads/zb/fengyun2_s03.jpg)](/images/uploads/zb/fengyun2_s03.jpg)[![](/images/uploads/zb/fengyun2_s04.jpg)](/images/uploads/zb/fengyun2_s04.jpg)
 
 
 
@@ -67,7 +67,7 @@ tags:
 
 
 
-[![](/upload/fengyun2_poster01.jpg)](/upload/fengyun2_poster01.jpg)[![](/upload/fengyun2_poster02.jpg)](/upload/fengyun2_poster02.jpg)[![](/upload/fengyun2_poster03.jpg)](/upload/fengyun2_poster03.jpg)
+[![](/images/uploads/zb/fengyun2_poster01.jpg)](/images/uploads/zb/fengyun2_poster01.jpg)[![](/images/uploads/zb/fengyun2_poster02.jpg)](/images/uploads/zb/fengyun2_poster02.jpg)[![](/images/uploads/zb/fengyun2_poster03.jpg)](/images/uploads/zb/fengyun2_poster03.jpg)
 
 
 
@@ -77,4 +77,4 @@ tags:
 
 
 
-[![](/upload/fengyun2_original_01.jpg)](/upload/fengyun2_original_01.jpg)[![](/upload/fengyun2_original_02.jpg)](/upload/fengyun2_original_02.jpg)[![](/upload/fengyun2_original_03.jpg)](/upload/fengyun2_original_03.jpg)[![](/upload/fengyun2_original_04.jpg)](/upload/fengyun2_original_04.jpg)[![](/upload/fengyun2_original_05.jpg)](/upload/fengyun2_original_05.jpg)[![](/upload/fengyun2_original_06.jpg)](/upload/fengyun2_original_06.jpg)[![](/upload/fengyun2_original_07.jpg)](/upload/fengyun2_original_07.jpg)[![](/upload/fengyun2_original_08.jpg)](/upload/fengyun2_original_08.jpg)[![](/upload/fengyun2_original_09.jpg)](/upload/fengyun2_original_09.jpg)[![](/upload/fengyun2_original_10.jpg)](/upload/fengyun2_original_10.jpg)[![](/upload/fengyun2_original_11.jpg)](/upload/fengyun2_original_11.jpg)
+[![](/images/uploads/zb/fengyun2_original_01.jpg)](/images/uploads/zb/fengyun2_original_01.jpg)[![](/images/uploads/zb/fengyun2_original_02.jpg)](/images/uploads/zb/fengyun2_original_02.jpg)[![](/images/uploads/zb/fengyun2_original_03.jpg)](/images/uploads/zb/fengyun2_original_03.jpg)[![](/images/uploads/zb/fengyun2_original_04.jpg)](/images/uploads/zb/fengyun2_original_04.jpg)[![](/images/uploads/zb/fengyun2_original_05.jpg)](/images/uploads/zb/fengyun2_original_05.jpg)[![](/images/uploads/zb/fengyun2_original_06.jpg)](/images/uploads/zb/fengyun2_original_06.jpg)[![](/images/uploads/zb/fengyun2_original_07.jpg)](/images/uploads/zb/fengyun2_original_07.jpg)[![](/images/uploads/zb/fengyun2_original_08.jpg)](/images/uploads/zb/fengyun2_original_08.jpg)[![](/images/uploads/zb/fengyun2_original_09.jpg)](/images/uploads/zb/fengyun2_original_09.jpg)[![](/images/uploads/zb/fengyun2_original_10.jpg)](/images/uploads/zb/fengyun2_original_10.jpg)[![](/images/uploads/zb/fengyun2_original_11.jpg)](/images/uploads/zb/fengyun2_original_11.jpg)

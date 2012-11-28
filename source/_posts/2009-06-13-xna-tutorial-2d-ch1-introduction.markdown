@@ -14,7 +14,7 @@ tags:
 - 教程
 ---
 
-[![](/upload/2009-06-13_XNA_logo.jpg)](/upload/2009-06-13_XNA_logo.jpg)
+[![](/images/uploads/zb/2009-06-13_XNA_logo.jpg)](/images/uploads/zb/2009-06-13_XNA_logo.jpg)
 
 
 
@@ -44,7 +44,7 @@ tags:
 
 
 
-![](/upload/2009-06-13_2DGameDemo.jpg)
+![](/images/uploads/zb/2009-06-13_2DGameDemo.jpg)
 
 
 

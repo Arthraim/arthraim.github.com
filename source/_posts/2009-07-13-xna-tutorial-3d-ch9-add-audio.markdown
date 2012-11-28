@@ -40,7 +40,7 @@ tags:
 
 
 
-![](/upload/2009-07-13_XACTs.jpg)
+![](/images/uploads/zb/2009-07-13_XACTs.jpg)
 
 
 
@@ -50,7 +50,7 @@ tags:
 
 
 
-[![](/upload/2009-07-13_XactUserInterface.jpg)](/upload/2009-07-13_XactUserInterface.jpg)
+[![](/images/uploads/zb/2009-07-13_XactUserInterface.jpg)](/images/uploads/zb/2009-07-13_XactUserInterface.jpg)
 
 
 
@@ -78,12 +78,12 @@ tags:
 
 
 
-> 
+>
 
-> 
+>
 > ...TChapter8ContentAudioTAudio.xap
-> 
-> 
+>
+>
 
 
 
@@ -94,7 +94,7 @@ tags:
 
 
 
-![](/upload/2009-07-13_NewXactProject.jpg)
+![](/images/uploads/zb/2009-07-13_NewXactProject.jpg)
 
 
 
@@ -119,7 +119,7 @@ tags:
 
 
 
-[![](/upload/2009-07-13_NewWaveBand_NewSoundBand.jpg)](/upload/2009-07-13_NewWaveBand_NewSoundBand.jpg)
+[![](/images/uploads/zb/2009-07-13_NewWaveBand_NewSoundBand.jpg)](/images/uploads/zb/2009-07-13_NewWaveBand_NewSoundBand.jpg)
 
 
 
@@ -147,7 +147,7 @@ tags:
 
 
 
-[![](/upload/2009-07-13_AddWavesToWaveBand.jpg)](/upload/2009-07-13_AddWavesToWaveBand.jpg)
+[![](/images/uploads/zb/2009-07-13_AddWavesToWaveBand.jpg)](/images/uploads/zb/2009-07-13_AddWavesToWaveBand.jpg)
 
 
 
@@ -157,7 +157,7 @@ tags:
 
 
 
-[![](/upload/2009-07-13_Waves.jpg)](/upload/2009-07-13_Waves.jpg)
+[![](/images/uploads/zb/2009-07-13_Waves.jpg)](/images/uploads/zb/2009-07-13_Waves.jpg)
 
 
 
@@ -167,7 +167,7 @@ tags:
 
 
 
-[![](/upload/2009-07-13_AfterAddedWaves.jpg)](/upload/2009-07-13_AfterAddedWaves.jpg)
+[![](/images/uploads/zb/2009-07-13_AfterAddedWaves.jpg)](/images/uploads/zb/2009-07-13_AfterAddedWaves.jpg)
 
 
 
@@ -185,7 +185,7 @@ tags:
 
 
 
-[![](/upload/2009-07-13_AddWavesToCue.jpg)](/upload/2009-07-13_AddWavesToCue.jpg)
+[![](/images/uploads/zb/2009-07-13_AddWavesToCue.jpg)](/images/uploads/zb/2009-07-13_AddWavesToCue.jpg)
 
 
 
@@ -223,7 +223,7 @@ Wave, Sound, Cue是XACT中涉及的重要的概念，如上图我们是这样的
 
 
 
-[![](/upload/2009-07-13_AddXactProjectToGs.jpg)](/upload/2009-07-13_AddXactProjectToGs.jpg)
+[![](/images/uploads/zb/2009-07-13_AddXactProjectToGs.jpg)](/images/uploads/zb/2009-07-13_AddXactProjectToGs.jpg)
 
 
 
@@ -233,7 +233,7 @@ Wave, Sound, Cue是XACT中涉及的重要的概念，如上图我们是这样的
 
 
 
-![](/upload/2009-07-13_AfterAddedXactProject.jpg)
+![](/images/uploads/zb/2009-07-13_AfterAddedXactProject.jpg)
 
 
 
@@ -270,8 +270,8 @@ Wave, Sound, Cue是XACT中涉及的重要的概念，如上图我们是这样的
 
 
 
-    
-    
+
+
     AudioEngine audioEngine;
     SoundBank soundBank;
     WaveBank waveBank;
@@ -293,8 +293,8 @@ Wave, Sound, Cue是XACT中涉及的重要的概念，如上图我们是这样的
 
 
 
-    
-    
+
+
     audioEngine = new AudioEngine(@"ContentAudioTAudio.xgs");
     waveBank = new WaveBank(audioEngine, @"ContentAudioWave Band.xwb");
     soundBank = new SoundBank(audioEngine, @"ContentAudioSound Band.xsb");
@@ -349,8 +349,8 @@ audioEngine中，不是使用了TAudio.xap这个文件，而是使用了TAudio.x
 
 
 
-    
-    
+
+
     audioEngine.Update();
 
 
@@ -370,8 +370,8 @@ audioEngine中，不是使用了TAudio.xap这个文件，而是使用了TAudio.x
 
 
 
-    
-    
+
+
     soundBank.PlayCue("missilelaunch");
 
 
@@ -393,7 +393,7 @@ audioEngine中，不是使用了TAudio.xap这个文件，而是使用了TAudio.x
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=163)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://creators.xna.com/downloads/?id=163)
 
 
 
@@ -426,42 +426,42 @@ audioEngine中，不是使用了TAudio.xap这个文件，而是使用了TAudio.x
 
 
 
-> 
+>
 
-> 
+>
 > 教程的这一部分将介绍包含在XNA Game Sudio中的一个新的程序----Microsoft Cross-Platform Audio Creation Tool，或者简称为XACT。
-> 
-> 
+>
+>
 
-> 
+>
 > 就像它的名字一样，XACT是一个跨平台的工具，制作音频输出用以Windows和Xbox360。XACT的设计允许音频独立于将要使用的平台来单独设计。
-> 
-> 
+>
+>
 
-> 
+>
 > XACT由两个主要部分组成：音频设计器（在这章节教程开始时你用到的图形化工具）和音频API（教程结束部分你会用到的代码）。音频设计器旨在允许任何一个为游戏设计音频的设计者可以进行操作，即便其不熟悉音频代码。
-> 
-> 
+>
+>
 
-> 
+>
 > 音频设计者使用所有原生的波形音频文件（.wav文件，被称为波（wave））。然后设计者组织这些波到声音（sound）形式，可以被让一个或多个波在各种时间和各种设定下被播放。最后，音频设计者组织声音到索引（Cue）形式。索引代表了在代码阶段可以访问的对象，并且相比实际的音频文件，更加接近游戏事件。
-> 
-> 
+>
+>
 
-> 
+>
 > 索引是暴露给程序员的，在合适的游戏事件发生时，使用XACT API调用索引播放。音频设计者同时可以设计一些运行时的参数，来修改播放的声音的音量或说是波幅，传递这些参数给程序员，使其能转化这些参数为游戏代码中的变量。
-> 
-> 
+>
+>
 
-> 
+>
 > 虽然起初看起来似乎有些复杂，但其优势可以在音频设计者要替换波形音频文件的时候，调整音频如何播放的时候，修改索引如何播放一个声音的时候，或改变设定的参数如何修改播放的声音的时候。音频设计者可以做所有的这些工作，而不必接触游戏源代码。
-> 
-> 
+>
+>
 
-> 
+>
 > XACT是一个快捷且灵活的工具，来添加健壮、饱满的音频到使用XNA Game Studio创建的游戏中。
-> 
-> 
+>
+>
 
 
 
@@ -475,47 +475,47 @@ audioEngine中，不是使用了TAudio.xap这个文件，而是使用了TAudio.x
 
 
 
-> 
+>
 
-> 
+>
 > XACT工程有很多的组成部分。虽然其中一些部分是可选的，但一个基本形式的XACT对象对于XACT工程组织音频到XACT API还是非常必要的。
-> 
-> 
+>
+>
 
-> 
+>
 > 每个XACT工程包含了一个或多个Wave Bank。一个Wave Bank是一些波形音频文件的集合，称为波（wave）。这些Wave Bank中的波不是由XACT API直接访问的。而是给音频设计者转换其成为声音（sound）的。
-> 
-> 
+>
+>
 
-> 
+>
 > 这些声音组织成为一个或多个Sound Bank。一个Sound Bank是一些声音的集合。声音是使用各种参数去播放一个或多个波的时候的须知（instruction），这些参数可以是控制循环，变换效果，波的随机选择，或者更多其它的。
-> 
-> 
+>
+>
 
-> 
+>
 > Sound Bank也同样可以包含索引（cue）。索引是播放声音的须知（instruction to play sounds）。索引调用特定的声音，或随机选择声音，这取决于音频设计者如何设定这个索引。
-> 
-> 
+>
+>
 
-> 
+>
 > 当一个XACT工程已经建立，sound bank和wave bank就被编译到文件中了，一起的还有一个全局设定文件（global setting file）包含了一些工程特定的信息。这些文件在运行时使用XNA Framewrok来调用。
-> 
-> 
+>
+>
 
-> 
+>
 > 在sound bank、wave bank和全局设定文件被加载到游戏中后，程序员可以调用SoundBank.PlayCue，传入音频设计者已经定义好的索引的名字，来播放任意一个sound bank中索引。这样会按照音频设计者设计的默认方式播放这些索引，而没有任何程序员掌握的控制条件。
-> 
-> 
+>
+>
 
-> 
+>
 > 要得到播放的索引更多颗粒化的操作，包括暂停、回复和停止的功能，程序员可以调用SoundBank.GetCue并且得到一个Cue对象。然后程序员可以根据需要调用Cue.Play，Cue.Stop，CuePause，和Cue.Resume。然而，这样使用Cue对象仍然需要谨慎一些。如果你创建的一个Cue对象在声明的时候存在范围的限制（比方说只声明在一个方法中），就不要把Cue对象存储到静态化存储空间中，就像类的数组或List集合，这些Cue对象会在程序溢出这个范围之后停止并释放。
-> 
-> 
+>
+>
 
-> 
+>
 > 在一个索引被封播放之后，XACT音频引擎的任务就完成了。这取决于索引和其相关联的声音的关系，以及声音和其相关联的波的关系，然后按照音频设计者设计的那样来播放相应声音和波。
-> 
-> 
+>
+>
 
 
 
@@ -529,62 +529,62 @@ audioEngine中，不是使用了TAudio.xap这个文件，而是使用了TAudio.x
 
 
 
-> 
+>
 
-> 
+>
 > 在XNA Game Studio游戏中播放音频需要加载XACT工程到XNA Framework内容管道（Content Pipline）中，编写加载XACT运行时输出文件所必要的代码，然后在游戏编译进程中XACT工程会被编译成为XACT输出文件。
-> 
-> 
+>
+>
 
-> 
+>
 > 音频内容和XNA Game Studio中大部分其他内容的形式不同。XACT处理生成的内容不像模型、贴图纹理或者字体那样在运行时使用ContentManager.Load方法加载。
-> 
-> 
+>
+>
 
-> 
+>
 > 取而代之的，是构造AudioEngine、SoundBank、和WaveBank这些XNA Framework中音频相关的类，用来加载编译后的音频文件。用正确的顺序加载这些文件，用名称和后缀定义它们都非常重要。否则，你可能会遇到错误。
-> 
-> 
+>
+>
 
-> 
+>
 > 要明白如何加载这些文件，那明白XACT工程编译后生成了什么文件就显得十分重要。
-> 
-> 
+>
+>
 
-> 
+>
 > XACT生成的第一个文件就是XACT工程文件（.xap）。这个文件是音频设计者在用音频设计工具保存音频工程时创建的。这个文件应该放置到Solution Explorer中，即把它添加到XNA Framework内容管道（Content Pipeline）的文件列表中去编译。
-> 
-> 
+>
+>
 
-> 
+>
 > 在编译开始后，内容管道把XACT工程文件编译成为一系列XACT输出文件。第一个生成的文件是全局设定文件（Global Settings File），默认命名为XACT工程文件一样的名字，扩展名为.xgs。如果XACT工程文件的名字是MyGameAudio.xap，那全局设定文件的默认的名字就是MyGameAudio.xgs。
-> 
-> 
+>
+>
 
-> 
+>
 > 编译过程之后会生成一个或多个wave bank文件，数量取决于音频设计者在XACT工程中添加的wave bank的数量。这些wave bank文件有一个后缀.xwb，并且由音频设计者在之前命名。默认的一个wave bank的输出文件名为Wave Bank.xwb。
-> 
-> 
+>
+>
 
-> 
+>
 > 编译过程还会生成一些sound bank文件，同样取决于音频设计者在XACT工程中添加的sound bank的数量。这些Sound bank文件有一个后缀.xsb，并且由音频设计者在之前命名。默认的一个sound bank的输出文件名为Sound Bank.xsb。
-> 
-> 
+>
+>
 
-> 
+>
 > 加载这些文件是初始化当使用XNA Framework播放音频时需要的代码对象的重要部分。加载工作表现为一步一步构造所有相关联的这些代码对象。全局设定文件用来构造AudioEngine。AudioEngine对象和wave bank文件同时使用，可以初始化一个WaveBank对象，而和sound bank文件一起使用，可以初始化一个SoundBank对象。
-> 
-> 
+>
+>
 
-> 
+>
 > 下面的插图解释了文件的一些关系，从音频设计者在设计时的形式，到通过内容管道编译时的形式，最终成为运行时游戏开始后被载入的形式。
-> 
-> 
+>
+>
 
-> 
-> [![](/upload/BG_4.8.5.4pd.png)](/upload/BG_4.8.5.4pd.png)
-> 
-> 
+>
+> [![](/images/uploads/zb/BG_4.8.5.4pd.png)](/images/uploads/zb/BG_4.8.5.4pd.png)
+>
+>
 
 
 

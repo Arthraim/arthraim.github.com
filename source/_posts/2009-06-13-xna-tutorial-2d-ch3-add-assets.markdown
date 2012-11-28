@@ -14,7 +14,7 @@ tags:
 - 教程
 ---
 
-[![](/upload/2009-06-13_WhatIsAssets.jpg)](/upload/2009-06-13_WhatIsAssets.jpg)
+[![](/images/uploads/zb/2009-06-13_WhatIsAssets.jpg)](/images/uploads/zb/2009-06-13_WhatIsAssets.jpg)
 
 
 
@@ -109,7 +109,7 @@ tags:
 
 
 
-[![](/upload/2009-06-13_AddAssets.jpg)](/upload/2009-06-13_AddAssets.jpg)
+[![](/images/uploads/zb/2009-06-13_AddAssets.jpg)](/images/uploads/zb/2009-06-13_AddAssets.jpg)
 
 
 
@@ -119,7 +119,7 @@ tags:
 
 
 
-[![](/upload/2009-06-13_AddedAssets.jpg)](/upload/2009-06-13_AddedAssets.jpg)
+[![](/images/uploads/zb/2009-06-13_AddedAssets.jpg)](/images/uploads/zb/2009-06-13_AddedAssets.jpg)
 
 
 
@@ -129,4 +129,4 @@ tags:
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)示例代码下载](http://creators.xna.com/downloads/?id=150)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)示例代码下载](http://creators.xna.com/downloads/?id=150)

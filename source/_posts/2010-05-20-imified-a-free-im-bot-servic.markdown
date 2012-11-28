@@ -18,7 +18,7 @@ Google中游荡的时候发现了这个网站，[imified](http://imified.com)。
 
 
 
-[![](/wp-content/uploads/logo_shine.png)](/wp-content/uploads/logo_shine.png)
+[![](/images/uploads/wp/logo_shine.png)](/images/uploads/wp/logo_shine.png)
 
 
 
@@ -27,7 +27,7 @@ Google中游荡的时候发现了这个网站，[imified](http://imified.com)。
 
 
 
-    
+
     <?php
     $msg=$_REQUEST['msg'];
     $step=$_REQUEST['step'];
@@ -51,7 +51,7 @@ Google中游荡的时候发现了这个网站，[imified](http://imified.com)。
     	break;
     	}
     }
-    ?> 
+    ?>
 
 
 
@@ -61,7 +61,7 @@ Google中游荡的时候发现了这个网站，[imified](http://imified.com)。
 
 
 
-[![](/wp-content/uploads/2010-05-20_bot_im_arthurobot_runtime.png)](/wp-content/uploads/2010-05-20_bot_im_arthurobot_runtime.png)
+[![](/images/uploads/wp/2010-05-20_bot_im_arthurobot_runtime.png)](/images/uploads/wp/2010-05-20_bot_im_arthurobot_runtime.png)
 
 
 

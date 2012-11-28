@@ -12,7 +12,7 @@ tags:
 - 游戏开发
 ---
 
-![](/upload/2009-06-12_XNA.png)
+![](/images/uploads/zb/2009-06-12_XNA.png)
 
 
 
@@ -27,12 +27,12 @@ tags:
 
 
 
-> 
+>
 
-> 
+>
 > Microsoft XNA ('XNA's Not Acronymed') is a set of tools with a managed runtime environment provided by Microsoft that facilitates computer game development and management. XNA attempts to free game developers from writing "repetitive boilerplate code" and bring different aspects of game production into a single system. The XNA toolset was announced March 24, 2004, at the Game Developers Conference in San Jose, California. A first Community Technology Preview of XNA Build was released on March 14, 2006. XNA Game Studio 2.0 was released in December 2007, followed by XNA Game Studio 3.0 on October 30, 2008.
-> 
-> 
+>
+>
 
 
 
@@ -48,12 +48,12 @@ tags:
 
 
 
-![](/upload/2009-06-12_XNAGameSudio3.1.jpg)
+![](/images/uploads/zb/2009-06-12_XNAGameSudio3.1.jpg)
 
 
 
 
-[![](/upload/2009-06-12_download_XNA.png)](http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-d584-42d2-8024-893fcd9d3e82&displaylang=en)[下载地址](http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-d584-42d2-8024-893fcd9d3e82&displaylang=en)
+[![](/images/uploads/zb/2009-06-12_download_XNA.png)](http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-d584-42d2-8024-893fcd9d3e82&displaylang=en)[下载地址](http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-d584-42d2-8024-893fcd9d3e82&displaylang=en)
 
 
 
@@ -63,9 +63,9 @@ tags:
 
 
 
-介绍结束。实践一下，来简单看一下这个环境如何。  
+介绍结束。实践一下，来简单看一下这个环境如何。
 
-需要说明的是，我当前的操作系统版本为Windows7 build7057，程序运行没有问题～  
+需要说明的是，我当前的操作系统版本为Windows7 build7057，程序运行没有问题～
 
 
 
@@ -77,7 +77,7 @@ tags:
 
 
 
-![](/upload/2009-06-12_forVS2008.png)
+![](/images/uploads/zb/2009-06-12_forVS2008.png)
 
 
 
@@ -87,7 +87,7 @@ tags:
 
 
 
-![](/upload/2009-06-12_XNA_files.png)
+![](/images/uploads/zb/2009-06-12_XNA_files.png)
 
 
 
@@ -97,7 +97,7 @@ tags:
 
 
 
-[![](/upload/2009-06-12_XNA_VS2008_NEW.png)](/upload/2009-06-12_XNA_VS2008_NEW.png)
+[![](/images/uploads/zb/2009-06-12_XNA_VS2008_NEW.png)](/images/uploads/zb/2009-06-12_XNA_VS2008_NEW.png)
 
 
 
@@ -107,7 +107,7 @@ tags:
 
 
 
-[![](/upload/2009-06-12_XNA_VS2008_CODE.png)](/upload/2009-06-12_XNA_VS2008_CODE.png)
+[![](/images/uploads/zb/2009-06-12_XNA_VS2008_CODE.png)](/images/uploads/zb/2009-06-12_XNA_VS2008_CODE.png)
 
 
 
@@ -117,7 +117,7 @@ tags:
 
 
 
-[![](/upload/2009-06-12_XNAGame.jpg)](/upload/2009-06-12_XNAGame.jpg)
+[![](/images/uploads/zb/2009-06-12_XNAGame.jpg)](/images/uploads/zb/2009-06-12_XNAGame.jpg)
 
 
 

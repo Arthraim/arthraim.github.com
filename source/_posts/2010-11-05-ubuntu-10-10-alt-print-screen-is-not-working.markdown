@@ -16,9 +16,9 @@ tags:
 
 
 
-    
+```sh
     sysctl -w kernel.sysrq=0
-
+```
 
 
 
@@ -38,10 +38,10 @@ Good luck.
 
 
 
-	
+
   * [Alt+Print Screen not working (Ubuntu 10.10)](http://www.virtualhelp.me/linux/212-altprint-screen-not-working-ubuntu-1010)
 
-	
+
   * [Magic SysRq key](http://en.wikipedia.org/wiki/Reisub)
 
 

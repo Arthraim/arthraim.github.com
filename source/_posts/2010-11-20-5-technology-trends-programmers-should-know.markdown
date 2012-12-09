@@ -23,42 +23,29 @@ tags:
 
 
 
-> 
-	
-> 
-> 5 Technology Trends Programmers Should Know  
+>
 
-		by ruanyf
-> 
-> 
-	
-> 
-> 
-		
+>
+> 5 Technology Trends Programmers Should Know
+
+> by ruanyf
+
 >   * **Learn and use a modern scripting language**. Ruby, Python, Groovy… What matters is having a quick and easy tool at hand for anything.
-> 
-		
+
 >   * **Learn and use a modern version control system**. Git or Mercurial.
-> 
-		
+
 >   * **Be familiar with NoSQL solutions**, like MongoDB and CouchDB. They works when traditional relational DBs reach their limits at scaling and performance.
-> 
-		
+
 >   * **Learn a functional language — or more than one**. Erlang, Haskell or OCaml.
-> 
-		
+
 >   * **Study agile methods and concepts**. Agile helps to standardize management and daily programmer work, enforcing a small, controllable devel/release/testing cycle and also encouraging good communication all across the team.
-> 
-	
-	
-> 
-> via:[  
 
-		http://blog.mostof.it/top-5-trends-in-software-development/](http://blog.mostof.it/top-5-trends-in-software-development/)  
 
-		[http://www.ruanyifeng.com/en/2010/11/5-technology-trends-programmers-should-know/](http://www.ruanyifeng.com/en/2010/11/5-technology-trends-programmers-should-know/)
-> 
-> 
+> via:
+
+> [http://blog.mostof.it/top-5-trends-in-software-development/](http://blog.mostof.it/top-5-trends-in-software-development/)
+
+> [http://www.ruanyifeng.com/en/2010/11/5-technology-trends-programmers-should-know/](http://www.ruanyifeng.com/en/2010/11/5-technology-trends-programmers-should-know/)
 
 
 

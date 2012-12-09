@@ -33,7 +33,7 @@ tags:
 
 
 
-
+```
     style "gtkcompact" {
     font_name="Sans 8"
     GtkButton::default_border={0,0,0,0}
@@ -71,6 +71,7 @@ tags:
     class "GtkButton" style "gtkcompactextra"
     class "GtkToolbar" style "gtkcompactextra"
     class "GtkPaned" style "gtkcompactextra"
+```
 
 说实话小气鬼真的看不懂, 也懒得看懂, 反正eclipse现在不碍着我了, 缺点是没有碍着我的其他软件其他界面里的一些布局都发生了一些变化, 不过这种让出屏幕空间的变化对一般人来说是缺点, 但是对小气鬼来说也不能不说是另一种feature~!  最后小气鬼心满意足的放一张截图~~ 这窄窄的看上去多顺眼啊~
 

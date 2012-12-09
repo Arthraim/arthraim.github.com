@@ -18,23 +18,23 @@ tags:
 
 
 
-	
+
   * %eclispe_dir%/configration/config.ini文件
-		
-			
-    * org.eclipse.update.reconcile=false, 改成true
 
-			
-    * 或者加上osgi.checkconfiguration=true
 
-		
-	
+    * `org.eclipse.update.reconcile=false`, 改成`true`
 
-	
-  * 删除整个目录/eclipse/configuration/org.eclipse.update/，重启eclipse
 
-	
-  * 在启动eclipse时带上 -clean参数
+    * 或者加上`osgi.checkconfiguration=true`
+
+
+
+
+
+  * 删除整个目录`/eclipse/configuration/org.eclipse.update/`，重启eclipse
+
+
+  * 在启动eclipse时带上 `-clean`参数
 
 
 

@@ -87,9 +87,9 @@ oauth其实是个认证, 就和HTTP的basic auth一样, 通过认证才能访问
 
 
 
-大问题放前面, 后面还有小问题呢. 在请求request_token时传递oauth_callback参数, 因为写测试没用到callback, 所以肯定库会帮我填上oob(out-of-bound), 不过让我很崩溃的是企鹅大爷不高兴了, 给我跳转到了一个这样一个地方: https://open.t.qq.com/oauth_html/oob?oauth_token=xxxxx&oauth_verifier=xxxxxx, 这当然是NOT FOUND, 这是企鹅大哥的地盘, 我不能做主啊.   
+大问题放前面, 后面还有小问题呢. 在请求request_token时传递oauth_callback参数, 因为写测试没用到callback, 所以肯定库会帮我填上oob(out-of-bound), 不过让我很崩溃的是企鹅大爷不高兴了, 给我跳转到了一个这样一个地方: https://open.t.qq.com/oauth_html/oob?oauth_token=xxxxx&oauth_verifier=xxxxxx, 这当然是NOT FOUND, 这是企鹅大哥的地盘, 我不能做主啊.
 
-	千辛万苦查到了企鹅大哥的文档里写了这么一句话: __① 用户授权后web应用将会重定向到oauth_callback。当应用为pc客户端或手机客户端应用时，没有回调url(oauth_callback)的概念，此时设置为字符串null即可。字符串"null"必须是小写。__爹啊... 你是我亲爹啊. 不按套路出牌的啊! ([愤怒的同学](http://open.t.qq.com/bbs/viewthread.php?tid=2352)显然不止我一个, 而且没人理他)
+千辛万苦查到了企鹅大哥的文档里写了这么一句话: __① 用户授权后web应用将会重定向到oauth_callback。当应用为pc客户端或手机客户端应用时，没有回调url(oauth_callback)的概念，此时设置为字符串null即可。字符串"null"必须是小写。__爹啊... 你是我亲爹啊. 不按套路出牌的啊! ([愤怒的同学](http://open.t.qq.com/bbs/viewthread.php?tid=2352)显然不止我一个, 而且没人理他)
 
 
 

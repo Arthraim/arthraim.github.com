@@ -16,9 +16,7 @@ tags:
 
 
 
-![Frozen](http://img3.douban.com/spic/s4101601.jpg)![Mercury Rising](http://img3.douban.com/spic/s1441712.jpg)![The Hitchhiker's Guide to the Galaxy](http://img3.douban.com/spic/s3109578.jpg)![名探偵コナン 天空の難破船](http://img3.douban.com/spic/s4407096.jpg)  
-
-	![Macross F](http://img3.douban.com/spic/s3276984.jpg)![RoboCop](http://img3.douban.com/spic/s1430161.jpg)![Robocop 2](http://img5.douban.com/spic/s2862895.jpg)![Leaves of Grass](http://img3.douban.com/spic/s3249948.jpg)
+![](http://img3.douban.com/spic/s4101601.jpg)![](http://img3.douban.com/spic/s1441712.jpg)![](http://img3.douban.com/spic/s3109578.jpg)![](http://img3.douban.com/spic/s4407096.jpg)![](http://img3.douban.com/spic/s3276984.jpg)![](http://img3.douban.com/spic/s1430161.jpg)![](http://img5.douban.com/spic/s2862895.jpg)![](http://img3.douban.com/spic/s3249948.jpg)
 
 
 
@@ -29,28 +27,28 @@ tags:
 
 
 
-	
+
   * **草叶 / Leaves of Grass**：美妙的电影！唯一的美中不足是剧情留下的那一点点遗憾。。。
 
-	
+
   * **机器战警2 / Robocop 2**：说实话真的是不怎么样。。。 第一部很多镜头都历历在目，这一部感觉是第一次看，而且现在看来的确是烂片
 
-	
+
   * **机器战警 / RoboCop**：和我童年的电影，小时候老爸租录像带来看的~ 永远的经典啊~
 
-	
+
   * **超时空要塞 边界 / Macross F**：相当不给力，前面一段不错，紧凑，像演唱会一样的精彩。后面就不给力了。。。
 
-	
+
   * **名侦探柯南 天空的遇难船 / 名探偵コナン 天空の難破船**：铺垫很多，但是最后发展还是很浅的盖掉了这些铺垫，又是一部推理不足动作有余的年度剧场。而且比起剧情本身，人物之间的什么感情啦基情啦似乎更有看头。
 
-	
+
   * **银河系漫游指南 / The Hitchhiker's Guide to the Galaxy**：非常棒的片子，值得品味的东西很多！
 
-	
+
   * **终极密码战 / Mercury Rising**：差劲了差劲了，这片子真的很差劲，潦草
 
-	
+
   * **冷冻 / Frozen**：太无助了…… 前面一半无数的巧合让事情发展到了这种地步…… 最后无数的巧合拯救了那个妹子………………
 
 

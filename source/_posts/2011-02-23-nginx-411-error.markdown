@@ -18,7 +18,7 @@ tags:
 
 
 
-**引发411的原因**
+## 引发411的原因
 
 
 
@@ -27,17 +27,9 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-
-
-	
-  1. client sent invalid "Content-Length" header
-
-	
-  2. client sent … method without "Content-Length" header
-
-	
-  3. client sent "Transfer-Encoding: chunked" header
-
+1. client sent invalid "Content-Length" header
+2. client sent … method without "Content-Length" header
+3. client sent "Transfer-Encoding: chunked" header
 
 
 
@@ -46,7 +38,7 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-**改代码**
+## 改代码
 
 
 
@@ -55,9 +47,9 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-    
-    header httppost.setHeader("Content-Length", "0");
-
+```nginx
+header httppost.setHeader("Content-Length", "0");
+```
 
 
 
@@ -65,9 +57,9 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-    
-    org.apache.http.ProtocolException: Content-Length header already present at org.apache.http.protocol.RequestContent.process(RequestContent.java:67)  ...... 
-
+```
+org.apache.http.ProtocolException: Content-Length header already present at org.apache.http.protocol.RequestContent.process(RequestContent.java:67)  ......
+```
 
 
 
@@ -76,7 +68,7 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-**重新编译nginx**
+## 重新编译nginx
 
 
 
@@ -87,22 +79,19 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-	
-  1. 下载新版nginx(或者你还有原来的nginx代码在?), 并下载nginxHttpChunkinModule, 然后解压缩. (下载地址就不帖了, 前者版本更新很快, 后者最近又在开始更新支持DELETE方法了)
 
-	
-  2. nginx -V 查一下之前编译nginx时候的参数, 并且记下来
+1. 下载新版nginx(或者你还有原来的nginx代码在?), 并下载nginxHttpChunkinModule, 然后解压缩. (下载地址就不帖了, 前者版本更新很快, 后者最近又在开始更新支持DELETE方法了)
 
-	
-  3. ./configure 并加上一堆参数, 尤其记得要加上 --add-module=/path/to/your/module
+2. `nginx -V` 查一下之前编译nginx时候的参数, 并且记下来
 
-	
-  4. make (不要马上make install)
+3. `./configure` 并加上一堆参数, 尤其记得要加上 `--add-module=/path/to/your/module`
+
+4. `make` (不要马上`make install`)
 
 
 
 
-**不停掉nginx, 平滑过渡到新版本**
+## 不停掉nginx, 平滑过渡到新版本
 
 
 
@@ -113,20 +102,16 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-	
-  1. 备份原来的nginx可执行文件, 比如nginx_bak
 
-	
-  2. **cp obj/nginx**到旧的nginx可执行文件的位置, 因为它还在跑所以要加上参数 -f
+1. 备份原来的nginx可执行文件, 比如nginx_bak
 
-	
-  3. **kill -USR2 旧版本的nginx主进程号** (用ps aux | grep nginx 找到, 除了主进程还有一个worker process), 之后再ps会发现一个新的nginx进程被启动, 并且一个新的worker process也开始启动. 这个时候它们同时在工作.
+2. `cp obj/nginx`到旧的nginx可执行文件的位置, 因为它还在跑所以要加上参数 `-f`
 
-	
-  4. **kill - WHINCH 旧版本的nginx主进程号** 这会让旧的nginx进程不再处理新的请求, 过一段时间之后再ps, 会看到旧的worker process已经消失停止了. 这时候所有的请求都交给新的nginx在处理了.
+3. `kill -USR2 旧版本的nginx主进程号` (用`ps aux | grep nginx`找到, 除了主进程还有一个worker process), 之后再ps会发现一个新的nginx进程被启动, 并且一个新的worker process也开始启动. 这个时候它们同时在工作.
 
-	
-  5. **kill -QUIT 旧版本的nginx主进程号** 退出旧的进程, 新的进程就可以使用了.
+4. `kill - WHINCH 旧版本的nginx主进程号` 这会让旧的nginx进程不再处理新的请求, 过一段时间之后再ps, 会看到旧的worker process已经消失停止了. 这时候所有的请求都交给新的nginx在处理了.
+
+5. `kill -QUIT 旧版本的nginx主进程号` 退出旧的进程, 新的进程就可以使用了.
 
 
 
@@ -137,17 +122,14 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-	
-  * kill -HUP 旧的nginx主进程号 _不reload配置文件就直接重新启动旧的nginx_
 
-	
-  * kill -QUIT 新的nginx主进程号 _从容关闭新的Nginx实例_
+ * `kill -HUP 旧的nginx主进程号` 不reload配置文件就直接重新启动旧的nginx
 
-	
-  * kill -TERM 新的nginx主进程号 _这个和上面的可以二选一_
+ * `kill -QUIT 新的nginx主进程号` 从容关闭新的Nginx实例
 
-	
-  * 之后可以把之前的nginx_bak重新复制回来覆盖新的
+ * `kill -TERM 新的nginx主进程号` 这个和上面的可以二选一
+
+ * 之后可以把之前的nginx_bak重新复制回来覆盖新的
 
 
 
@@ -157,7 +139,7 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-**修改nginx的配置文件**
+## 修改nginx的配置文件
 
 
 
@@ -166,20 +148,20 @@ nginx给出的官方解释有三种情况会引发nginx弹411回去
 
 
 
-    
-      chunkin on;
-    
-      error_page 411 = @my_411_error;
-      location @my_411_error {
-          chunkin_resume;
-      }
-    
-      location /foo {
-          # your fastcgi_pass/proxy_pass/set/if and
-          # any other config directives go here...
-      }
-      ...
+```nginx
+chunkin on;
 
+error_page 411 = @my_411_error;
+location @my_411_error {
+    chunkin_resume;
+}
+
+location /foo {
+    # your fastcgi_pass/proxy_pass/set/if and
+    # any other config directives go here...
+}
+...
+```
 
 
 

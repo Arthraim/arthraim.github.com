@@ -16,7 +16,7 @@ tags:
 
 
 
-![Easy A](http://img3.douban.com/spic/s4404427.jpg)![Monsters](http://img3.douban.com/spic/s4436998.jpg)![Wild Target](http://img3.douban.com/spic/s4511721.jpg)![3 Idiots](http://img3.douban.com/spic/s4433349.jpg)![Salt](http://img3.douban.com/spic/s4063848.jpg)![Despicable Me](http://img3.douban.com/spic/s4357597.jpg)![涼宮ハルヒの消失](http://img3.douban.com/spic/s4100333.jpg)![Skyline](http://img3.douban.com/spic/s4451119.jpg)![The Social Network](http://img5.douban.com/spic/s4387115.jpg)![The Town](http://img3.douban.com/spic/s4440289.jpg)
+![](http://img3.douban.com/spic/s4404427.jpg)![](http://img3.douban.com/spic/s4436998.jpg)![](http://img3.douban.com/spic/s4511721.jpg)![](http://img3.douban.com/spic/s4433349.jpg)![](http://img3.douban.com/spic/s4063848.jpg)![](http://img3.douban.com/spic/s4357597.jpg)![](http://img3.douban.com/spic/s4100333.jpg)![](http://img3.douban.com/spic/s4451119.jpg)![](http://img5.douban.com/spic/s4387115.jpg)![](http://img3.douban.com/spic/s4440289.jpg)
 
 
 
@@ -26,30 +26,30 @@ tags:
 
 
 
-**城中大盗 / The Town**：本阿弗莱克导演的第二个作品，非常棒！  
+1. **城中大盗 / The Town**：本阿弗莱克导演的第二个作品，非常棒！
 
-	**社交网络 / The Social Network**：创造帝国的过程中免不了明争暗斗弱肉强食. 多米诺骨牌的比喻我很喜欢...  
+2. **社交网络 / The Social Network**：创造帝国的过程中免不了明争暗斗弱肉强食. 多米诺骨牌的比喻我很喜欢...
 
-	**天际浩劫 / Skyline**：特技还不错... 剧情演员逻辑其他什么都是狗屎..  
+3. **天际浩劫 / Skyline**：特技还不错... 剧情演员逻辑其他什么都是狗屎..
 
-	**凉宫春日的消失 / 涼宮ハルヒの消失**：神作啊!!!!!!!!!!!!!!!!!!!!!!!! 凉宫春日!! 没有你的日子萨必西乃!!  
+4. **凉宫春日的消失 / 涼宮ハルヒの消失**：神作啊!!!!!!!!!!!!!!!!!!!!!!!! 凉宫春日!! 没有你的日子萨必西乃!!
 
-	**卑鄙的我 / Despicable Me**：剧情比较老套，那个很萌的黄色药丸一样的人的行为也比较像疯兔。不过不得不说借鉴了其他很多作品的同时做了很多颇有意义的创新，很多细节也处理的很萌，比如一只飘在天上那只和缩小的那只。。。  
+5. **卑鄙的我 / Despicable Me**：剧情比较老套，那个很萌的黄色药丸一样的人的行为也比较像疯兔。不过不得不说借鉴了其他很多作品的同时做了很多颇有意义的创新，很多细节也处理的很萌，比如一只飘在天上那只和缩小的那只。。。
 
-	**特工绍特 / Salt**：非常牛X的节奏！一直很紧凑但是情节也有起伏，穿插的回忆一来慢慢的交代了故事的前因，二来交代了salt的心理变化和做这些事情…… 值得品味的好片~~  
+6. **特工绍特 / Salt**：非常牛X的节奏！一直很紧凑但是情节也有起伏，穿插的回忆一来慢慢的交代了故事的前因，二来交代了salt的心理变化和做这些事情…… 值得品味的好片~~
 
-	**三个傻瓜 / 3 Idiots**：好片子，剧情寓意都不错，不过我还是不太能接受印度电影里歌舞的那些桥段 orz  
+7. **三个傻瓜 / 3 Idiots**：好片子，剧情寓意都不错，不过我还是不太能接受印度电影里歌舞的那些桥段 orz
 
-	**狂野目标 / Wild Target**：英国人的搞笑方式还真不太一样，女主角很漂亮。。。  
+8. **狂野目标 / Wild Target**：英国人的搞笑方式还真不太一样，女主角很漂亮。。。
 
-	**怪兽 / Monsters**：看到结尾来救他们的士兵，然后拉回开头一看，发现原来之前都没有注意到的战斗场景里其实就有男女主角，男主角在叫help，女主角似乎死在了他的怀中………… I don't wanna go home.....似乎她如愿了  
+9. **怪兽 / Monsters**：看到结尾来救他们的士兵，然后拉回开头一看，发现原来之前都没有注意到的战斗场景里其实就有男女主角，男主角在叫help，女主角似乎死在了他的怀中………… I don't wanna go home.....似乎她如愿了
 
-	**绯闻计划 / Easy A**：这就是青春啊~ 可以抱着轻松愉快的心情看完的电影，非常不错
-
-
+10. **绯闻计划 / Easy A**：这就是青春啊~ 可以抱着轻松愉快的心情看完的电影，非常不错
 
 
-**力荐**
+
+
+## 力荐
 
 
 
@@ -59,7 +59,7 @@ tags:
 
 
 
-**好片**
+## 好片
 
 
 
@@ -69,7 +69,7 @@ tags:
 
 
 
-**烂片**
+## 烂片
 
 
 

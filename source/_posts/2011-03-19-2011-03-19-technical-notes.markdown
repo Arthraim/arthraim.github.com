@@ -24,21 +24,12 @@ tags:
 
 
 
-    
-    <properties>
-
-
-
-
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
-
-	 <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-
-
-
-    
-    </properties>
-    
+```xml
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+</properties>
+```
 
 
 
@@ -63,12 +54,12 @@ via: [http://wozailongyou.javaeye.com/blog/711664](http://wozailongyou.javaeye.c
 
 
 
-> 
-	
-> 
+>
+
+>
 > error: Untracked working tree file 'webapp/WEB-INF/classes/com/arthraim/foo.class' would be overwritten by merge. Aborting
-> 
-> 
+>
+>
 
 
 
@@ -89,17 +80,14 @@ via: [http://wozailongyou.javaeye.com/blog/711664](http://wozailongyou.javaeye.c
 
 
 
-还是一个git的小问题，一直很顺的用 **git pull 仓库名 分支名** 和 **git push 仓库名 分支名** 突然有人问起本地分支和远程分支的命名不一样的时候怎么办。。。 还真是查了很久啊。发现原来git pull 语句是这样描述的：
+还是一个git的小问题，一直很顺的用 `git pull 仓库名 分支名` 和 `git push 仓库名 分支名` 突然有人问起本地分支和远程分支的命名不一样的时候怎么办。。。 还真是查了很久啊。发现原来git pull 语句是这样描述的：
 
 
 
 
-> 
-	
-> 
-> git push [远程仓库名] [本地分支]:[远程分支]
-> 
-> 
+```sh
+git push [远程仓库名] [本地分支] :[远程分支]
+```
 
 
 
@@ -130,7 +118,7 @@ ${some_double_number?string(0.######)}
 
 
 
-#的数量你懂的。更多具体的选项请看下面的链接。
+'#'的数量你懂的。更多具体的选项请看下面的链接。
 
 
 

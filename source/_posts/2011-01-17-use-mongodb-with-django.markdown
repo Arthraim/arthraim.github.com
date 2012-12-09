@@ -30,62 +30,60 @@ tags:
 
 
 
-1. 首先修改settings.py, 原来DATABASES完全不用去管它了, 全部设为空串就好, 然后在文件里加上下面的内容
+首先修改settings.py, 原来DATABASES完全不用去管它了, 全部设为空串就好, 然后在文件里加上下面的内容
 
-
-
-    
+```py
     from mongoengine import connect
     connect('DB_NAME')
+```
 
 
 
-
-2. 在models.py里随便写个模型, 这里要用到mongoengine的一些内容
-
-
-
-    
-    from mongoengine import Document
-    
-    class TestModel(Document):
-        test_key = StringField(required=True)
-        test_value = StringField(max_length=50)
+在models.py里随便写个模型, 这里要用到mongoengine的一些内容
 
 
 
+```py
+from mongoengine import Document
 
-3. 在某个views.py里随便哪里写点逻辑, 添加条数据而已(两种方式都可以填数据)
+class TestModel(Document):
+    test_key = StringField(required=True)
+    test_value = StringField(max_length=50)
+```
 
 
 
-    
+在某个views.py里随便哪里写点逻辑, 添加条数据而已(两种方式都可以填数据)
+
+
+
+```py
     entry = TestModel(test_key='arthur')
     entry.test_value = 'Wang'
     entry.save()
+```
 
 
 
 
-4. 然后就可以看看数据输出啦
+然后就可以看看数据输出啦
 
 
 
-    
+```py
     for entry in TestModel.objects:
         print entry.test_key
 
-
+```
 
 
 好吧, 如果顺利就应该可以看到console输出的结果, 很给力. 当然在mongo中可以查到如下结果
 
 
-
-    
-    > db.testmodel.find()
-    { "_id" : ObjectId("4d34267f7ecfdb3b7c000000"), "test_key" : "arthur", "test_value" : "Wang", "_types" : [ "TestModel" ], "_cls" : "TestModel" }
-
+```sh
+db.testmodel.find()
+{ "_id" : ObjectId("4d34267f7ecfdb3b7c000000"), "test_key" : "arthur", "test_value" : "Wang", "_types" : [ "TestModel" ], "_cls" : "TestModel" }
+```
 
 
 

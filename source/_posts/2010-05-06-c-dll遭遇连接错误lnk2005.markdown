@@ -2,7 +2,7 @@
 comments: true
 date: 2010-05-06 01:00:40
 layout: post
-slug: c-dll%e9%81%ad%e9%81%87%e8%bf%9e%e6%8e%a5%e9%94%99%e8%af%aflnk2005
+slug: c-dll遭遇连接错误lnk2005
 title: C++ Dll遭遇连接错误LNK2005
 wordpress_id: 420
 categories:

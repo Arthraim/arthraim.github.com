@@ -13,7 +13,7 @@ tags:
 - PSP
 ---
 
-Arthur在[上一篇](http://arthraim.cn/post/2009/09/112.html)文章中说到过jas0nuk已经回归the scene（PSP破解界），而今天早些时候他就如约发布了PRXdecrypter的新版本2.25。可以说这次的版本功能和Yoshihiro的Game Decrypter是一样的，用以解密eboot.bin，只是包含了所有的Eboot.bin的密匙，即你可以解密目前为止所有的eboot.bin了。务须多说，这里是官方说明。
+Arthur在[上一篇](http://artori.us/yoshihiro-update-game-decrypter-b2/)文章中说到过jas0nuk已经回归the scene（PSP破解界），而今天早些时候他就如约发布了PRXdecrypter的新版本2.25。可以说这次的版本功能和Yoshihiro的Game Decrypter是一样的，用以解密eboot.bin，只是包含了所有的Eboot.bin的密匙，即你可以解密目前为止所有的eboot.bin了。务须多说，这里是官方说明。
 
 
 
@@ -48,43 +48,43 @@ Arthur在[上一篇](http://arthraim.cn/post/2009/09/112.html)文章中说到过
 >
 > General EBOOT.BIN keytags info
 
-The classics:
+> The classics:
 
-Tag 0x08000000 - 1.xx EBOOT.BIN
+> Tag 0x08000000 - 1.xx EBOOT.BIN
 
-Tag 0xC0CB167C - 2.xx EBOOT.BIN
+> Tag 0xC0CB167C - 2.xx EBOOT.BIN
 >
 >
 
 >
 > Unknown if these were ever used, but I found them ages ago - Sony were planning new EBOOT keys for a long time:
 
-Tag 0x8004FD03 - 2.71 EBOOT.BIN
-
-Tag 0xD91605F0 - 2.8X EBOOT.BIN
-
-Tag 0xD91606F0 - 3.0X EBOOT.BIN
-
-Tag 0xD91607F0 - ???
-
-Tag 0xD91608F0 - 3.1X EBOOT.BIN
+> Tag 0x8004FD03 - 2.71 EBOOT.BIN
+>
+> Tag 0xD91605F0 - 2.8X EBOOT.BIN
+>
+> Tag 0xD91606F0 - 3.0X EBOOT.BIN
+>
+> Tag 0xD91607F0 - ???
+>
+> Tag 0xD91608F0 - 3.1X EBOOT.BIN
 >
 >
 
 >
 > These are now being used:
 
-Tag 0xD91609F0 - 5.00 EBOOT.BIN
-
-Tag 0xD9160AF0 - 5.50 EBOOT.BIN
-
-Tag 0xD9160BF0 - 5.55 EBOOT.BIN
-
-Tag 0xD9160CF0 - 6.00 EBOOT.BIN (which game(s) use this?)
-
-Tag 0xD91611F0 - 6.00 EBOOT.BIN (which game(s) use this?)
-
-Tag 0xD91612F0 - 6.00 EBOOT.BIN (GTN USA - PSN edition, any others?) not decrypted!
+> Tag 0xD91609F0 - 5.00 EBOOT.BIN
+>
+> Tag 0xD9160AF0 - 5.50 EBOOT.BIN
+>
+> Tag 0xD9160BF0 - 5.55 EBOOT.BIN
+>
+> Tag 0xD9160CF0 - 6.00 EBOOT.BIN (which game(s) use this?)
+>
+> Tag 0xD91611F0 - 6.00 EBOOT.BIN (which game(s) use this?)
+>
+> Tag 0xD91612F0 - 6.00 EBOOT.BIN (GTN USA - PSN edition, any others?) not decrypted!
 >
 >
 

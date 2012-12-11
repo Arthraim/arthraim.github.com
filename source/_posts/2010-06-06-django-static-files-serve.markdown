@@ -16,12 +16,15 @@ tags:
 
 
 
-    
-    if settings.DEBUG:
-    	    urlpatterns += patterns('',
-    	        (r'^media/(?P<path>.*)$', 'django.views.static.serve',
-    	            {'document_root': settings.MEDIA_ROOT}),
-    	    )
+```py
+if settings.DEBUG:
+  urlpatterns += patterns('',
+    (r'^media/(?P<path>.*)$',
+      'django.views.static.serve',
+      {'document_root': settings.MEDIA_ROOT}
+      ),
+    )
+```
 
 
 
@@ -32,13 +35,13 @@ tags:
 
 
 
-	
+
   * 配置MEDIA_ROOT指向media文件夹的本地绝对路径
 
-	
+
   * 配置MEDIA_URL为/media/
 
-	
+
   * 配置ADMIN_MEDIA_PREFIX为/amedia/
 
 
@@ -49,7 +52,7 @@ tags:
 
 
 
-不过因为ADMIN_MEDIA_PREFIX的设置如果按照默认的/media/，那么就会使得调试时无法正常服务静态文件。如果MEDIA_ROOT不配置，ADMIN_MEDIA_PREFIX改成./media/，那么站点的静态文件能正常服务，但是admin页面的静态文件就错误了。如果不配置MEDIA_ROOT，也不修改ADMIN_MEDIA_PREFIX（就像默认的一样），那么一样只要在urls.py里写上之前的代码，并把setting.MEDIA_ROOT直接替换成本地的绝对路径，那么就能正常服务静态文件，唯一要做的，是不使用r'^media/(?P<path>.*)$'，而改一个诸如r'^dmedia/(?P<path>.*)$'之类的其他路径，我我很不喜欢这个方式，能解决问题，但是部署的时候我就是看得不顺眼，要改的话就要改所有模板、py中的所有路径。
+不过因为ADMIN_MEDIA_PREFIX的设置如果按照默认的/media/，那么就会使得调试时无法正常服务静态文件。如果MEDIA_ROOT不配置，ADMIN_MEDIA_PREFIX改成./media/，那么站点的静态文件能正常服务，但是admin页面的静态文件就错误了。如果不配置MEDIA_ROOT，也不修改ADMIN_MEDIA_PREFIX（就像默认的一样），那么一样只要在urls.py里写上之前的代码，并把setting.MEDIA_ROOT直接替换成本地的绝对路径，那么就能正常服务静态文件，唯一要做的，是不使用`r'^media/(?P<path>.*)$'`，而改一个诸如`r'^dmedia/(?P<path>.*)$'`之类的其他路径，我我很不喜欢这个方式，能解决问题，但是部署的时候我就是看得不顺眼，要改的话就要改所有模板、py中的所有路径。
 
 
 

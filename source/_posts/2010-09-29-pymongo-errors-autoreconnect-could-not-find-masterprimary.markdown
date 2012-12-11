@@ -22,7 +22,7 @@ tags:
 
 
 
-    
+```py
     Traceback (most recent call last):
       File "/home/arthur/workspace/DUMMY/python/DUMMY.py", line 7, in <module>
         mongo_con = pymongo.Connection( )
@@ -31,7 +31,7 @@ tags:
       File "/usr/local/lib/python2.6/dist-packages/pymongo-1.8.1-py2.6-linux-x86_64.egg/pymongo/connection.py", line 495, in __find_master
         raise AutoReconnect("could not find master/primary")
     pymongo.errors.AutoReconnect: could not find master/primary</module>
-
+```
 
 
 
@@ -44,9 +44,9 @@ tags:
 
 
 
-    
+```py
     mongo_con = pymongo.Connection(slave_okay=True)
-    
+```
 
 
 

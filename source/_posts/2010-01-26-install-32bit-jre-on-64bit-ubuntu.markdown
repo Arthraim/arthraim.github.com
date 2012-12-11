@@ -26,51 +26,46 @@ tags:
 
 
 
-  1. 去Sun的官方网站下载一个32位的JRE包。比如，jre-6u18-linux-i586.bin。
+* 去Sun的官方网站下载一个32位的JRE包。比如，jre-6u18-linux-i586.bin。
 
 
-  2. 安装java-package  
+* 安装java-package
 
-
-    
-    
-    sudo apt-get install java-package
-
-
-
-
-
-  3. 使用java-package将32位的jre做成一个.deb包  
-
-
-    
-    
-    DEB_BUILD_GNU_TYPE=i486-linux-gnu DEB_BUILD_ARCH=i386 fakeroot make-jpkg jre-6u18-linux-i586.bin
+```sh
+sudo apt-get install java-package
+```
 
 
 
 
 
-  4. 安装.deb包（无视deb包的名字里的amd64字样）  
+* 使用java-package将32位的jre做成一个.deb包
 
-
-    
-    
-    sudo dpkg -i sun-j2re1.6_1.6.0+update18_amd64.deb
-
-
+```sh
+DEB_BUILD_GNU_TYPE=i486-linux-gnu DEB_BUILD_ARCH=i386 fakeroot make-jpkg jre-6u18-linux-i586.bin
+```
 
 
 
-  5. 32位的JRE到这里已安装完成，位置在/usr/lib/j2re1.6-sun。  
-
-可以使用以下命令切换JRE了～（可以运行flexbuilder_linux_install_a5_112409.bin了）  
 
 
-    
-    
-    sudo update-alternatives --config java 
+* 安装.deb包（无视deb包的名字里的amd64字样）
 
+```sh
+sudo dpkg -i sun-j2re1.6_1.6.0+update18_amd64.deb
+```
+
+
+
+
+
+* 32位的JRE到这里已安装完成，位置在`/usr/lib/j2re1.6-sun`。
+
+  可以使用以下命令切换JRE了～（可以运行flexbuilder_linux_install_a5_112409.bin了）
+
+```sh
+sudo update-alternatives --config java
+```
 
 
 
@@ -97,24 +92,10 @@ tags:
 
   3. 那么就改一下.bashrc文件，加上一行：
 
-    
-    
-    alias java='你的路径/jre-6u18-linux-i586/bin/java'
 
-
-
-
-
-
-
-
-
-
-                                  
-
-
-
-
+```sh
+alias java='你的路径/jre-6u18-linux-i586/bin/java'
+```
 
 
 

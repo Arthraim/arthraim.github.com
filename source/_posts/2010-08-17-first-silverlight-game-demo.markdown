@@ -23,7 +23,7 @@ tags:
 
 
 
-要不demo还是不直接贴在文章里了，跳转一下看吧：[http://arthraim.cn/page/sl1/](http://arthraim.cn/page/sl1/)
+要不demo还是不直接贴在文章里了，跳转一下看吧：[http://artorius.arthraim.com/page/sl1/](http://arthraim.cn/page/sl1/)
 
 
 
@@ -32,162 +32,162 @@ tags:
 
 
 
-    
-    public partial class MainPage : UserControl
+```c#
+public partial class MainPage : UserControl
+{
+    Storyboard storyboard;
+    Image spirit;
+    int count = 1;
+    Point relativePos = new Point(13, 23);
+    int direction = 1;
+    bool isWalking = false;
+
+    public MainPage()
     {
-        Storyboard storyboard;
-        Image spirit;
-        int count = 1;
-        Point relativePos = new Point(13, 23);
-        int direction = 1;
-        bool isWalking = false;
-    
-        public MainPage()
+        InitializeComponent();
+
+        spirit = new System.Windows.Controls.Image();
+        spirit.Stretch = Stretch.Uniform;
+        spirit.Width = 23;
+        spirit.Height = 23;
+        Carrier.Children.Add(spirit);
+        Canvas.SetLeft(spirit, 0);
+        Canvas.SetTop(spirit, 0);
+
+        DispatcherTimer dispatcherTimer = new DispatcherTimer();
+        dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
+        dispatcherTimer.Interval = TimeSpan.FromMilliseconds(100);
+        dispatcherTimer.Start();
+    }
+
+    void dispatcherTimer_Tick(object sender, EventArgs e)
+    {
+        label1.Content = direction + " " + count;
+
+        string directionStr = "east";
+        switch (direction)
         {
-            InitializeComponent();
-    
-            spirit = new System.Windows.Controls.Image();
-            spirit.Stretch = Stretch.Uniform;
-            spirit.Width = 23;
-            spirit.Height = 23;
-            Carrier.Children.Add(spirit);
-            Canvas.SetLeft(spirit, 0);
-            Canvas.SetTop(spirit, 0);
-    
-            DispatcherTimer dispatcherTimer = new DispatcherTimer();
-            dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
-            dispatcherTimer.Interval = TimeSpan.FromMilliseconds(100);
-            dispatcherTimer.Start();
+            case 0: directionStr = "north"; break;
+            case 1: directionStr = "east"; break;
+            case 2: directionStr = "south"; break;
+            case 3: directionStr = "west"; break;
+            default: directionStr = "east"; break;
         }
-    
-        void dispatcherTimer_Tick(object sender, EventArgs e)
+        if (storyboard != null && storyboard.GetCurrentTime() == TimeSpan.FromSeconds(1))//(isWalking == false)
         {
-            label1.Content = direction + " " + count;
-    
-            string directionStr = "east";
-            switch (direction)
+            int[] table = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 2 };
+            if (direction == 0)
             {
-                case 0: directionStr = "north"; break;
-                case 1: directionStr = "east"; break;
-                case 2: directionStr = "south"; break;
-                case 3: directionStr = "west"; break;
-                default: directionStr = "east"; break;
-            }
-            if (storyboard != null && storyboard.GetCurrentTime() == TimeSpan.FromSeconds(1))//(isWalking == false)
-            {
-                int[] table = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 2 };
-                if (direction == 0)
-                {
-                    count = 1;
-                    spirit.Source = new BitmapImage(
-                            new Uri(@"Assets/LinkG_stand_" + directionStr + "00" + table[count] + ".png", UriKind.Relative));
-                }
-                else
-                {
-                    count = (count > (table.Length - 1)) ? 1 : count;
-                    spirit.Source = new BitmapImage(
-                            new Uri(@"Assets/LinkG_stand_" + directionStr + "00" + table[count] + ".png", UriKind.Relative));
-                    count++;
-                }
+                count = 1;
+                spirit.Source = new BitmapImage(
+                        new Uri(@"Assets/LinkG_stand_" + directionStr + "00" + table[count] + ".png", UriKind.Relative));
             }
             else
             {
-                if (count > 10 || count <= 0)
-                {
-                    count = 1;
-                }
-                else if (count > 0 && count < 10)
-                {
-                    spirit.Source = new BitmapImage(
-                        new Uri(@"Assets/LinkG_walk_" + directionStr + "00" + count + ".png", UriKind.Relative));
-                }
-                else if (count == 10)
-                {
-                    spirit.Source = new BitmapImage(
-                        new Uri(@"Assets/LinkG_walk_" + directionStr + "0" + count + ".png", UriKind.Relative));
-                    count = 1;
-                }
+                count = (count > (table.Length - 1)) ? 1 : count;
+                spirit.Source = new BitmapImage(
+                        new Uri(@"Assets/LinkG_stand_" + directionStr + "00" + table[count] + ".png", UriKind.Relative));
                 count++;
             }
         }
-    
-        /// N - 0
-        /// E - 1
-        /// S - 2
-        /// W - 3
-        private int CalculateDirection(Point pTo, Point pFrom)
+        else
         {
-            pTo.X -= relativePos.X;
-            pTo.Y -= relativePos.Y;
-            double tan = (pTo.Y - pFrom.Y) / (pTo.X - pFrom.X);
-            double delta = pTo.X - pFrom.X;
-            if (delta > 0)
+            if (count > 10 || count <= 0)
             {
-                if (tan <= 1 && tan >= -1)
-                    return 1;
-                else if (tan > 1)
-                    return 2;
-                else// if (tan < -1)
-                    return 0;
+                count = 1;
             }
-            else
+            else if (count > 0 && count < 10)
             {
-                if (tan <= 1 && tan >= -1)
-                    return 3;
-                else if (tan > 1)
-                    return 0;
-                else// if (tan < -1)
-                    return 2;
+                spirit.Source = new BitmapImage(
+                    new Uri(@"Assets/LinkG_walk_" + directionStr + "00" + count + ".png", UriKind.Relative));
             }
+            else if (count == 10)
+            {
+                spirit.Source = new BitmapImage(
+                    new Uri(@"Assets/LinkG_walk_" + directionStr + "0" + count + ".png", UriKind.Relative));
+                count = 1;
+            }
+            count++;
         }
-    
-        private void Carrier_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            isWalking = true;
-    
-            Point pFrom = new Point(Canvas.GetLeft(spirit), Canvas.GetTop(spirit));
-            Point pTo = e.GetPosition(Carrier);
-            direction = CalculateDirection(pTo, pFrom);
-            pTo.X -= relativePos.X;
-            pTo.Y -= relativePos.Y;
-    
-    
-            storyboard = new Storyboard();
-    
-            DoubleAnimation doubleAnimation = new DoubleAnimation()
-            {
-                From = pFrom.X,
-                To = pTo.X,
-                Duration = TimeSpan.FromSeconds(1)
-            };
-            Storyboard.SetTarget(doubleAnimation, spirit);
-            Storyboard.SetTargetProperty(doubleAnimation, new PropertyPath("(Canvas.Left)"));
-            storyboard.Children.Add(doubleAnimation);
-    
-            doubleAnimation = new DoubleAnimation()
-            {
-                From = pFrom.Y,
-                To = pTo.Y,
-                Duration = TimeSpan.FromSeconds(1)
-            };
-            Storyboard.SetTarget(doubleAnimation, spirit);
-            Storyboard.SetTargetProperty(doubleAnimation, new PropertyPath("(Canvas.Top)"));
-            storyboard.Children.Add(doubleAnimation);
-    
-            if (!Resources.Contains("rectAnimation"))
-            {
-                Resources.Add("rectAnimation", storyboard);
-            }
-    
-            storyboard.Begin();
-            storyboard.Completed += new EventHandler((object ssender, EventArgs ee) =>
-            {
-                isWalking = false;
-            });
-        }
-    
     }
 
+    /// N - 0
+    /// E - 1
+    /// S - 2
+    /// W - 3
+    private int CalculateDirection(Point pTo, Point pFrom)
+    {
+        pTo.X -= relativePos.X;
+        pTo.Y -= relativePos.Y;
+        double tan = (pTo.Y - pFrom.Y) / (pTo.X - pFrom.X);
+        double delta = pTo.X - pFrom.X;
+        if (delta > 0)
+        {
+            if (tan <= 1 && tan >= -1)
+                return 1;
+            else if (tan > 1)
+                return 2;
+            else// if (tan < -1)
+                return 0;
+        }
+        else
+        {
+            if (tan <= 1 && tan >= -1)
+                return 3;
+            else if (tan > 1)
+                return 0;
+            else// if (tan < -1)
+                return 2;
+        }
+    }
+
+    private void Carrier_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+    {
+        isWalking = true;
+
+        Point pFrom = new Point(Canvas.GetLeft(spirit), Canvas.GetTop(spirit));
+        Point pTo = e.GetPosition(Carrier);
+        direction = CalculateDirection(pTo, pFrom);
+        pTo.X -= relativePos.X;
+        pTo.Y -= relativePos.Y;
+
+
+        storyboard = new Storyboard();
+
+        DoubleAnimation doubleAnimation = new DoubleAnimation()
+        {
+            From = pFrom.X,
+            To = pTo.X,
+            Duration = TimeSpan.FromSeconds(1)
+        };
+        Storyboard.SetTarget(doubleAnimation, spirit);
+        Storyboard.SetTargetProperty(doubleAnimation, new PropertyPath("(Canvas.Left)"));
+        storyboard.Children.Add(doubleAnimation);
+
+        doubleAnimation = new DoubleAnimation()
+        {
+            From = pFrom.Y,
+            To = pTo.Y,
+            Duration = TimeSpan.FromSeconds(1)
+        };
+        Storyboard.SetTarget(doubleAnimation, spirit);
+        Storyboard.SetTargetProperty(doubleAnimation, new PropertyPath("(Canvas.Top)"));
+        storyboard.Children.Add(doubleAnimation);
+
+        if (!Resources.Contains("rectAnimation"))
+        {
+            Resources.Add("rectAnimation", storyboard);
+        }
+
+        storyboard.Begin();
+        storyboard.Completed += new EventHandler((object ssender, EventArgs ee) =>
+        {
+            isWalking = false;
+        });
+    }
+
+}
+```
 
 
 

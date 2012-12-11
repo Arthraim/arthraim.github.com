@@ -27,8 +27,9 @@ tags:
 
 >
 > nafxcwd.lib(afxmem.obj) : error LNK2005: "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) bereits in (already on) LIBCMTD.lib(new.obj) definiert (defined)
+>
 
-		nafxcwd.lib(afxmem.obj) : error LNK2005: "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) bereits in (already on) libcpmtd.lib(delop.obj) definiert (defined)
+> nafxcwd.lib(afxmem.obj) : error LNK2005: "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) bereits in (already on) libcpmtd.lib(delop.obj) definiert (defined)
 >
 >
 

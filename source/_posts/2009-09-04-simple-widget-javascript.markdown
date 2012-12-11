@@ -37,13 +37,7 @@ twitter官方提供有一个widget，只要稍加修改就可以结合到自己�
 
 
 
-
-  * null
-
-
-
-
-
+<ul id="rensea_update_list"></ul>
 
 
 * * *
@@ -55,21 +49,21 @@ twitter官方提供有一个widget，只要稍加修改就可以结合到自己�
 
 
 
-
-    function renseaCallback(statuss) {
-        var statusHTML = [];
-        for (var i=0; i<statuss.length; i++){
-            var username = statuss[i].user.screen_name;
-            var status = statuss[i].text.replace(/((https?|s?ftp|ssh)://[^"s<>]*[^.,;'">:s<>)]!])/g, function(url) {
-            return '<a href="'+url+'">'+url+'</a>';
-                }).replace(/B@([_a-z0-9]+)/ig, function(reply) {
-                    return  reply.charAt(0)+'<a href="http://rensea.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
-                });
-            statusHTML.push('<li>'+status+'</li>');
-        }
-        document.getElementById('rensea_update_list').innerHTML = statusHTML.join('');
+```js
+function renseaCallback(statuss) {
+    var statusHTML = [];
+    for (var i=0; i<statuss.length; i++){
+        var username = statuss[i].user.screen_name;
+        var status = statuss[i].text.replace(/((https?|s?ftp|ssh)://[^"s<>]*[^.,;'">:s<>)]!])/g, function(url) {
+        return '<a href="'+url+'">'+url+'</a>';
+            }).replace(/B@([_a-z0-9]+)/ig, function(reply) {
+                return  reply.charAt(0)+'<a href="http://rensea.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+            });
+        statusHTML.push('<li>'+status+'</li>');
     }
-
+    document.getElementById('rensea_update_list').innerHTML = statusHTML.join('');
+}
+```
 
 
 
@@ -77,11 +71,11 @@ twitter官方提供有一个widget，只要稍加修改就可以结合到自己�
 
 
 
-
-    <ul id="rensea_update_list"></ul>
-    <script type="text/javascript" src="rensea.js"></script>
-    <script type="text/javascript" src="http://rensea.com/statuses/user_timeline/arthraim.json?callback=renseaCallback&count=20"></script>
-
+```html
+<ul id="rensea_update_list"></ul>
+<script type="text/javascript" src="rensea.js"></script>
+<script type="text/javascript" src="http://rensea.com/statuses/user_timeline/arthraim.json?callback=renseaCallback&count=20"></script>
+```
 
 
 

@@ -16,9 +16,7 @@ tags:
 
 
 
-[![The Twilight Saga: Eclipse](http://img5.douban.com/spic/s4233495.jpg)](http://movie.douban.com/subject/3289086/)[![Flightplan](http://img5.douban.com/spic/s1436065.jpg)](http://movie.douban.com/subject/1419934/)[![Black Death](http://img3.douban.com/spic/s3833898.jpg)](http://movie.douban.com/subject/2988509/)[![The Expendables](http://img3.douban.com/spic/s4225756.jpg)](http://movie.douban.com/subject/3279080/)[![Centurion](http://img3.douban.com/spic/s4387271.jpg)](http://movie.douban.com/subject/3443393/)[![Splice](http://img3.douban.com/spic/s4354806.jpg)](http://movie.douban.com/subject/2301701/)[![Mulholland Dr.](http://img3.douban.com/spic/s1658001.jpg)](http://movie.douban.com/subject/1292217/)  
-
-	[![Tekken](http://img3.douban.com/spic/s4111408.jpg)](http://movie.douban.com/subject/1794438/)[![全城戒备](http://img3.douban.com/spic/s4407162.jpg)](http://movie.douban.com/subject/3874981/)[![Batman: Under the Red Hood](http://img3.douban.com/spic/s4426572.jpg)](http://movie.douban.com/subject/4820775/)[![Kick-Ass](http://img3.douban.com/spic/s4145084.jpg)](http://movie.douban.com/subject/3148748/)[![Sherlock](http://img3.douban.com/spic/s4436692.jpg)](http://movie.douban.com/subject/3986493/)[![After.Life](http://img3.douban.com/spic/s2148113.jpg)](http://movie.douban.com/subject/1986567/)[![Diary of a Wimpy Kid](http://img3.douban.com/spic/s4208318.jpg)](http://movie.douban.com/subject/3003836/)
+[![](http://img5.douban.com/spic/s4233495.jpg)](http://movie.douban.com/subject/3289086/)[![](http://img5.douban.com/spic/s1436065.jpg)](http://movie.douban.com/subject/1419934/)[![](http://img3.douban.com/spic/s3833898.jpg)](http://movie.douban.com/subject/2988509/)[![](http://img3.douban.com/spic/s4225756.jpg)](http://movie.douban.com/subject/3279080/)[![](http://img3.douban.com/spic/s4387271.jpg)](http://movie.douban.com/subject/3443393/)[![](http://img3.douban.com/spic/s4354806.jpg)](http://movie.douban.com/subject/2301701/)[![](http://img3.douban.com/spic/s1658001.jpg)](http://movie.douban.com/subject/1292217/)[![](http://img3.douban.com/spic/s4111408.jpg)](http://movie.douban.com/subject/1794438/)[![](http://img3.douban.com/spic/s4407162.jpg)](http://movie.douban.com/subject/3874981/)[![](http://img3.douban.com/spic/s4426572.jpg)](http://movie.douban.com/subject/4820775/)[![](http://img3.douban.com/spic/s4145084.jpg)](http://movie.douban.com/subject/3148748/)[![](http://img3.douban.com/spic/s4436692.jpg)](http://movie.douban.com/subject/3986493/)[![](http://img3.douban.com/spic/s2148113.jpg)](http://movie.douban.com/subject/1986567/)[![](http://img3.douban.com/spic/s4208318.jpg)](http://movie.douban.com/subject/3003836/)
 
 
 
@@ -29,46 +27,46 @@ tags:
 
 
 
-	
+
   * **暮光之城3：月食 / The Twilight Saga: Eclipse**：即便第二集狗血的一塌糊涂，怀着对第一集的美好印象，我还是相信第三集值得一看。没想到第三集完美的延续了第二集的垃圾质量。twilight告诉我再也不要相信一个家庭主妇写的伪科幻……
 
-	
+
   * **空中危机 / Flightplan**：失之交臂了无数次的电影，终于完完整整的看全了一次~ 一波三折啊，好片
 
-	
+
   * **黑死病 / Black Death**：信仰与对错无关
 
-	
+
   * **敢死队 / The Expendables**：一群老男人耍酷
 
-	
+
   * **百夫长 / Centurion**：近年来史诗片就没有什么出彩的，这一部算是不错……
 
-	
+
   * **人兽杂交 / Splice**：一开始一直觉得"人兽杂交"翻译的不好，看到后来我觉得原来翻译的很到位。。。
 
-	
+
   * **穆赫兰道 / Mulholland Dr.**：瞻仰神片，我给你打满分吧，你太神了，我看不懂…… 第一次看大卫林奇的电影，看不懂，这个打击比较大，还好mtime有神人写剧情全解析……【Naomi Watts好漂亮啊
 
-	
+
   * **铁拳 / Tekken**：我是不报什么希望的，不过好像比想象的还好一点…………
 
-	
+
   * **全城戒备 / City Under Siege**：放过我吧哥哥…… 陈木胜你吃大便了是不是啊。。。。
 
-	
+
   * **蝙蝠侠:红影迷踪 / Batman: Under the Red Hood**：因为Nolan对蝙蝠侠系列做出的伟大贡献，是的BATMAN的整个调调都变得更加阴暗但是成熟，大银幕上的蝙蝠侠应该是真正找到了自己的路。绝对不知是一部动画电影~
 
-	
+
   * **海扁王 / Kick-Ass**：就用超级英雄题材的电影来对比的话的确挺新鲜的……
 
-	
+
   * **神探夏洛克 / Sherlock**：全新的诠释，完美！ | 看完第二集，依旧完美，尤其是deadman写在贝克街221B的时候~ | 哇，第三集的推理真的是看得大呼过瘾啊！最后主仆一对gay的铺垫…哇… 好棒的剧【终于看完了
 
-	
+
   * **身后事 / After.Life **：好吧，我想评论几句，不过担心剧透…… 片子其实设计了很多模凌两可的线索，就是为了引发一些讨论。我在看的过程中也不停在两种推论里倒来倒去，不过现在比较倾向于其中一个说法~
 
-	
+
   * **小屁孩日记 / Diary of a Wimpy Kid**：好吧挺可爱的~ 不过貌似都不是我能够理解的烦恼和快乐啊，国情不同
 
 

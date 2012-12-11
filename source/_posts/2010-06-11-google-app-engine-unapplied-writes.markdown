@@ -28,7 +28,7 @@ tags:
 
 
 
-在去年我写了一篇《[用Java写个Google App Engine应用](http://arthraim.cn/google-app-engine-apps-in-java/)》的文章介绍GAE的JAVA支持。程序本身很简单，完全没有任何参考价值，只是我对文章介绍了很多程序之外的软件安装啊环境搭建这样的简单的步骤。jmini-arthraim相当于一个简单的留言板，简单来说就是用户提交title content信息，写入数据库这样子。大概不知道这个程序和哪个刷spam的程序犯冲了，或是有人无聊到针对我对程序做了刷spam的程序，总之几个月来，这个应用一直忍受着常人难以忍受的委屈。
+在去年我写了一篇《[用Java写个Google App Engine应用](http://artori.us/google-app-engine-apps-in-java/)》的文章介绍GAE的JAVA支持。程序本身很简单，完全没有任何参考价值，只是我对文章介绍了很多程序之外的软件安装啊环境搭建这样的简单的步骤。jmini-arthraim相当于一个简单的留言板，简单来说就是用户提交title content信息，写入数据库这样子。大概不知道这个程序和哪个刷spam的程序犯冲了，或是有人无聊到针对我对程序做了刷spam的程序，总之几个月来，这个应用一直忍受着常人难以忍受的委屈。
 
 
 

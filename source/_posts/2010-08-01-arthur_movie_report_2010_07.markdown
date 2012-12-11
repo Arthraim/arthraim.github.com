@@ -16,9 +16,7 @@ tags:
 
 
 
-[![Nine](http://t.douban.com/spic/s4068098.jpg)](http://movie.douban.com/subject/2257759/)[![The Ghost Writer](http://img2.douban.com/spic/s4149033.jpg)](http://movie.douban.com/subject/3120852/)[![Once Upon a Time in America](http://img2.douban.com/spic/s2383154.jpg)](http://movie.douban.com/subject/1292262/)[![Insomnia](http://t.douban.com/spic/s1659177.jpg)](http://movie.douban.com/subject/1307210/)[![Repo Men](http://t.douban.com/spic/s4152995.jpg)](http://movie.douban.com/subject/2265778/)[![ASSAULT GIRLS](http://img2.douban.com/spic/s3951434.jpg)](http://movie.douban.com/subject/3882834/)  
-
-	[![Pulp Fiction](http://t.douban.com/spic/s2845185.jpg)](http://movie.douban.com/subject/1291832/)[![Cloudy with a Chance of Meatballs](http://img2.douban.com/spic/s3874162.jpg)](http://movie.douban.com/subject/3102668/)[![Hot Tub Time Machine](http://t.douban.com/spic/s4158956.jpg)](http://movie.douban.com/subject/3071471/)[![Don McKay](http://img2.douban.com/spic/s4231883.jpg)](http://movie.douban.com/subject/3566747/)[![枪王之王](http://img2.douban.com/spic/s4381860.jpg)](http://movie.douban.com/subject/4133988/)[![The Good Guy](http://t.douban.com/spic/s4145296.jpg)](http://movie.douban.com/subject/3193932/)
+[![](http://t.douban.com/spic/s4068098.jpg)](http://movie.douban.com/subject/2257759/)[![](http://img2.douban.com/spic/s4149033.jpg)](http://movie.douban.com/subject/3120852/)[![](http://img2.douban.com/spic/s2383154.jpg)](http://movie.douban.com/subject/1292262/)[![](http://t.douban.com/spic/s1659177.jpg)](http://movie.douban.com/subject/1307210/)[![](http://t.douban.com/spic/s4152995.jpg)](http://movie.douban.com/subject/2265778/)[![](http://img2.douban.com/spic/s3951434.jpg)](http://movie.douban.com/subject/3882834/)[![](http://t.douban.com/spic/s2845185.jpg)](http://movie.douban.com/subject/1291832/)[![](http://img2.douban.com/spic/s3874162.jpg)](http://movie.douban.com/subject/3102668/)[![](http://t.douban.com/spic/s4158956.jpg)](http://movie.douban.com/subject/3071471/)[![](http://img2.douban.com/spic/s4231883.jpg)](http://movie.douban.com/subject/3566747/)[![](http://img2.douban.com/spic/s4381860.jpg)](http://movie.douban.com/subject/4133988/)[![](http://t.douban.com/spic/s4145296.jpg)](http://movie.douban.com/subject/3193932/)
 
 
 
@@ -29,40 +27,40 @@ tags:
 
 
 
-	
+
   * **Nine / 九：**豪华的阵容啊，芝加哥没有好好看，这一部感觉倒是很棒~
 
-	
+
   * **The Ghost Writer / 幽灵写手：**本来以为是小人物卷进大阴谋的无聊片子，（虽然剧情的确是这样），不过片子所有的铺陈，真真假假的线索，虚虚实实的人物，都带出了最后揭示的悬疑。说穿了是个很傻的故事，但是导演悬疑玩得很棒。
 
-	
+
   * **Once Upon a Time in America / 美国往事：**和现在100分钟里让你尽情品尝各种酸甜苦辣悲欢离合激情火爆的140个子的tweet一样的电影不同，片子就像一部长篇小说，用140万字尽情的叙说着想表达的不想表达的，留给观众无数的经典。
 
-	
+
   * **Insomnia / 白夜追凶：**悬念的铺设很老道，很吊胃口。不过比起《记忆碎片》，这个故事显得简单很多~ 故事更多的不是给人悬疑惊悚的感官体验，而是良知上的思考。这个在良心边缘挣扎的失眠男人和老帕以往饰演的形象很不同。值得一看~
 
-	
+
   * **Repo Men / 重生男人：**是个不错的故事，看完之后不禁让我想去记住编剧的名字…… 结局设计很棒！至于影片里的血腥场景，的确可有可无，不过算是个噱头吧。BTW：裘德洛的一口英伦腔真是酷。。
 
-	
+
   * **ASSAULT GIRLS / アサルトガールズ：**催眠片啊，不知所云 - - 要不是看在某些爆点还可以的面子上那就是2分(10分制)啊。。。
 
-	
+
   * **Pulp Fiction / 低俗小说：**额…… 把故事发展顺序理顺了，不过不知道昆汀想表达的是什么……不过很好看
 
-	
+
   * **Cloudy with a Chance of Meatballs / 食破天惊：**不得不说这是一部不输给皮克斯的好动画啊，虽然剧情结构真的是小老套了一点~
 
-	
+
   * **Hot Tub Time Machine / 热浴盆时光机：**穿越的电影总是比较对我胃口，不过片子要说明的问题还真是老套的可以啊…… 剧情还们蛮好笑的，推荐和我一样等球等的蛋疼的人看
 
-	
+
   * **Don McKay / 骗局：**没啥大悬疑的悬疑电影，没啥大感觉。有影评说片子的爱情更细腻，不过男主角那张万年不变的僵尸脸真是让我觉得好平板……
 
-	
+
   * **枪王之王 / Triple Tap：**美国西部片+香港警匪片，不过这电影已经大大超出了我去影院买票之前的期望了。故事的确是一个好故事~~
 
-	
+
   * **The Good Guy / 好男孩：**很久没看爱情的了…… 这片子太理想化了，好人太好，坏人太坏，事实上很多坏人都是自己觉得自己是好人的。消遣消遣咯
 
 
@@ -73,16 +71,11 @@ tags:
 
 
 
-> 
-	
-> 
-> 强忍着睡意坚持看完了《**美国往事**》的后一半…… 我觉得Noodles和Max就像是一个人，因为彼此了解，所以彼此厌恶。  
+强忍着睡意坚持看完了《**美国往事**》的后一半…… 我觉得Noodles和Max就像是一个人，因为彼此了解，所以彼此厌恶。
 
-		Noodles想也想做坏事，但有违良心，Max做了他不敢做（但想做）的，所以Max的贪婪成了他逃避他（和自己）的借口。Max的例子就是女人，他同样有依恋女人的时候（对Carol发火那段），但自己也厌恶这点，觉得成大事不该儿女情长，所以Noodles对女人的柔情就成了他厌恶他（和自己）的借口了。  
+Noodles想也想做坏事，但有违良心，Max做了他不敢做（但想做）的，所以Max的贪婪成了他逃避他（和自己）的借口。Max的例子就是女人，他同样有依恋女人的时候（对Carol发火那段），但自己也厌恶这点，觉得成大事不该儿女情长，所以Noodles对女人的柔情就成了他厌恶他（和自己）的借口了。
 
-		因为彼此了解，彼此相似。所以两个人就像同性相斥一样，在一些事情上往两个方向分离出去。但本质上两个人是一样的。描述不太清楚这种感觉，相信和我一样的同卵双胞胎可能会和我有一样的体会。那种在别人身上找自己影子，借别人身上的影子摆脱自己恶习的本能心理，应该是每个人都有的。
-> 
-> 
+因为彼此了解，彼此相似。所以两个人就像同性相斥一样，在一些事情上往两个方向分离出去。但本质上两个人是一样的。描述不太清楚这种感觉，相信和我一样的同卵双胞胎可能会和我有一样的体会。那种在别人身上找自己影子，借别人身上的影子摆脱自己恶习的本能心理，应该是每个人都有的。
 
 
 

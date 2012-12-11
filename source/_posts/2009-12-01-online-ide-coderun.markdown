@@ -97,11 +97,8 @@ tags:
 
 
 
-[![](/images/uploads/zb/2009-12-01_coderun.jpg)
+[![](/images/uploads/zb/2009-12-01_coderun.jpg)](/images/uploads/zb/2009-12-01_coderun.jpg)
 
-
-
-](/images/uploads/zb/2009-12-01_coderun.jpg)
 
 
 

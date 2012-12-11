@@ -25,13 +25,13 @@ tags:
 
 
 
-    
+```
     release:5.55:
     build:3230,0,3,1,0:builder@vsh-build6
     system:52556@release_555,0x05050510:
     vsh:p6434@release_555,v52629@release_555,20090608:
     target:1:WorldWide
-
+```
 
 
 
@@ -50,13 +50,13 @@ tags:
 
 
 
-代码很长，所以折叠起来了，可以点击"expend source"来展开；  
+代码很长，所以折叠起来了，可以点击"expend source"来展开；
 
-	另外没有Lua的高亮，所以我用SQL的高亮代替一下，注释看得出就好了。
+另外没有Lua的高亮，所以我用SQL的高亮代替一下，注释看得出就好了。
 
 
 
-    
+```lua
     -- Not edit!!!
     -- DAS IST NUR EINE VORL腢FIGE vERSION DIE oRIGINALLE WIRD BESSER -- ---------------------------------------
     red = Color.new(255,255,255) -- ---------------------------------------
@@ -256,7 +256,7 @@ tags:
     -- lorning for schoollearning and not edit this code or copy
     -- lorning for schoollearning and not edit this code or copy
     -- lorning for schoollearning and not edit this code or copy
-    
+```
 
 
 
@@ -265,7 +265,7 @@ tags:
 
 
 
-    
+```
     red = Color.new(255,255,255)
     black = Color.new(0,0,0)
     while true do
@@ -338,7 +338,7 @@ tags:
             System.shutdown()
         end
     end
-
+```
 
 
 

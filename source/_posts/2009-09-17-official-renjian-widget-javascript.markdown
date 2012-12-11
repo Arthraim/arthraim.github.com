@@ -34,10 +34,11 @@ tags:
 
 
 
-    
-    
-    <script src="http://rensea.com/js/renseaApi.js?screenName=arthraim&width=550" type="text/javascript"></script>
-    <script src="http://rensea.com/statuses/user_timeline/arthraim.json?count=10&callback=renseaApiCallback" type="text/javascript"></script>
+
+```html
+<script src="http://rensea.com/js/renseaApi.js?screenName=arthraim&width=550" type="text/javascript"></script>
+<script src="http://rensea.com/statuses/user_timeline/arthraim.json?count=10&callback=renseaApiCallback" type="text/javascript"></script>
+```
 
 
 
@@ -52,14 +53,10 @@ tags:
 
 
 
-> 
-
-> 
-> <script src="http://rensea.com/js/renseaApi.js?screenName=你的名字&width=你要的宽度" type="text/javascript"></script>  
-
+```html
+<script src="http://rensea.com/js/renseaApi.js?screenName=你的名字&width=你要的宽度" type="text/javascript"></script>
 <script src="http://rensea.com/statuses/user_timeline/你的名字.json?count=你要的数量&callback=renseaApiCallback" type="text/javascript"></script>
-> 
-> 
+```
 
 
 

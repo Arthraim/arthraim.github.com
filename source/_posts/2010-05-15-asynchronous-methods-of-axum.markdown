@@ -23,33 +23,33 @@ tags:
 
 
 
-    
-    agent MainAgent : channel Microsoft.Axum.Application
+```c#
+agent MainAgent : channel Microsoft.Axum.Application
+{
+    public MainAgent()
     {
-        public MainAgent()
-        {
-            var pt = new OrderedInteractionPoint<int>();
-    
-            // Set up a dataflow network
-            pt ==> MultiplyByTwo ==> Print;
-    
-            // Send some numbers to the network
-            for(int i=0; i<5; i++) pt <-- i;
-    
-            PrimaryChannel::Done <-- Signal.Value;
-        }
-    
-        int MultiplyByTwo(int n)
-        {
-            return n*2;
-        }
-    
-        void Print(int n)
-        {
-            Console.WriteLine(n);
-        }
+        var pt = new OrderedInteractionPoint<int>();
+
+        // Set up a dataflow network
+        pt ==> MultiplyByTwo ==> Print;
+
+        // Send some numbers to the network
+        for(int i=0; i<5; i++) pt <-- i;
+
+        PrimaryChannel::Done <-- Signal.Value;
     }
 
+    int MultiplyByTwo(int n)
+    {
+        return n*2;
+    }
+
+    void Print(int n)
+    {
+        Console.WriteLine(n);
+    }
+}
+```
 
 
 
@@ -57,17 +57,17 @@ tags:
 
 
 
-    
-    // Send some numbers to the network
-    for(int i=0; i<5; i++) pt <-- i;
-    
-    // Not so fast! Wait until the user hits
-    // return before continuing
-    Console.WriteLine("Press Enter to continue...");
-    Console.ReadLine();
-    
-    PrimaryChannel::Done <-- Signal.Value;
+```c#
+// Send some numbers to the network
+for(int i=0; i<5; i++) pt <-- i;
 
+// Not so fast! Wait until the user hits
+// return before continuing
+Console.WriteLine("Press Enter to continue...");
+Console.ReadLine();
+
+PrimaryChannel::Done <-- Signal.Value;
+```
 
 
 
@@ -75,17 +75,17 @@ tags:
 
 
 
-    
-    // Send some numbers to the network
-    for(int i=0; i<5; i++) pt <-- i;
-    
-    // Not so fast! Wait until the user hits
-    // return before continuing
-    Console.WriteLine("Press Enter to continue...");
-    AsyncConsole.ReadLine();
-    
-    PrimaryChannel::Done <-- Signal.Value;
+```c#
+// Send some numbers to the network
+for(int i=0; i<5; i++) pt <-- i;
 
+// Not so fast! Wait until the user hits
+// return before continuing
+Console.WriteLine("Press Enter to continue...");
+AsyncConsole.ReadLine();
+
+PrimaryChannel::Done <-- Signal.Value;
+```
 
 
 
@@ -100,34 +100,34 @@ tags:
 
 
 
-	
+
   * Added an installer for Visual Studio 2010 Beta1
 
-	
+
   * Enabled parallel execution of functional nodes in dataflow networks
 
-	
+
   * Made it possible to change fonts and colors of Axum language elements via Tools | Options | Fonts and Colors
 
-	
+
   * Moved samples to a zip file to make using them easier
 
-	
+
   * Introduced AxumLite.zip - an Axum command line compiler that doesn't require Visual Studio
 
-	
+
   * Fixed the compiler error where the channel name was the same as the enclosing namespace name
 
-	
+
   * Made handling of immutable primitive types more rigorous; fixed some side-effect related bugs
 
-	
+
   * Added 'using System.Concurrency.Messaging' to the VS-generated template to make classes like OrderedInteractionPoint visible by default
 
-	
+
   * Added the async method Microsoft.Axum.IO.Console.ReadLine
 
-	
+
   * Added a spiffy Auction sample (A big shout out to [Matthew Podwysocki](http://weblogs.asp.net/Podwysocki/) for his help!)
 
 

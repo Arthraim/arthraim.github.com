@@ -32,9 +32,9 @@ PyMT是一个开源的类库，支持多点触控。在[这里](http://pymt.eu/#
 
 
 
-
+```sh
     pymt -m pymt.tools.demo
-
+```
 
 
 
@@ -52,18 +52,18 @@ PyMT是一个开源的类库，支持多点触控。在[这里](http://pymt.eu/#
 
 
 
+```py
+from pymt import *
 
-    from pymt import *
+class CircleDrawer(MTWidget):
+    '''Draw a circle at the position of all touches.'''
+    def draw(self):
+        set_color(1, 0, 0)
+        for touch in getCurrentTouches():
+            drawCircle(touch.pos, 50)
 
-    class CircleDrawer(MTWidget):
-        '''Draw a circle at the position of all touches.'''
-        def draw(self):
-            set_color(1, 0, 0)
-            for touch in getCurrentTouches():
-                drawCircle(touch.pos, 50)
-
-    runTouchApp(CircleDrawer())
-
+runTouchApp(CircleDrawer())
+```
 
 
 

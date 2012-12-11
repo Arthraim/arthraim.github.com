@@ -23,7 +23,7 @@ tags:
 
 
 
-现在鼓励大家来我博客留言吧~ 可以使用新浪微薄直接连接了。在留言那块，点![新浪连接](http://fairyfish.net/wp-content/plugins/all-in-one/sina_button.png)，连接之后你的发言还可以同步到新浪微薄上，直接把喜欢我的文章分享出去。今天已经有童鞋换了的试验过了。
+现在鼓励大家来我博客留言吧~ 可以使用新浪微薄直接连接了。在留言那块，点![](http://fairyfish.net/wp-content/plugins/all-in-one/sina_button.png)，连接之后你的发言还可以同步到新浪微薄上，直接把喜欢我的文章分享出去。今天已经有童鞋换了的试验过了。
 
 
 

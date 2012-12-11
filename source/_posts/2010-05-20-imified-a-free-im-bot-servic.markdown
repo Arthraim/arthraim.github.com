@@ -27,32 +27,32 @@ Google中游荡的时候发现了这个网站，[imified](http://imified.com)。
 
 
 
-
-    <?php
-    $msg=$_REQUEST['msg'];
-    $step=$_REQUEST['step'];
-    if($step > 3){
-    	switch($msg){
-    		case "hi":
-    		case "hello":
-    		echo "Hello there, I'm Arthurobot from Arthraim.cn";
-    		break;
-    	}
-    } else {
-    	switch ($step) {
-    	case 1:
-    	echo "Hello there, I'm Arthurobot from Arthraim.cn, so what's your name?";
-    	break;
-    	case 2:
-    	echo "Hi " . $_REQUEST['value1'] . ", where do you live?";
-    	break;
-    	case 3:
-    	echo "Well, welcome to this bot, " . $_REQUEST['value1'] . "<br>from " . $_REQUEST['value2'] . ".";
-    	break;
-    	}
-    }
-    ?>
-
+```php
+<?php
+$msg=$_REQUEST['msg'];
+$step=$_REQUEST['step'];
+if($step > 3){
+	switch($msg){
+		case "hi":
+		case "hello":
+		echo "Hello there, I'm Arthurobot from Arthraim.cn";
+		break;
+	}
+} else {
+	switch ($step) {
+	case 1:
+	echo "Hello there, I'm Arthurobot from Arthraim.cn, so what's your name?";
+	break;
+	case 2:
+	echo "Hi " . $_REQUEST['value1'] . ", where do you live?";
+	break;
+	case 3:
+	echo "Well, welcome to this bot, " . $_REQUEST['value1'] . "<br>from " . $_REQUEST['value2'] . ".";
+	break;
+	}
+}
+?>
+```
 
 
 

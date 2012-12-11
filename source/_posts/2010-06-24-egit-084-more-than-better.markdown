@@ -20,7 +20,7 @@ tags:
 
 [![](/images/uploads/wp/2010-06-24_EGit_084.png)](/images/uploads/wp/2010-06-24_EGit_084.png)
 
-	[![](/images/uploads/wp/2010-06-24_EGit_084_menu.png)](/images/uploads/wp/2010-06-24_EGit_084_menu.png)
+[![](/images/uploads/wp/2010-06-24_EGit_084_menu.png)](/images/uploads/wp/2010-06-24_EGit_084_menu.png)
 
 
 

@@ -34,9 +34,9 @@ tags:
 
 
 
-
-    javascript:if(!window.open('http://douban.fm/radio','radiowin','height=186,width=420,toolbar=no,menubar=no,scrollbars=no,location=no,status=no')){location.href='http://douban.fm/radio'}
-
+```js
+javascript:if(!window.open('http://douban.fm/radio','radiowin','height=186,width=420,toolbar=no,menubar=no,scrollbars=no,location=no,status=no')){location.href='http://douban.fm/radio'}
+```
 
 
 

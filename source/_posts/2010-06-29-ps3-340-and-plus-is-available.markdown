@@ -29,23 +29,23 @@ tags:
 
 
 
-  * **PlayStation Plus**：PlayStation Network用户现在可以支付成为PlayStation Plus用户，plus，一个新的PSN订阅服务提供用户更多的选择以扩展和提高你的游戏体验，获得更多专享的特性和内容。友情提示，所有PSN的免费用户依然可以登录PSN得到plus特供以外的东东。（这狗屁广告我都懒得翻译下去了）
+* **PlayStation Plus**：PlayStation Network用户现在可以支付成为PlayStation Plus用户，plus，一个新的PSN订阅服务提供用户更多的选择以扩展和提高你的游戏体验，获得更多专享的特性和内容。友情提示，所有PSN的免费用户依然可以登录PSN得到plus特供以外的东东。（这狗屁广告我都懒得翻译下去了）
 
-		[![](/images/uploads/wp/playstation_plus.jpg)](/images/uploads/wp/playstation_plus.jpg)
-
-
-  * **Photo Gallery（照片相册）**：一个拥有新的网络图片分享特性的照片相册。新提升的功能允许你上传、浏览或评论所有在Facebook、Picasa网络相册上的照片。同时你也可以把相册中的照片分享给PSN好友，或直接打印。
+[![](/images/uploads/wp/playstation_plus.jpg)](/images/uploads/wp/playstation_plus.jpg)
 
 
-  * **Video Editor & Uploader（视频编辑&上传）**： 视频编辑器和上传时XMB上的一个新功能，使你可以编辑、存储上传你存储在PS3系统里的视频，并且把他们上传到Facebook或者Youtube上。
-
-		[![](/images/uploads/wp/2010-06-30_ps3_340_video_editor.jpg)](/images/uploads/wp/2010-06-30_ps3_340_video_editor.jpg)
+* **Photo Gallery（照片相册）**：一个拥有新的网络图片分享特性的照片相册。新提升的功能允许你上传、浏览或评论所有在Facebook、Picasa网络相册上的照片。同时你也可以把相册中的照片分享给PSN好友，或直接打印。
 
 
-  * **Five Star Rating Support:（五星打分支持）**：用户可以对PS Store里购买的内容给予1-5颗五角星的评价。
+* **Video Editor & Uploader（视频编辑&上传）**： 视频编辑器和上传时XMB上的一个新功能，使你可以编辑、存储上传你存储在PS3系统里的视频，并且把他们上传到Facebook或者Youtube上。
+
+[![](/images/uploads/wp/2010-06-30_ps3_340_video_editor.jpg)](/images/uploads/wp/2010-06-30_ps3_340_video_editor.jpg)
 
 
-  * **Power Save Settings（节能设置）**：PS3自动关机设置将默认设为2小时，并且提供更多PS3节能设置。
+* **Five Star Rating Support:（五星打分支持）**：用户可以对PS Store里购买的内容给予1-5颗五角星的评价。
+
+
+* **Power Save Settings（节能设置）**：PS3自动关机设置将默认设为2小时，并且提供更多PS3节能设置。
 
 
 

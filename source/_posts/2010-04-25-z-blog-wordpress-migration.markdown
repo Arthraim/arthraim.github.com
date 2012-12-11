@@ -29,9 +29,9 @@ Arthraim.cn的关注者们，在时隔2天后，相信今天你们来到本博�
 
 
 
-事实上从Z-blog搬到Wordpress最麻烦的是数据，我看了Z-blog的数据结构，和一张wordpress的[ER图](http://tech.idv2.com/wp-content/uploads/2007/01/wordpress-db-er-diagram.png)，就转换来说还是有些困难的。不过搜索一下都能知道，Z-blog可以先转到movable type的数据，再导入wordpress，只是那个插件是在2006年的时候写的。我用了一个可以保留tag的新版本，在[这里](http://hidigi.net/post/zblog-wordpress-migration.html)可以找到下载。  
+事实上从Z-blog搬到Wordpress最麻烦的是数据，我看了Z-blog的数据结构，和一张wordpress的[ER图](http://tech.idv2.com/wp-content/uploads/2007/01/wordpress-db-er-diagram.png)，就转换来说还是有些困难的。不过搜索一下都能知道，Z-blog可以先转到movable type的数据，再导入wordpress，只是那个插件是在2006年的时候写的。我用了一个可以保留tag的新版本，在[这里](http://hidigi.net/post/zblog-wordpress-migration.html)可以找到下载。
 
-	用插件转方便一点，不过因为我要保持原来的url无缝过来，原来的url又是ID.HTML的静态页面，所以有些麻烦，因为导进来的ID不一样，所以在数据库里update了很久，把ID都调整正确。这样是有好处的，一是保证了搜索引擎尽可能小的降权，让收录的页面仍然正常指向，也保证了自己博客的一些内部静态链接正确无误，不影响阅读。虽然事实上原来的url是对SEO无益的，不过我还是愿意保持原状。另外，Z-blog导出的movabletype.asp文件里也可以简单的替换完成很多数据的处理。比如ZBLOG_HOST这样的变量的替换。
+用插件转方便一点，不过因为我要保持原来的url无缝过来，原来的url又是ID.HTML的静态页面，所以有些麻烦，因为导进来的ID不一样，所以在数据库里update了很久，把ID都调整正确。这样是有好处的，一是保证了搜索引擎尽可能小的降权，让收录的页面仍然正常指向，也保证了自己博客的一些内部静态链接正确无误，不影响阅读。虽然事实上原来的url是对SEO无益的，不过我还是愿意保持原状。另外，Z-blog导出的movabletype.asp文件里也可以简单的替换完成很多数据的处理。比如ZBLOG_HOST这样的变量的替换。
 
 
 

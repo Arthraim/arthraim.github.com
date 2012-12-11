@@ -24,17 +24,17 @@ tags:
 
 
 
-以前的做法是创建pydev项目，在项目目录下django-admin.py startproject，然后把新建的目录设为src，再自己设置Run和Debug，使用manage.py runserver 0.0.0.0:8080。
+以前的做法是创建pydev项目，在项目目录下`django-admin.py startproject`，然后把新建的目录设为src，再自己设置Run和Debug，使用manage.py runserver 0.0.0.0:8080。
 
 
 
 
-如今pydev会自动在新建Django项目的时候startproject，自动设为src，和我们手动做的其实都是一样的。不过还会自动添加DJANGO_MANAGE_LOCATION和DJANGO_SETTINGS_MODULE两个字符串替换变量（string substitution variable）分别指向项目目录下的manage.py和settings.py。
+如今pydev会自动在新建Django项目的时候startproject，自动设为src，和我们手动做的其实都是一样的。不过还会自动添加`DJANGO_MANAGE_LOCATION`和`DJANGO_SETTINGS_MODULE`两个字符串替换变量（string substitution variable）分别指向项目目录下的manage.py和settings.py。
 
 
 
 
-当然，以前手动处理的项目，也可以使用右键-pydev-Set As Django Project把原有的项目转换为Pydev Django项目。当然一样要确认下是不是有DJANGO_MANAGE_LOCATION和DJANGO_SETTINGS_MODULE两个变量。
+当然，以前手动处理的项目，也可以使用右键-pydev-Set As Django Project把原有的项目转换为Pydev Django项目。当然一样要确认下是不是有`DJANGO_MANAGE_LOCATION`和`DJANGO_SETTINGS_MODULE`两个变量。
 
 
 

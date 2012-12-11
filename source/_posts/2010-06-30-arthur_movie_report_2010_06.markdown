@@ -21,39 +21,37 @@ tags:
 
 
 
-**![Green Zone](http://img2.douban.com/spic/s4046263.jpg)**![Léon](http://t.douban.com/spic/s3877058.jpg)![Fight Club](http://img2.douban.com/spic/s1311094.jpg)![Nuovo cinema Paradiso](http://t.douban.com/spic/s4011078.jpg)![I Love You Phillip Morris](http://t.douban.com/spic/s3638647.jpg)  
-
-	![Unthinkable](http://img2.douban.com/spic/s3916263.jpg)![Goryachiye novosti](http://img2.douban.com/spic/s3284761.jpg)![20世紀少年 最終章 ぼくらの旗](http://t.douban.com/spic/s4195886.jpg)![The Pacific](http://t.douban.com/spic/s4200775.jpg)
+**![](http://img2.douban.com/spic/s4046263.jpg)**![](http://t.douban.com/spic/s3877058.jpg)![](http://img2.douban.com/spic/s1311094.jpg)![](http://t.douban.com/spic/s4011078.jpg)![](http://t.douban.com/spic/s3638647.jpg)![](http://img2.douban.com/spic/s3916263.jpg)![](http://img2.douban.com/spic/s3284761.jpg)![](http://t.douban.com/spic/s4195886.jpg)![](http://t.douban.com/spic/s4200775.jpg)
 
 
 
 
 
-	
+
   * **Green Zone / 绿区**：我以为是战争题材的，没想到是政治题材的。影片所谓的真相也不见得是真相，个人英雄主义倒是展现的淋漓尽致。不过美国电影取材还真是天不怕地不怕……
 
-	
+
   * **Leon / 这个杀手不太冷**：我需要再多看几遍…… 很多设计都好精巧，好棒。剧情也好，电影本身也好。
 
-	
+
   * **Fight Club / 搏击俱乐部**：电影讲述的是这个世界上的每个人。每个人心里都有一个Taylor，只是看你愿不愿意成为他。
 
-	
+
   * **Nuovo cinema Paradiso / 天堂电影院**：人的成长中都有那一个或那两个的意象，也许爱情也是
 
-	
+
   * **I Love You Phillip Morris / 我爱你莫里斯**：我只是因为金凯利才下载了这部电影，没想到还冒出来了Ewan，没想到这两个人还搞基！没想到Jim演的角色还这么喜感，这鬼一样的经历居然还是TM真实事件改编的……
 
-	
+
   * **Unthinkable / 战略特勤组**：构思很精巧，用很另类的视角展现一场恐怖袭击。演员可谓是Matrix 超人齐上阵啊 = = 我只有一个建议，把男主角换成Jack Bauer比较有说服力，或者Sayid Jarrah也可以啊………… 影片告诉我们，其实每个人都是一样的……
 
-	
+
   * **The Pacific / 太平洋战争**：我相信对战争表现远远不及这部片子带来的人性的光辉。
 
-	
+
   * **Goryachiye novosti / 大事件**：枪战场景堆在一起，节奏从头到尾慢悠悠一个调…… 好乏味。杜琪峰会不高兴的。。。
 
-	
+
   * **20世紀少年 最終章 ぼくらの旗 / 20世纪少年 最终章**：终于把这部天马行空般的电影看全了，悬念终于得到了揭示，虽然第三部总体节奏太慢了，不过最后揭开真相的过程真可谓是酣畅淋漓！
 
 
@@ -109,9 +107,9 @@ tags:
 
 
 
-好，这就是六月份的全部了！似乎这个月没有看一部院线的电影。Toy Story 3就留给7月吧~  
+好，这就是六月份的全部了！似乎这个月没有看一部院线的电影。Toy Story 3就留给7月吧~
 
-	完毕了，希望大家喜欢和拍砖~ 有什么想法都留言吧~ 我的留言好少。
+完毕了，希望大家喜欢和拍砖~ 有什么想法都留言吧~ 我的留言好少。
 
 
 

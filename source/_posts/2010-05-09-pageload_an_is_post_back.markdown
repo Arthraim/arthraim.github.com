@@ -19,12 +19,12 @@ tags:
 
 
 
-> 
-	
-> 
+>
+
+>
 > To prevent data and mouse click events from being overwritten, any binding code in the Page_Load event handler is placed within a Not IsPostBack conditional block, which prevents the binding code from being called during postbacks.
-> 
-> 
+>
+>
 
 
 
@@ -39,16 +39,17 @@ tags:
 
 
 
-    
-    protected void Page_Load(object sender, EventArgs e)
+```c#
+protected void Page_Load(object sender, EventArgs e)
+{
+    User loginUser = Session["user"] as User;
+    this.TextboxID.Text = loginUser.ID;
+    if (!Page.IsPostBack)
     {
-        User loginUser = Session["user"] as User;
-        this.TextboxID.Text = loginUser.ID;
-        if (!Page.IsPostBack)
-        {
-            this.TextboxName.Text = loginUser.Name;
-        }
+        this.TextboxName.Text = loginUser.Name;
     }
+}
+```
 
 
 

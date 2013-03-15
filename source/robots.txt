@@ -1,4 +1,7 @@
-# www.robotstxt.org/
-# http://code.google.com/web/controlcrawlindex/
-
+---
+layout: nil
+---
 User-agent: *
+Disallow: 
+
+Sitemap: {{ site.url }}/sitemap.xml 

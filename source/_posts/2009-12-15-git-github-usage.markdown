@@ -33,10 +33,11 @@ tags:
 
 Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msysgit/)
 
-
-
-
 安装的时候最好还是允许在shell嵌入git的命令，相对还是比较方便的。
+
+OSX可以在xcode中安装command line tools，或者`brew install git`
+
+
 
 
 
@@ -45,9 +46,10 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-
-    git config --global user.name "Your Real Name"
-    git config --global user.email you@email.address
+```sh
+git config --global user.name "Your Real Name"
+git config --global user.email you@email.address
+```
 
 
 
@@ -61,9 +63,9 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-
-    git init
-
+```sh
+git init
+```
 
 
 
@@ -76,8 +78,9 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-
-    git add .
+```sh
+git add .
+```
 
 
 
@@ -91,13 +94,13 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
+```sh
+git commit -m 'first commit'
+```
 
-    git commit -m 'first commit'
 
 
-
-
--m 参数以及后面的字串是添加说明。
+`-m` 参数以及后面的字串是添加说明。
 
 
 
@@ -149,33 +152,14 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-
-    ssh-keygen -C 'your@email.address' -t rsa
-
-
-
-
-确认使用默认路径，然后输入两次你要是用的密码就行。
+```sh
+ssh-keygen -C 'your@email.address' -t rsa
+```
 
 
 
 
-可以使用以下命令测试连接
-
-
-
-
-    SSH -v git@github.com
-
-
-
-
-会要求输入你刚才设置的密码，如果成功的话可以看到这样的ERROR（orz，起码证明连接是成功了）
-
-
-
-
-    ERROR: Hi Arthraim! You've successfully authenticated, but GitHub does not provide shell access
+确认使用默认路径，然后输入两次你要是用的密码就行（一般直接敲几个回车不使用密码）。
 
 
 
@@ -190,9 +174,27 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-找到刚才创建密匙的那个目录下（默认是C:Documents and Settings你的windows用户名.ssh）找到id_rsa.pub文件，把它打开可以看到一堆文字，拷贝下来黏贴到github页面key的空白处。然后Apply，就好了。
+找到刚才创建密匙的那个目录下（默认是`C:\Documents and Settings\你的windows用户名.ssh`，OSX是`~/.ssh`）找到id_rsa.pub文件，把它打开可以看到一堆文字，拷贝下来黏贴到github页面key的空白处。然后Apply，就好了。
 
 
+可以使用以下命令测试连接
+
+
+
+```sh
+ssh -v git@github.com
+```
+
+
+
+
+会要求输入你刚才设置的密码，如果成功的话可以看到这样的ERROR（orz，起码证明连接是成功了）
+
+
+
+```
+ERROR: Hi Arthraim! You've successfully authenticated, but GitHub does not provide shell access
+```
 
 
 **8、上传代码**
@@ -204,19 +206,19 @@ Windows请至：[http://code.google.com/p/msysgit/](http://code.google.com/p/msy
 
 
 
-
-    git remote add origin git@github.com:你的github用户名/你的github项目名.git
-    git push origin master
-
-
-
-
-hehe，现在再去"http://github.com/你的github用户名/你的github项目homepage Url" 就可以看到你的项目了~ Good luck
+```sh
+git remote add origin git@github.com:你的github用户名/你的github项目名.git
+git push origin master
+```
 
 
 
+hehe，现在再去`http://github.com/你的github用户名/你的github项目` 就可以看到你的项目了~ Good luck
 
-当然这是从无到有，如果你有一个git的repo，想添加到github上，那就直接使用伟大的第8步的命令就可以了（不要忘记密匙的相关工作）。话说很多初学者应该会和我一样，在初期搞不清git和github的关系，git是和CVS,SVN并列的一个概念，而github是和Google Code, sourceforge并列的一个概念，这样说就明白了吧。所以，git的学习的话，参见[这里](http://www.linuxgem.org/2008/8/1/git-tutorial.4889.html)。
+
+
+
+当然这是从无到有，如果你有一个git的repo，想添加到github上，那就直接使用第8步的命令就可以了（不要忘记密匙的相关工作）。话说很多初学者应该会和我一样，在初期搞不清git和github的关系，git是和CVS,SVN并列的一个概念，而github是和Google Code, sourceforge并列的一个概念，这样说就明白了吧。所以，git的学习的话，参见[这里](http://www.linuxgem.org/2008/8/1/git-tutorial.4889.html)。
 
 
 

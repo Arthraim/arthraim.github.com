@@ -35,27 +35,29 @@ def api_today():
 3. 把有自己dump方法的JSONPlugin给install到app里
 
 ```py
-def mongo_dumps(obj):
-    # convert all iterables to lists
-    if hasattr(obj, '__iter__'):
-        return list(obj)
-    # convert cursors to lists
-    elif isinstance(obj, pymongo.cursor.Cursor):
-        return list(obj)
-    # convert ObjectId to string
-    elif isinstance(obj, bson.objectid.ObjectId):
-        return unicode(obj)
-    # dereference DBRef
-    elif isinstance(obj, bson.dbref.DBRef):
-        return db.dereference(obj)
-    # convert dates to strings
-    elif isinstance(obj, datetime.datetime) or isinstance(obj, datetime.date) or isinstance(obj, datetime.time):
-        return unicode(obj)
-    return json.JSONEncoder.default(self, obj)
+class MongoEncoder(JSONEncoder):
+    def mongo_dumps(obj):
+        # convert all iterables to lists
+        if hasattr(obj, '__iter__'):
+            return list(obj)
+        # convert cursors to lists
+        elif isinstance(obj, pymongo.cursor.Cursor):
+            return list(obj)
+        # convert ObjectId to string
+        elif isinstance(obj, bson.objectid.ObjectId):
+            return unicode(obj)
+        # dereference DBRef
+        elif isinstance(obj, bson.dbref.DBRef):
+            return db.dereference(obj) # db is the incetance database
+        # convert dates to strings
+        elif isinstance(obj, datetime.datetime) or isinstance(obj, datetime.date) or isinstance(obj, datetime.time):
+            return unicode(obj)
+        return json.JSONEncoder.default(self, obj)
 
 app = app()
 app.autojson = False
-app.install(JSONPlugin(json_dumps=lambda s: dumps(s, default=mongo_dumps)))
+m_encoder = MongoEncoder()
+app.install(JSONPlugin(json_dumps=lambda s: dumps(s, default=m_encoder.mongo_dumps)))
 ```
 
 via:

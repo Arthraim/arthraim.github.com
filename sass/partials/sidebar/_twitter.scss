@@ -1,0 +1,41 @@
+#tweets {
+  .loading {
+    background: inline-image('bird_32_gray.png') no-repeat center .5em;
+    color: darken($sidebar-bg, 18);
+    text-shadow: $main-bg 0 1px;
+    text-align: center;
+    padding: 2.5em 0 .5em;
+    &.error {
+      background: inline-image('bird_32_gray_fail.png') no-repeat center .5em;
+    }
+  }
+  p {
+    position: relative;
+    font-size: 13px; 
+    line-height: 16px;
+    a {
+      margin-bottom: 2px;
+      border: none;
+    }
+  }
+  a[href*=status]:first-child {
+    color: $twitter-status-link;
+    float: right;
+    padding: 0 0 .1em 1em;
+    position: relative;
+    text-shadow: #fff 0 1px;
+    font-size: .7em;
+    span { font-size: 1.5em; }
+    text-decoration: none;
+    &:hover {
+      color: $sidebar-link-color-subdued-hover;
+      text-decoration: none;
+    }
+  }
+  a[href*='twitter.com/search']{
+    @extend .aside-alt-link !optional;
+    @include hover-link;
+  }
+}
+
+

@@ -14,13 +14,9 @@ article{
 		text-align:left;
 		border-bottom: 0px;
         color: $color-article-title;
-        
-        @media screen and (max-width: 1040px) {
-		    font-size: 21px;
-		}
-        
+                
 		@media screen and (max-width: 620px) {
-		    font-size: 18px;
+		font-size: 18px;
 		}
 
 	}
@@ -44,17 +40,11 @@ article{
        
 		blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
 			margin-top: 1.5em;
-            margin-bottom: 0em;
+			margin-bottom: 0em;
             p {
                 margin-bottom: 0em;
             }
 		}
-
-        blockquote, ul, ol, dl {
-			margin-top: 1.5em;
-            margin-bottom: 1.5em;
-		}
-        
 		ul, ol, dl{
 			margin-left: 20px;
 			ul, ol, dl{
@@ -135,18 +125,21 @@ article{
 			padding-left: 25px;
 			position: relative;
 		}
-		.video-container, .vc{
+		.video-container{
 			position: relative;
-			padding-bottom: 56.25%;		
-            margin: 0 auto;
+			padding-bottom: 56.25%;
+			padding-top: 30px;
+			height: 0;
+			overflow: hidden;
 			iframe, object, embed{
-                position: absolute;
+				position: absolute;
 				top: 0;
 				left: 0;
 				width: 100%;
 				height: 100%;
+				margin-top: 0;
 			}
-		}        
+		}
 	}
 }
 

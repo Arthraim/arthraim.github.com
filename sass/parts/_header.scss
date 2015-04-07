@@ -2,23 +2,22 @@ $header-height: 30px;
 
 #header{
 	height: $header-height;
-	padding: 30px 0;
-    margin-top: 80px;
+	padding: 30px 0;   
+	margin-top: 80px;
 	margin-bottom: 120px;
 	text-align: center;
-    font-size: 20px;
+	font-size: 20px;
 	line-height: $header-height;
     
 	@media screen and (max-width: 1040px){
-        margin-top: 20px;
-		margin-bottom: 30px;
+		margin-top: 0;
+		margin-bottom: 0;
 		height: auto;
 		position: relative;
 		padding-bottom: 10px;
 	}
-	@media screen and (max-width: 620px){
-        margin-top: 10px;
-	    margin-bottom: 15px;
+	@media screen and (max-width: 600px){
+	        margin-bottom: 0;
 	}
     
 	a{
@@ -31,22 +30,19 @@ $header-height: 30px;
 	}
     
 	h1 {
-        margin: 0 auto 25px;
-        text-align: center;
+		margin: 15px 0 25px;
         font-family: $font-blog-title;
 		font-weight: 100;
-		font-size: 70px;
-        letter-spacing: 0.3em;
-        padding-left: 0.3em;
-		@media screen and (max-width: 1040px){
+		font-size: 65px;
+		letter-spacing: 0.2em;
+        padding-left: 0.15em;
+        padding-right:0.15em;
+		
+		@media screen and (max-width: 600px){
 			float: none;
+			font-size: 40px;
+			letter-spacing: 0.1em;
 		}
-        @media screen and (max-width: 480px){
-            margin: 0 auto 5px;
-            font-size: 50px;
-            letter-spacing: 0.1em;
-            padding-left: 0.1em;		
-        }
 	}
     
 	.tagline{
@@ -58,9 +54,179 @@ $header-height: 30px;
 		@media screen and(max-width: 1040px){
 			float: none;
 		}
-        @media screen and (max-width: 480px){
-            font-size: 20px;            
-        }
 	}
 }
+
+#main-nav{
+        margin-bottom: 0px;
+        float: center;
+	text-align: center;
+        margin-top: 15px;
+        @media screen and (max-width: 1040px){
+                float: none;
+                margin-left: 0;
+                margin-top: 15px;
+        }
+        >ul{
+                @media screen and (max-width: 600px){
+                        display: none;
+                }
+                >li{
+			
+                        &:first-of-type{
+                         margin-left: 0;
+                        }
+			
+                        margin-left: 50px;
+                        @include inline-block;
+                        @media screen and (max-width: 1040px){
+                                margin-left: 0;
+                                margin-right: 50px;
+                                &:last-of-type{
+                                        margin-right: 0;
+                                }
+                        }
+                        &:hover{
+                                >a{
+                                        color: #e74c3c; /*$color-main;*/
+                                        border-bottom:none;
+                                }
+                        }
+                        >a{
+                                padding: 38px 0;
+                                margin-top: -38px;
+                                &:only-child{
+                                        &:after{
+                                                content: "";
+                                        }
+                                }
+                                @media screen and (max-width: 1040px){
+                                        padding: 18px 0;
+                                }
+                        }
+                }
+                ul{
+                        position: absolute;
+                        top: 60px;
+                        left: -15px;
+                        z-index: 10;
+                        white-space: nowrap;
+                        background: $color-gray04;
+                        border: 1px solid $color-gray03;
+                        list-style: none;
+                        display: none;
+                        @media screen and (max-width: 1040px){
+                                top: 40px;
+                        }
+                        @include box-shadow(0 4px 8px rgba(0,0,0,0.1));
+                        @include border-radius(0 0 5px 5px);
+                        ul{
+                                @include border-radius(0 5px 5px 5px);
+                        }
+                        li{
+                                @include border-shadow($color-background, $color-gray03);
+                                &:hover{
+                                        background: #d5d5d5;
+                                }
+                                &:first-of-type{
+                                        border-top: none;
+                                        ul{
+                                                @include border-radius(0 0 5px 5px);
+                                        }
+                                }
+                                &:last-of-type{
+                                        border-bottom: none;
+                                }
+                                >a{
+                                        display: block;
+                                        padding: 5px 15px;
+                                        &:hover{
+                                                color: $color-gray01;
+                                        }
+                                        &:only-child{
+                                                &:after{
+                                                        content: "";
+                                                }
+                                        }
+                                }
+                        }
+                        ul{
+                                top: 0;
+                                left: 100%;
+                        }
+                }
+                li{
+                        position: relative;
+                        &:hover{
+                                >ul{
+                                        display: block;
+                                }
+                        }
+                }
+        }
+        select{
+                display: none;
+                margin-bottom: 10px;
+                @media screen and (max-width: 600px){
+                        display: block;
+                }
+        }
+}
+
+#mobile-nav{
+        display: none;
+        height: 37px;
+        position: relative;
+        @media screen and (max-width: 600px){
+                display: block;
+        }
+        a{
+                display: block;
+        }
+        .button{
+                cursor: pointer;
+        }
+        .container{
+                display: none;
+        }
+        .menu{
+                position: relative;
+                width: 100%;
+                .button{
+                        background: ffffff; 
+                        border: 1px solid #ddd; 
+                        color: #999;
+                        padding: 0 10px;
+                        position: relative;
+                        @include border-radius(5px);
+                        &:hover{
+                                color: #999;
+                        }
+                        &.on{
+                                color: #666;
+                                @include border-radius(5px 5px 5px 0);
+                        }
+                }
+                .container{
+                        width: 99.5%;
+                        background: #ffffff; 
+                        border: 1px solid #ddd;
+                        border-top: none;
+                        position: absolute;
+                        top: 28px;
+                        z-index: 1;
+                        @include border-radius(0 0 5px 5px);
+                        ul{
+                                list-style: none;
+                                ul{
+                                        margin-left: 20px;
+                                }
+                        }
+                        a{
+                                padding: 0 10px;
+                        }
+                }
+        }
+} 
+
 

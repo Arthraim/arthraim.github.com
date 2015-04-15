@@ -1,0 +1,132 @@
+---
+comments: true
+date: 2011-03-19 15:26:22
+layout: post
+slug: 2011-03-19-technical-notes
+title: 2011-03-19 技术小记
+wordpress_id: 733
+categories:
+- Programing
+tags:
+- freemarker
+- git
+- maven
+- maven2
+- Windows
+---
+
+好久木有更新了，碰到一些素材或遇到过的问题都会在evernote里记一下，不过总觉得事情都不够大不足以单独写一篇文章，所以全都一起写一下好了。
+
+
+
+
+在windows下用maven2，遇到一个错：**编码 GBK 的不可映射字符**，原因是windows版的maven2默认编码是GBK。如果有windows的参与者，那解决方法是在pom.xml里加入以下语句：
+
+
+
+```xml
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+</properties>
+```
+
+
+
+
+另外后面一句是在使用mvn compile命令的时候才需要的。
+
+
+
+
+via: [http://wozailongyou.javaeye.com/blog/711664](http://wozailongyou.javaeye.com/blog/711664)
+
+
+
+
+* * *
+
+
+
+
+然后是git的一个问题。在某个java工程，git pull 的时候遇到如下错误：
+
+
+
+
+>
+
+>
+> error: Untracked working tree file 'webapp/WEB-INF/classes/com/arthraim/foo.class' would be overwritten by merge. Aborting
+>
+>
+
+
+
+
+
+不小心把.class加入到版本管理，并push到远程了。在另一个本地repo又把他们去掉了，于是就出了类似的错。解决方法大致是移出掉本地的文件（当然如果不是.class这样无所谓的文件的话，不妨备份他们先），并把他们从本地git仓库移出，确保在远程git仓库也移出。
+
+
+
+
+这个问题解决的不是特别干净漂亮，说实话也并没深究。
+
+
+
+
+* * *
+
+
+
+
+还是一个git的小问题，一直很顺的用 `git pull 仓库名 分支名` 和 `git push 仓库名 分支名` 突然有人问起本地分支和远程分支的命名不一样的时候怎么办。。。 还真是查了很久啊。发现原来git pull 语句是这样描述的：
+
+
+
+
+```sh
+git push [远程仓库名] [本地分支] :[远程分支]
+```
+
+
+
+
+
+这个冒号很微妙啊。。以前都是偷懒了用了他的默认。
+
+
+
+
+via: [http://progit.org/book/zh/ch3-5.html](http://progit.org/book/zh/ch3-5.html)
+
+
+
+
+* * *
+
+
+
+
+最后一个是freemarker遇到的问题，后端Double类型的数据在freemarker转成string的时候会默认取3位小数，所以这又是和上一个问题类似的被默认耍了的事情。写成下面这样就可以控制最大小数点数位：
+
+
+
+
+${some_double_number?string(0.######)}
+
+
+
+
+'#'的数量你懂的。更多具体的选项请看下面的链接。
+
+
+
+
+via: [http://gongstring.javaeye.com/blog/405270](http://gongstring.javaeye.com/blog/405270)
+
+
+
+
+
+

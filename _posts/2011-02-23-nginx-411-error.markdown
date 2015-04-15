@@ -1,0 +1,184 @@
+---
+comments: true
+date: 2011-02-23 19:26:52
+layout: post
+slug: nginx-411-error
+title: Nginx返回411错误
+wordpress_id: 730
+categories:
+- Programing
+tags:
+- httpclient
+- Java
+- nginx
+---
+
+今天提交一个form的时候遇到一个411错误, 当时我就孤陋寡闻, 第一次见到411, 查了一下然后就囧了, 是nginx直接把请求给弹回来了. 深入的查一下之后发现这个问题还是非常容易引起的, 于是我当时很奇怪的是在之前的开发中难道从来没有遇到过? 话说也是不良习惯造成的问题, 生产环境测试环境都没有nginx, 唯独产品服务器上是, 糟糕吧.
+
+
+
+
+## 引发411的原因
+
+
+
+
+nginx给出的官方解释有三种情况会引发nginx弹411回去
+
+
+
+1. client sent invalid "Content-Length" header
+2. client sent … method without "Content-Length" header
+3. client sent "Transfer-Encoding: chunked" header
+
+
+
+我的场景是这样的, 用httpclient4(java)去调用一个api服务, 这个api使用的server正是nginx, 使用multipart提交图片文件的时候因为它忽略或省略了文件的真正的长度, 所以(通过firebug发现)在request header里就压根没有Content-Length. 那显然符合上面的第二种情况.
+
+
+
+
+## 改代码
+
+
+
+
+然后我尝试通过修改代码来解决, 自己填充这个header, 但是httpclient很硬气, 我写了一句
+
+
+
+```nginx
+header httppost.setHeader("Content-Length", "0");
+```
+
+
+
+它直接就报错了
+
+
+
+```
+org.apache.http.ProtocolException: Content-Length header already present at org.apache.http.protocol.RequestContent.process(RequestContent.java:67)  ......
+```
+
+
+
+看来想在包外面改还不是那么容易, 算了, 继续Google, 一定有合理的办法. **不用改代码.**
+
+
+
+
+## 重新编译nginx
+
+
+
+
+于是Google了一圈又看到了[这个文章](http://www.lamnk.com/blog/computer/fix-nginx-411-length-required-error/), 遇到同样的问题, 只是它是上面说到的第三种情况, 不过很幸运的是我意识到解决的方法可能是一样的 -- 给nginx加上一个Chunkin模块. 说干就干, 参考了[nginx的wik](http://wiki.nginx.org/NginxHttpChunkinModule#Installation)i和[这篇文章](http://www.shenzhen3c.com/archives/360), 可以顺利的加上外部的模块. 简单来说是以下几步:
+
+
+
+
+
+
+1. 下载新版nginx(或者你还有原来的nginx代码在?), 并下载nginxHttpChunkinModule, 然后解压缩. (下载地址就不帖了, 前者版本更新很快, 后者最近又在开始更新支持DELETE方法了)
+
+2. `nginx -V` 查一下之前编译nginx时候的参数, 并且记下来
+
+3. `./configure` 并加上一堆参数, 尤其记得要加上 `--add-module=/path/to/your/module`
+
+4. `make` (不要马上`make install`)
+
+
+
+
+## 不停掉nginx, 平滑过渡到新版本
+
+
+
+
+这才是最最技术的活... 参考<实战nginx>(in action), 可以简单归纳为以下几步
+
+
+
+
+
+
+1. 备份原来的nginx可执行文件, 比如nginx_bak
+
+2. `cp obj/nginx`到旧的nginx可执行文件的位置, 因为它还在跑所以要加上参数 `-f`
+
+3. `kill -USR2 旧版本的nginx主进程号` (用`ps aux | grep nginx`找到, 除了主进程还有一个worker process), 之后再ps会发现一个新的nginx进程被启动, 并且一个新的worker process也开始启动. 这个时候它们同时在工作.
+
+4. `kill - WHINCH 旧版本的nginx主进程号` 这会让旧的nginx进程不再处理新的请求, 过一段时间之后再ps, 会看到旧的worker process已经消失停止了. 这时候所有的请求都交给新的nginx在处理了.
+
+5. `kill -QUIT 旧版本的nginx主进程号` 退出旧的进程, 新的进程就可以使用了.
+
+
+
+
+当然这个平滑过渡适用版本升级等各种更换nginx可执行文件的情况, 所以再额外提一下如果发现新版本不好要退回去的时候怎么办.
+
+
+
+
+
+
+ * `kill -HUP 旧的nginx主进程号` 不reload配置文件就直接重新启动旧的nginx
+
+ * `kill -QUIT 新的nginx主进程号` 从容关闭新的Nginx实例
+
+ * `kill -TERM 新的nginx主进程号` 这个和上面的可以二选一
+
+ * 之后可以把之前的nginx_bak重新复制回来覆盖新的
+
+
+
+
+当然以上都是文明人的做法, 想施暴也是可以的...
+
+
+
+
+## 修改nginx的配置文件
+
+
+
+
+然后要改一下配置, 使新的模块生效
+
+
+
+```nginx
+chunkin on;
+
+error_page 411 = @my_411_error;
+location @my_411_error {
+    chunkin_resume;
+}
+
+location /foo {
+    # your fastcgi_pass/proxy_pass/set/if and
+    # any other config directives go here...
+}
+...
+```
+
+
+
+这样改过之后reload nginx就可以正常工作了, 详细配置方法请参考[wiki](http://wiki.nginx.org/NginxHttpChunkinModule)谢谢.
+
+
+
+
+
+
+
+那么做到这里之前的问题就解决了, 记录一下, 因为在其他环境下都没遇到类似问题.
+
+
+
+
+以上
+
+
+

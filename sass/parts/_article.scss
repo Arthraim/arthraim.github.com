@@ -1,49 +1,46 @@
 article{
-	padding-top: 40px;
+	border-bottom: 1px solid $color-gray04;
+	border-top: 1px solid $color-gray05;
+	padding: 30px 0;
 	position: relative;
-
-    header {
-		margin-bottom: 1.5em;
+	@media screen and (max-width: 800px){
+		padding-bottom: 15px;
 	}
-    
+	@media screen and (max-width: 600px){
+		padding: 15px 0;
+	}
 	h2.title{
-		font-size: 24px;
-		font-weight: bold;
-		line-height: 1.2;
-		margin-left:0px;
-		text-align:left;
-		border-bottom: 0px;
-        color: $color-article-title;
-                
-		@media screen and (max-width: 620px) {
-		font-size: 18px;
+		font-size: 1.8em;
+		font-weight: 300;
+		line-height: 35px;
+		margin-bottom: 20px;
+		a{
+			color: $color-gray01;
 		}
-
 	}
-    
 	.entry-content{
-		line-height: 1.5;
+		line-height: 2;
 		text-align: justify;
 		a{
 			&:hover{
-				text-decoration:none;
-
+				text-decoration: underline;
 			}
 		}
-        p, li{
-            color: $color-blog-body;
-        }
-
-        p {
-            margin-bottom: 1.5em;
-        }
-       
-		blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
-			margin-top: 1.5em;
-			margin-bottom: 0em;
-            p {
-                margin-bottom: 0em;
-            }
+		.more-link{
+			display: block;
+			margin-top: 16px;
+			padding-left: 30px;
+			position: relative;
+			&:before{
+				content: "\f061";
+				font: 1.3em $font-icon;
+				line-height: 1.6em;
+				position: absolute;
+				left: 0;
+			}
+		}
+		p, blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
+			margin-top: 10px;
 		}
 		ul, ol, dl{
 			margin-left: 20px;
@@ -58,41 +55,29 @@ article{
 			font-style: italic;
 		}
 		p{
-			margin-top: 10px;
+			margin-top: 10px;	
 		}
-        
-		h2 {
-			font-weight: 100;
-            color: $color-blog-body;
-            border-bottom: 1px solid #e5e5e5;
+		h2{
+			font-weight: 300;
+			border-bottom: 1px solid $color-gray04;
 			position: relative;
-            padding-bottom: 4px;
+			&:before{
+				content: "";
+				position: absolute;
+				bottom: -2px;
+				border-bottom: 1px solid $color-gray05;
+				width: 100%;
+			}
 		}
-
 		img, video{
 			max-width: 100%;
 			height: auto;
-			-webkit-border-radius:5px;
-			-moz-border-radius:5px;
-			border-radius:5px;
-			-webkit-border-radius:5px;
-			-moz-border-radius:5px;
-			border-radius:5px;
-			-webkit-box-shadow:0 0 15px rgba(0,0,0,0.35);
-			-moz-box-shadow:0 0 15px rgba(0,0,0,0.35);
-			box-shadow:0 0 15px rgba(0,0,0,0.35);
-			border-bottom: 0px;
 		}
-
 		blockquote{
-            p {
-                color: $color-gray02;
-                font-size: 0.9em;
-            }
-			background: $color-background;
-			border-left: 5px solid $color-gray04;
-			padding: 5px 15px;
-			margin-top: 1px;
+			background: $color-gray04;
+			border-left: 5px solid $color-gray03;
+			padding: 15px 20px;
+			margin-top: 10px;
 			& > p:first-of-type{
 				margin-top: 0;
 			}
@@ -124,6 +109,14 @@ article{
 			color: $color-gray02;
 			padding-left: 25px;
 			position: relative;
+			&:before{
+				content: "\f040";
+				color: $color-gray03;
+				font: 1.3em $font-icon;
+				line-height: 1.6em;
+				position: absolute;
+				left: 0;
+			}
 		}
 		.video-container{
 			position: relative;
@@ -142,22 +135,7 @@ article{
 		}
 	}
 }
-
-
 .share{
 	padding: 15px 0;
-	text-align: center;
-	@media screen and (max-width: 620px) {
-	padding-left: 0px;
-	}
-	ul {
-		list-style: none;
-		li {
-			display: inline;
-			padding: 0 2px;
-			a:link,a:visited {
-				border: none;
-			}
-		}
-	}
+	@include border-shadow();
 }

@@ -1,74 +1,36 @@
-$max-width: 550px;
+$max-width: 1000px;
 
 *{
 	margin: 0;
 	padding: 0;
 }
-
 body{
 	font-family: $font-default;
-	font-size: 14px;
 	font-weight: 300;
-	line-height: 1.5;
+	font-size: 14px;
 	background: $color-background;
+	color: $color-gray01;
 	@media screen and (max-width: 1040px){
 		margin: 0 20px;
 	}
 	@media screen and (max-width: 600px){
 		font-size: 13px;
-		margin: 0 20px;
 	}
 }
-
 h1{
-	font-size: 20px;
+	font-size: 1.8em;
 }
-
 h2{
-	font-size: 19px;
+	font-size: 1.5em;
 }
-
-a {
- 	text-decoration:none;
-	color:$color-link;
-	-webkit-transition:border .25s linear;
-	-moz-transition:border .25s linear;
-	-ms-transition:border .25s linear;
-	transition:border .25s linear;
-	outline:none;
-}
-
-a:hover {
-    text-decoration:none;
-}
-
-
 h3{
-	font-size: 18px;
-	line-height: 1.2;
-	margin: -1em 0 0 0;
-	font-weight: normal;
-	display: block;
-	@media screen and (max-width: 620px) {
-	font-size: 15px;
-	}
-    
-    a{
-	color: $color-archieve-title;
-        font-weight: bold;
-	@include transition(color 0.3s);
-	&:hover{
-		color: $color-link;
-		border-bottom:none;
-               }
-     }
-    
+	font-size: 1.3em;
 }
-
-a.category {
-    color: $color-tag;
+a{
+	text-decoration: none;
+	outline-width: 0;
+	color: $color-main;
 }
-
 .alignleft{
 	float: left;
 }

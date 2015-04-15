@@ -1,5 +1,6 @@
 #comment{
-	margin-bottom: 1.5em;
+	padding: 30px 0;
+	@include border-shadow();
 	h2.title{
 		font-size: 25px;
 		font-weight: 300;

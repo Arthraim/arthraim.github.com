@@ -1,7 +1,7 @@
 ---
 layout: post
 slug: "1password-leaks-your-data"
-title: "Arthur 泄露了你的数据"
+title: "1Password 泄露了你的数据"
 date: 2015-10-20 14:12:16
 comments: true
 categories:

@@ -19,7 +19,7 @@ tags:
 
 但是，事实上 1P 把这些数据保存成了一个，.agilekeychain 文件（目录），而这个目录并不安全。.agilekeychain 里提供了一个 [1Password Anywhere](https://support.1password.com/guides/mac/1passwordanywhere.html) 的功能，简单来说就是这个文件本身是个可以在任何浏览器打开的完整的 1P 网页客户端，你在任何地方打开这个目录里的网页就可以查到自己的用户名和密码了。而这个网页客户端为了访问到你所有 1P 里的数据，居然放了一个明文的 js 文件。
 
-**UPDATE**: 原来 1Password 官方也是有[回应](https://blog.agilebits.com/2015/10/19/when-a-leak-isnt-a-leak/)的
+**UPDATE**: 原来 1Password 官方也是有[回应](https://blog.agilebits.com/2015/10/19/when-a-leak-isnt-a-leak/)的，说所有的设计早就在[这里](https://support.1password.com/agile-keychain-design/)记录并公布了，大家可以监督
 
 ### 解决方法
 

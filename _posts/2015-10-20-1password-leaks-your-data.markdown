@@ -24,6 +24,6 @@ tags:
 ### 解决方法
 
 1. 不要上传这个文件到互联网上，并自己保证自己设备的安全。设备间同步用 WIFI 同步。（但是用我同事的话说，这比一张纸的安全级别还要低，传播成本比纸张小多了。）
-2. 1P 官方提供了一个新的存储格式 OPvault，尽可能使用这个格式。Mac 转换方法请看[这里](https://discussions.agilebits.com/discussion/39875/getting-your-data-into-the-opvault-format)，其他平台 1P 的 [Blog](https://blog.agilebits.com/2015/10/19/when-a-leak-isnt-a-leak/) 里有提到
+2. 1P 官方提供了一个新的存储格式 OPvault，尽可能使用这个格式。Mac 转换方法请看[这里](https://support.1password.com/switch-to-opvault/)，其他平台 1P 的 [Blog](https://blog.agilebits.com/2015/10/19/when-a-leak-isnt-a-leak/) 里有提到
 
 不开心 >.< 早上我弟在和我说，保存密码不是技术问题，是道德问题。天下无贼、夜不闭户才是终极诉求……

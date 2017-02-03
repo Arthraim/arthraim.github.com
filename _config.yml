@@ -12,6 +12,10 @@ paginate: 5
 navigation:
  - title: Home
    url:
+ - title: Github
+   url: https://github.com/Arthraim
+ - title: Twitter
+   url: https://twitter.com/arthraim
 
 social:
    github: arthraim

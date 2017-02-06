@@ -11,7 +11,7 @@ paginate: 5
 
 navigation:
  - title: Home
-   url:
+   url: /
  - title: Github
    url: https://github.com/Arthraim
  - title: Twitter

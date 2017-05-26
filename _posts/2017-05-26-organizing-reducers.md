@@ -249,6 +249,7 @@ entities: {
 3. action 是否需要 action creator ？（我们的实践中，因为引入了 FSA，逐渐放弃了 action creator，关于 action 的更多重构，可能下次我会再总结好做一个分享、或写成文章吧）
 
 4. 这样的实践是不是和 Isomorphic 的实践相矛盾？（这是现场观众对我和工业聚 的分享一起思考产生的问题）
+
 5. 有一个维护成本很高的问题在于，每次修改一个实体的时候，`data` 和各种 `list` reducer 都需要处理同一个 action。比如用户创建了一个新的 `Response` ，`dataReducer` `listReducer` 等等都要去处理 `updateResponse` 这个 action，data 要把它 normalize 放进去，list 要知道它应该在哪里，如果有不同排序的 list 那么更可怕了每个 `listReducer` 都会需要新的 `Response` 需要放在哪里。权衡下来，这种做法是否值得？
 
 

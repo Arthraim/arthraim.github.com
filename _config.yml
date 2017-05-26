@@ -5,7 +5,7 @@ url: http://artori.us
 paginate_path: "posts/:num/"
 permalink: :title/
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 paginate: 5
 
@@ -25,3 +25,6 @@ social:
    email: arthraim@gmail.com
 
 google_analytics: "UA-8352384-7"
+
+gems: [jekyll-paginate]
+

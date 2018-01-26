@@ -12,6 +12,8 @@ paginate: 5
 navigation:
  - title: Home
    url: /
+ - title: Blogroll
+   url: /blogroll
  - title: Github
    url: https://github.com/Arthraim
  - title: Twitter

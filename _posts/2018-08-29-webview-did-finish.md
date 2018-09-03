@@ -22,6 +22,7 @@ tags:
 这就不得不用到了 `WKUserScript`，`atDocumentEnd` 是最符合前端要求和预期的时机。具体的时序是这样的（示例代码[在此](https://github.com/Arthraim/webViewLifeCycle)）：
 
 ```
+webView:(_:didStartProvisionalNavigation:)
 WKUserScript atDocumentStart
 webView:(_:didCommit:)
 DOMContentLoaded
@@ -30,4 +31,6 @@ webView:(_:didFinish:)
 ```
 
 看起来完美 -。-
+
+另外一个坑是，如果 WebView load 一个本地的 html 文件，`webView:(_:didCommit:)` 会发生在 `WKUserScript atDocumentEnd` 之后，不懂怎么回事 O.O
 

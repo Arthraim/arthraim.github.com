@@ -12,6 +12,8 @@ paginate: 5
 navigation:
  - title: Home
    url: /
+ - title: Articles
+   url: /articles
  - title: Blogroll
    url: /blogroll
  - title: Github
@@ -29,4 +31,3 @@ social:
 google_analytics: "UA-8352384-7"
 
 gems: [jekyll-paginate]
-

@@ -1,7 +1,7 @@
 title: Artorius
 description: Arthur's Blog
 
-url: http://artori.us
+url: https://artori.us
 paginate_path: "posts/:num/"
 permalink: :title/
 

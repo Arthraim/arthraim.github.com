@@ -53,4 +53,4 @@ tags:
 
 [1]:	https://medium.com/@arthurwxy
 [2]:	http://globalgamejam.org/2016/games/3-1
-[3]:	http://artori.us/ggj-2017/
+[3]:	/ggj-2017/

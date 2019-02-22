@@ -3,4 +3,4 @@ _site
 .DS_Store
 .ruby-version
 .Ulysses-*.plist
-
+node_modules

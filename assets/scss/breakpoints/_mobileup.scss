@@ -492,3 +492,8 @@ POST LIST STYLING
 	}
 }
 
+#articles .posts li {
+	margin-bottom: 0.5rem;
+	&:before { content: none; }
+	.date { font: monospace; }
+}

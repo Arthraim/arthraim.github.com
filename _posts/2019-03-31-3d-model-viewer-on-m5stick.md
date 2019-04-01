@@ -58,7 +58,7 @@ tags:
  版本](https://www.instagram.com/p/Bk8EsZ_FufJ/)，于是轻松撸了一个 3D 的 J 字，多边形不多，适合我们的小硬件。
  
 正如前面提到的，转换的时候出了问题，原作者提供的[转换代码](https://github.com/menehune23/projection/blob/master/Projection/ObjConverter.html)只转出了「顶点」，却没有「边」的信息，转出来的是信息都是 `nan nan`。看着情形是转换出了计算问题，不得已开始看他的代码。查了 Wikipedia 的 [Wavefront .obj file
-](https://en.wikipedia.org/wiki/Wavefront_.obj_file) 词条发现 C4D export 的 .obj 并没有 `l v1 v2 ...` 的信息，而是 `f v1/vt1/vn1 ...` 这样的格式，原作者在 `f` 的处理犯了错。改正后提了[一个 PR](https://github.com/menehune23/projection/pull/1)，可惜作者似乎是个电子行业的开发，远离 github 已久，想继续玩下去的朋友就暂时用[我的 fork](https://github.com/Arthraim/projection) 吧。
+](https://en.wikipedia.org/wiki/Wavefront_.obj_file) 词条发现 C4D export 的 .obj 并没有 `l v1 v2 ...` 的信息，而是 `f v1/vt1/vn1 ...` 这样的格式，原作者在 `f` 的处理犯了错。改正后提了[一个 PR](https://github.com/menehune23/projection/pull/1)，~~可惜作者似乎是个电子行业的开发，远离 github 已久，想继续玩下去的朋友就暂时用[我的 fork](https://github.com/Arthraim/projection) 吧~~ 作者在我发文的第二天中午 merge 了（那么巧，不会是我的文章惊动了他吧 :P）。
 
 之后就成功**[把即刻模型显示到了小小的屏幕上](https://m.okjike.com/originalPosts/5c923624f7b0dc00119bff68?username=F65E8535-A827-4B75-8583-EFD4EB5C2671)**，帧数还挺高。
 

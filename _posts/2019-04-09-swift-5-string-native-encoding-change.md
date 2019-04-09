@@ -33,11 +33,11 @@ tags:
 
 两者都会把Swift `Range<String.Index>`转为`NSRange`，但转的时候基于的String是相同内容的不同实例。以上是前提。
 
-在Swift4.2以及之前的版本里，都没有问题。升级到Swift5之后发生了Crash，表现是步骤 1 和 2 中拿到的 `Range` 并不相同。比如 1 的时候找到的是 `{2, 6}`，到了 2 的操作时候变成了 `{6, 16}`，这都是 `NSRange(range, in: string)` 来转的结果，如前面所说这个string是内容相同的不同实例。
+在Swift4.2以及之前的版本里，都没有问题。升级到Swift5之后发生了Crash，表现是步骤 1 和 2 中拿到的 `NSRange` 并不相同。比如 1 的时候找到的是 `{2, 6}`，到了 2 的操作时候变成了 `{6, 16}`，这都是 `NSRange(range, in: string)` 来转的结果，如前面所说这个string是内容相同的不同实例。
 
-这里真正就是这个不同的实例，1里的string是一个在Swift初始化的 `String` 实例，而2里是`textView.attributedText.string`。
+这里真正值得注意的就是这两个不同的实例，1里的string是一个在Swift初始化的 `String` 实例，而2里是`textView.attributedText.string`。
 
-看到这里可能nb的你已经注意到了，前者是一个swift `String`，在5的内部编码（native encoding）被改成了UTF-8；而后者虽然在编译时是一个swift `String`类型，但`textView.attributedText.string`原先是一个 Foundation 的 `NSString`，所以他的内部编码是UTF-16。
+看到这里可能nb的你已经注意到了，前者是一个swift `String`，在5的内部编码（native encoding）被改成了UTF-8；而后者`textView.attributedText.string`虽然在编译时是一个swift `String`类型，但原先是一个Foundation的 `NSString`，所以他的内部编码是UTF-16。
 
 Range是在UTF-8上找到的，再应用到UTF-16的字符串上自然是有问题了。（比如ASCII在前者是单个Byte，后者则两个Bytes等）
 
@@ -81,7 +81,7 @@ if let range1 = string1.range(of: substring, options: [], range: string1.startIn
 当然有很多转换的方法，Swift 5还deprecate了一堆比如`encodedOffset`这样的方法，开发者必须明确知道自己操作的String是什么编码的，可以用`utf16Offset<S>(in: S)`之类的完成之前的工作。不过这不是本文的重点了，比较直接的做法：
 
 ```swift
-let utfString = String(utf8String: string2.cString(using: .utf8)!)
+let utf8String = String(utf8String: string2.cString(using: .utf8)!)
 ```
 
 总之从此之后，针对`Range`/`NSRange`的操作，除了以前要注意的emoji/ligature的不同处理以外，还要更细致的处理操作的`String`/`NSString`的编码，他们不再是无脑UTF-16了。

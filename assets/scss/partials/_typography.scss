@@ -17,7 +17,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 // Headings
 h1, .h1 {
-  font-size: 2em; // 2x body copy size = 32px 
+  font-size: 2em; // 2x body copy size = 32px
   line-height: 1.25; // 45px / 36px
 }
 
@@ -30,13 +30,13 @@ h1, .h1 {
 
 @media (min-width: 56.25em) {
   h1, .h1 {
-    font-size: 3em; // 3x body copy size = 48px 
+    font-size: 3em; // 3x body copy size = 48px
     line-height: 1.05; // keep to a multiple of the 20px line height and something more appropriate for display headings
   }
 }
 
 h2, .h2 {
-  font-size: 1.625em; // 1.625x body copy size = 26px 
+  font-size: 1.625em; // 1.625x body copy size = 26px
   line-height: 1.15384615; // 30px / 26px
 }
 
@@ -85,14 +85,14 @@ h4, .h4 {
 }
 
 blockquote {
-  font-size: 1.25em; // 20px / 16px
-  line-height: 1.25; // 25px / 20px
-  padding: 0;  
+  font-size: 1.125em; // 20px / 16px
+  line-height: 1.125; // 25px / 20px
+  padding: 0;
 }
 
 @media (min-width: 43.75em) {
   blockquote {
-    font-size: 1.5em; // 24px / 16px
-    line-height: 1.45833333; // 35px / 24px
+    font-size: 1.25em; // 24px / 16px
+    line-height: 1.25833333; // 35px / 24px
   }
 }

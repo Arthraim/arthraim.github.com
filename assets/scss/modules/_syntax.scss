@@ -5,13 +5,13 @@
 ***************/
 
 .highlight {
-  white-space: pre; 
-  overflow: auto; 
+  white-space: pre;
+  overflow: auto;
   word-wrap: normal; /* horizontal scrolling */
-  -moz-border-radius: 3px; 
-  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
-  padding: 20px; 
+  padding: 20px;
   background: #343642;
   color: #C1C2C3;
 }
@@ -36,4 +36,4 @@
 .highlight .o { color: #989DAA; }
 .highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi { color: #fff; }
 
-code.highlighter-rouge { border: 1pt solid #dddddd; padding: 0 0.3em; border-radius: 0.2em; background-color: #fdfdfd; }
+code.highlighter-rouge { border: 1pt solid #dddddd; padding: 0 0.3em; border-radius: 0.2em; background-color: #fdfdfd; margin: 0 5px; }

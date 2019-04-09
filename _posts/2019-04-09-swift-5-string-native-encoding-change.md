@@ -78,7 +78,11 @@ if let range1 = string1.range(of: substring, options: [], range: string1.startIn
 1. 不要假设`String`实例里的编码是UTF-16/UTF-8；
 2. 不要把`Range`实例和相关联的`String`实例分开使用。
 
-当然有很多转换的方法，Swift 5还deprecate了一堆比如`encodedOffset`这样的方法，开发者必须明确知道自己操作的String是什么编码的，可以用`utf16Offset<S>(in: S)`之类的完成之前的工作。不过这不是本文的重点了，这里的转换可以另外展开写篇文章？
+当然有很多转换的方法，Swift 5还deprecate了一堆比如`encodedOffset`这样的方法，开发者必须明确知道自己操作的String是什么编码的，可以用`utf16Offset<S>(in: S)`之类的完成之前的工作。不过这不是本文的重点了，比较直接的做法：
+
+```swift
+let utfString = String(utf8String: string2.cString(using: .utf8)!)
+```
 
 总之从此之后，针对`Range`/`NSRange`的操作，除了以前要注意的emoji/ligature的不同处理以外，还要更细致的处理操作的`String`/`NSString`的编码，他们不再是无脑UTF-16了。
 

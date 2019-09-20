@@ -5,6 +5,7 @@ title: Blogroll
 
 # Blogroll
 
+- Atuooo / [ooatuoo](http://atuo.xyz/)
 - Yiming **Chen** / [dsdshcym](https://dsdshcym.github.io/)
 - **Luo** Hui / [Call me Andy](https://luohui8891.github.io/)
 - Luosky / [Luosky's Playground](https://luosky.com/)

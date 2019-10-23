@@ -13,6 +13,8 @@ title: Blogroll
 - **Song** Wei / [GRYFFONDOR](https://talkwithkeyboard.github.io/)
 - SunskyXH / [香香鸡的小窝](https://sunskyxh.github.io/)
 - Ephraim **Wang** / [慢慢发光](http://ephraim.wang/)
+- Joway **Wang** / [Joway.io](https://joway.io/)
 - Sean **Wong** / [Ciao.moe](https://blog.ciao.moe/)
 - JC **Xia** / [JC Writes](https://jcxia.com/)
 - Lionel **Zhang** / [OUTER HEAVEN](http://www.lionelzhang.me/)
+

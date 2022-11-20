@@ -29,5 +29,5 @@ title: Thanks
 
 这里放个收款码，是我想平摊掉服务器的成本。另外想看情况买些礼物给我帮助过我的人。万一收了太多（想多了），我再想办法怎么回报捐助者。
 
-
+![](/images/uploads/jekyll/wxwxwx.jpg)
 ![](/images/uploads/jekyll/alialiali.jpg)

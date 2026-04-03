@@ -1,26 +1,49 @@
 ---
 layout: default
-title: Artorius - Arthur Wang's Blog
+title: Arthur Wang
 ---
 
-<div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
+<div class="home-homepage" id="home">
+  <section class="home-hero">
+    <p class="home-eyebrow">I AM ARTHUR WANG</p>
+    <p class="home-summary">
+      我在这里写自己、产品、摄影，也写那些在脑子里停留够久、最后变成文章的念头。
+    </p>
+    <p class="home-summary">
+      如果你想看完整的写作归档，可以从
+      <a class="home-inline-link" href="{{ '/articles' | prepend: site.baseurl }}">BLOG</a>
+      开始；<br>
+      如果你想了解我读过的书、 看过的电影和听过的音乐，可以从
+      <a class="home-inline-link" href="/arthur-mind-palace">MIND PALACE</a>
+      开始。
+    </p>
+  </section>
+
+  <section class="home-section home-works">
+    <div class="home-section__header">
+      <p class="home-summary">下面列了几个我自己觉得还拿得出手的 side projects，不妨玩玩看。</p>
+    </div>
+    <ul class="works-list">
       <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
+        <a class="work-link" href="https://wc.yangapp.com/" target="_blank" rel="noopener">TBWC</a>
+        <span class="work-year">2022</span>
+        <p>The Boring Worldcup 是为 22 年世界杯做的一个类 fantasy 游戏。</p>
       </li>
-    {% endfor %}
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
+      <li>
+        <a class="work-link" href="https://apps.apple.com/app/id1522046585" target="_blank" rel="noopener">LightMeter35</a>
+        <span class="work-year">2020</span>
+        <p>开始胶片摄影后，写给自己的测光 app，纯代码写的拟物风格 UI，不是为了迎合谁。</p>
+      </li>
+      <li>
+        <a class="work-link" href="https://github.com/Arthraim/StickGyroCube" target="_blank" rel="noopener">StickGyroCube</a>
+        <span class="work-year">2019</span>
+        <p>是个小玩具，但能在一个 esp32 的单片机上画 3D 图形，用重力感应控制，让我觉得很新奇。</p>
+      </li>
+      <li>
+        <a class="work-link" href="http://wd.yangapp.com/" target="_blank" rel="noopener">WHO IS THE MOLE</a>
+        <span class="work-year">2013</span>
+        <p>这是合租时代，和室友们玩「谁是卧底」，找不到好软件的时候，自己做的。</p>
+      </li>
+    </ul>
+  </section>
 </div>

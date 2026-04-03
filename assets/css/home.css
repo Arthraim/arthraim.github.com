@@ -1,0 +1,107 @@
+#home.home-homepage {
+  padding-bottom: 2rem;
+}
+
+#home.home-homepage .home-hero,
+#home.home-homepage .home-section {
+  margin: 0 auto 1.75rem;
+}
+
+#home.home-homepage .home-title {
+  margin: 0 0 1rem;
+  font-size: 1em;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+#home.home-homepage .home-summary {
+  color: #444;
+  max-width: 42rem;
+  margin-bottom: 1rem;
+}
+
+#home.home-homepage .home-inline-link {
+  color: #2e8b57;
+  font-weight: 800;
+  font-size: 1.15em;
+  text-decoration: none;
+}
+
+#home.home-homepage .home-inline-link:hover {
+  color: #21653f;
+}
+
+#home.home-homepage .home-section p:not(.home-eyebrow) {
+  color: #666;
+}
+
+#home.home-homepage .home-eyebrow {
+  margin-bottom: 0.75rem;
+  color: #2e8b57;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.header h1,
+.header h1 a {
+  font-family: Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Georgia, serif;
+  font-weight: 700;
+}
+
+.header .nav-external {
+  display: inline-block;
+  margin-left: 0.08em;
+  font-size: 0.5em;
+  line-height: 1;
+  opacity: 0.5;
+  vertical-align: super;
+}
+
+#home.home-homepage .home-section__header {
+  margin-bottom: 0.7rem;
+}
+
+#home.home-homepage .works-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+#home.home-homepage .works-list li {
+  margin: 0 0 0.9rem;
+  color: #666;
+}
+
+#home.home-homepage .works-list p {
+  margin: 0.15rem 0 0;
+}
+
+#home.home-homepage .work-link {
+  color: #111;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+#home.home-homepage .work-link:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+#home.home-homepage .work-year {
+  margin-left: 0.4rem;
+  color: #888;
+  font-size: 0.9em;
+}
+
+@media only screen and (min-width: 800px) {
+  .header h1 {
+    letter-spacing: -0.06em;
+  }
+
+  #home.home-homepage .home-hero,
+  #home.home-homepage .home-section {
+    width: 82%;
+  }
+}

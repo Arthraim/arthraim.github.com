@@ -13,7 +13,7 @@ paginate: 5
 navigation:
  - title: Home
    url: /
- - title: Articles
+ - title: Blog
    url: /articles
  - title: Mind Palace
    url: /arthur-mind-palace

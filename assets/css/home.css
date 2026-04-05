@@ -22,7 +22,7 @@
 
 #home.home-homepage .home-inline-link {
   color: #2e8b57;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 1.15em;
   text-decoration: none;
 }
@@ -40,14 +40,14 @@
   color: #2e8b57;
   font-family: "Avenir Next", Avenir, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
 .header h1,
 .header h1 a {
-  font-family: Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Georgia, serif;
+  font-family: Optima, "Optima LT Std", "Songti SC", STSong, "Noto Serif CJK SC", "Source Han Serif SC", "Times New Roman", serif;
   font-weight: 700;
 }
 
@@ -80,7 +80,7 @@
 
 #home.home-homepage .work-link {
   color: #111;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: none;
 }
 

@@ -78,6 +78,23 @@
   margin: 0.15rem 0 0;
 }
 
+#home.home-homepage .works-list .work-source {
+  margin-top: 0.1rem;
+  font-size: 0.84em;
+  line-height: 1.45;
+}
+
+#home.home-homepage .works-list .work-source a {
+  color: #2e8b57;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+#home.home-homepage .works-list .work-source a:hover {
+  color: #21653f;
+  text-decoration: underline;
+}
+
 #home.home-homepage .work-link {
   color: #111;
   font-weight: 700;

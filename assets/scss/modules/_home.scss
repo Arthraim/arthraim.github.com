@@ -60,6 +60,23 @@
     p {
       margin: 0.15rem 0 0;
     }
+
+    .work-source {
+      margin-top: 0.1rem;
+      font-size: 0.84em;
+      line-height: 1.45;
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        word-break: break-all;
+
+        &:hover {
+          color: darken($primary-color, 10%);
+          text-decoration: underline;
+        }
+      }
+    }
   }
 
   .work-link {
